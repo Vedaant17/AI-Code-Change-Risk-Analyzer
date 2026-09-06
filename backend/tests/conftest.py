@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import textwrap
+from datetime import datetime, timezone
 
 import pytest
 
+from backend.app.schemas.diff import CommitInfo, FileDiff, FileStatus, Hunk
 from backend.app.services.diff_parser import parse_unified_diff
 
 
@@ -145,3 +147,209 @@ def spaces_diff() -> str:
 @pytest.fixture
 def no_newline_diff() -> str:
     return SAMPLE_NO_NEWLINE
+
+
+# ---------------------------------------------------------------------------
+# Pre-built CommitInfo fixtures for feature extraction tests
+# ---------------------------------------------------------------------------
+
+
+@pytest.fixture
+def single_python_commit_info() -> CommitInfo:
+    """A CommitInfo with one modified Python file containing functions and imports."""
+    files = [
+        FileDiff(
+            path="src/main.py",
+            status=FileStatus.MODIFIED,
+            lines_added=5,
+            lines_deleted=2,
+            hunks=[
+                Hunk(
+                    old_start=1,
+                    old_count=10,
+                    new_start=1,
+                    new_count=13,
+                    content=(
+                        " from os import path\n"
+                        "-import sys\n"
+                        "+import sys\n"
+                        "+import json\n"
+                        " \n"
+                        " def hello():\n"
+                        "-    pass\n"
+                        "+    print('hello')\n"
+                        "+    return True\n"
+                        " \n"
+                        " class Foo:\n"
+                        "     pass\n"
+                    ),
+                )
+            ],
+        )
+    ]
+    info = CommitInfo(
+        sha="a" * 40,
+        short_sha="a" * 8,
+        author="test",
+        author_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+        message="test commit",
+        files=files,
+    )
+    info.compute_stats()
+    return info
+
+
+@pytest.fixture
+def multi_language_commit_info() -> CommitInfo:
+    """A CommitInfo with Python and JavaScript files."""
+    files = [
+        FileDiff(
+            path="app.py",
+            status=FileStatus.MODIFIED,
+            lines_added=3,
+            lines_deleted=1,
+            hunks=[
+                Hunk(
+                    old_start=1,
+                    old_count=5,
+                    new_start=1,
+                    new_count=7,
+                    content=(
+                        " import os\n"
+                        "+import sys\n"
+                        " \n"
+                        " def main():\n"
+                        "-    pass\n"
+                        "+    print('hi')\n"
+                        "+    return 0\n"
+                    ),
+                )
+            ],
+        ),
+        FileDiff(
+            path="app.js",
+            status=FileStatus.MODIFIED,
+            lines_added=2,
+            lines_deleted=1,
+            hunks=[
+                Hunk(
+                    old_start=1,
+                    old_count=4,
+                    new_start=1,
+                    new_count=5,
+                    content=(
+                        " function main() {\n"
+                        "-    console.log('old');\n"
+                        "+    console.log('new');\n"
+                        "+    return 0;\n"
+                        " }\n"
+                    ),
+                )
+            ],
+        ),
+    ]
+    info = CommitInfo(
+        sha="b" * 40,
+        short_sha="b" * 8,
+        author="test",
+        author_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+        message="multi-language test",
+        files=files,
+    )
+    info.compute_stats()
+    return info
+
+
+@pytest.fixture
+def test_prod_coupling_commit_info() -> CommitInfo:
+    """A CommitInfo with both test and production files changed."""
+    files = [
+        FileDiff(
+            path="src/service.py",
+            status=FileStatus.MODIFIED,
+            lines_added=2,
+            lines_deleted=1,
+            hunks=[
+                Hunk(
+                    old_start=1,
+                    old_count=3,
+                    new_start=1,
+                    new_count=4,
+                    content=(
+                        " def compute():\n"
+                        "-    return 1\n"
+                        "+    result = 42\n"
+                        "+    return result\n"
+                    ),
+                )
+            ],
+        ),
+        FileDiff(
+            path="tests/test_service.py",
+            status=FileStatus.MODIFIED,
+            lines_added=3,
+            lines_deleted=0,
+            hunks=[
+                Hunk(
+                    old_start=1,
+                    old_count=3,
+                    new_start=1,
+                    new_count=6,
+                    content=(
+                        " from src.service import compute\n"
+                        " \n"
+                        "+def test_compute():\n"
+                        "+    assert compute() == 42\n"
+                        " \n"
+                    ),
+                )
+            ],
+        ),
+    ]
+    info = CommitInfo(
+        sha="c" * 40,
+        short_sha="c" * 8,
+        author="test",
+        author_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+        message="test-prod coupling test",
+        files=files,
+    )
+    info.compute_stats()
+    return info
+
+
+@pytest.fixture
+def empty_commit_info() -> CommitInfo:
+    """A CommitInfo with no files (e.g. merge commit with no diff)."""
+    info = CommitInfo(
+        sha="d" * 40,
+        short_sha="d" * 8,
+        author="test",
+        author_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+        message="empty commit",
+        files=[],
+    )
+    info.compute_stats()
+    return info
+
+
+@pytest.fixture
+def binary_only_commit_info() -> CommitInfo:
+    """A CommitInfo with only a binary file change."""
+    files = [
+        FileDiff(
+            path="assets/image.png",
+            status=FileStatus.BINARY,
+            is_binary=True,
+        ),
+    ]
+    info = CommitInfo(
+        sha="e" * 40,
+        short_sha="e" * 8,
+        author="test",
+        author_date=datetime(2026, 1, 1, tzinfo=timezone.utc),
+        message="binary only",
+        files=files,
+    )
+    info.compute_stats()
+    return info
