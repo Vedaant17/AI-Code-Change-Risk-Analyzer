@@ -13,3 +13,6 @@ build/
 
 # Generated dataset JSONL files (too large for git)
 backend/data/datasets/
+
+# Temporary workspace for repo clones during feature generation
+.tmp/
