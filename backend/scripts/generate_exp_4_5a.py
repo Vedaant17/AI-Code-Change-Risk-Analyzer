@@ -721,7 +721,6 @@ def _load_progress(progress_path: Path) -> dict:
 
 def _save_progress(progress_path: Path, progress: dict) -> None:
     """Save checkpoint progress atomically."""
-    _atomic_write_jsonl(progress_path, [])  # ensure parent exists
     tmp = progress_path.with_suffix(".tmp")
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(progress, f, indent=2)
@@ -939,7 +938,7 @@ def _merge_checkpoints(
     split_rows: dict[str, list[dict]] = {"train": [], "validation": [], "test": []}
     ckpt_files = list(checkpoint_dir.glob("*.jsonl"))
     for ckpt_file in ckpt_files:
-        for row in _read_jsonl(ckpt_file):
+        for row in _read_jsonl_lenient(ckpt_file):
             key = (row["commit_sha"], row["file_path"])
             split = repo_split_map.get(key, "train")
             split_rows[split].append(row)
