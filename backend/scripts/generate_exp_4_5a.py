@@ -616,8 +616,8 @@ def _clone_repo(repo_url: str, repo_name: str) -> str | None:
     """Clone a repo into .tmp/repos/<repo_name>. Returns path or None.
 
     If a valid clone already exists, reuses it.  Otherwise removes the
-    old directory and clones fresh.  Uses full clone (not blobless) so
-    that git show/cat-file operations are local (no network per file).
+    old directory and clones fresh.  Retries up to 3 times on transient
+    network failures with 5s/10s backoff.
     """
     repo_path = str(REPOS_DIR / repo_name)
 
@@ -632,16 +632,27 @@ def _clone_repo(repo_url: str, repo_name: str) -> str | None:
             log.info(f"[{repo_name}] Existing clone invalid, removing...")
             _remove_dir_robust(repo_path)
 
+    # Clean up partial destination (exists without .git)
+    if os.path.exists(repo_path):
+        _remove_dir_robust(repo_path)
+
     REPOS_DIR.mkdir(parents=True, exist_ok=True)
-    result = subprocess.run(
-        ["git", "clone", "--quiet", repo_url, repo_path],
-        capture_output=True, text=True, timeout=1200,
-        encoding="utf-8", errors="replace",
-    )
-    if result.returncode != 0:
-        log.error(f"Clone {repo_name} failed: {result.stderr[:200]}")
-        return None
-    return repo_path
+    max_attempts = 3
+    for attempt in range(max_attempts):
+        result = subprocess.run(
+            ["git", "clone", "--quiet", repo_url, repo_path],
+            capture_output=True, text=True, timeout=1200,
+            encoding="utf-8", errors="replace",
+        )
+        if result.returncode == 0:
+            return repo_path
+        log.warning(f"Clone {repo_name} attempt {attempt + 1}/{max_attempts}"
+                    f" failed: {result.stderr[:200]}")
+        if attempt < max_attempts - 1:
+            _remove_dir_robust(repo_path)
+            time.sleep(5 * (attempt + 1))
+    log.error(f"Clone {repo_name} failed after {max_attempts} attempts")
+    return None
 
 
 def _cleanup_repo(repo_name: str) -> None:
@@ -757,7 +768,7 @@ def _find_repo_url(split_data: dict[str, list[dict]], repo_name: str) -> str | N
 # ── Main generation ─────────────────────────────────────────────────────
 
 
-def generate(output_base: Path, repo_filter: str | None = None) -> None:
+def generate(output_base: Path, repo_filter: str | None = None) -> list[str]:
     """Generate experimental features with checkpoint/resume support.
 
     Streams results per-repo to disk. On resume, skips completed repos.
@@ -801,6 +812,7 @@ def generate(output_base: Path, repo_filter: str | None = None) -> None:
         log.info(f"Resuming: {len(completed_repos)} repos already completed")
 
     processed = 0
+    failed_repos: list[str] = []
     t0 = time.time()
 
     for repo_name in sorted(repo_commits.keys()):
@@ -820,6 +832,7 @@ def generate(output_base: Path, repo_filter: str | None = None) -> None:
         t1 = time.time()
         repo_path = _clone_repo(repo_url, repo_name)
         if not repo_path:
+            failed_repos.append(repo_name)
             continue
         log.info(f"[{repo_name}] Clone done in {time.time()-t1:.1f}s")
 
@@ -889,6 +902,10 @@ def generate(output_base: Path, repo_filter: str | None = None) -> None:
     elapsed_total = time.time() - t0
     log.info(f"Generation complete: {elapsed_total:.1f}s total")
 
+    if failed_repos:
+        log.error(f"FAILED repos ({len(failed_repos)}): {failed_repos}")
+        log.error("Dataset will be INCOMPLETE. Re-run to retry failed repos.")
+
     # Merge checkpoints into final output
     _merge_checkpoints(output_base, checkpoint_dir, split_data)
 
@@ -916,6 +933,7 @@ def generate(output_base: Path, repo_filter: str | None = None) -> None:
         json.dump(metadata, f, indent=2, ensure_ascii=True)
 
     log.info(f"Done. Total: {total} rows -> {output_base / 'combined-v3'}")
+    return failed_repos
 
 
 def _merge_checkpoints(
@@ -1135,10 +1153,14 @@ if __name__ == "__main__":
 
     output_base = Path("backend/data/datasets/experimental-exp-4.5a")
 
+    failed_repos: list[str] = []
     if not args.validate_only:
-        generate(output_base, repo_filter=args.repo)
+        failed_repos = generate(output_base, repo_filter=args.repo)
 
     results = validate(output_base)
     log.info("\n" + "=" * 60)
     all_pass = all(v for k, v in results.items() if isinstance(v, bool))
     log.info(f"OVERALL: {'PASS' if all_pass else 'FAIL'}")
+
+    if failed_repos or not all_pass:
+        sys.exit(1)

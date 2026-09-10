@@ -7,15 +7,19 @@ Validates:
   - Resume skips completed repos
   - Merge checkpoints into final output
   - Deterministic output (same input -> same features)
+  - Clone retry with transient failure recovery
 """
 
 from __future__ import annotations
 
 import json
+import os
 import shutil
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
@@ -26,6 +30,7 @@ from backend.scripts.generate_exp_4_5a import (
     GitPythonFeatureGenerator,
     _append_jsonl,
     _atomic_write_jsonl,
+    _clone_repo,
     _load_progress,
     _merge_checkpoints,
     _read_jsonl,
@@ -351,3 +356,188 @@ class TestDeterminism:
                     )
         finally:
             gen.clear()
+
+
+# ── Test: Clone retry with transient failure ──────────────────────────────
+
+
+def _make_source_repo(tmpdir: str) -> str:
+    """Create a bare git repo for cloning tests."""
+    src = os.path.join(tmpdir, "source")
+    os.makedirs(src)
+    subprocess.run(
+        ["git", "init", "-q", src], check=True, capture_output=True,
+        encoding="utf-8", errors="replace",
+    )
+    subprocess.run(
+        ["git", "-C", src, "config", "user.email", "t@t.com"],
+        check=True, capture_output=True, encoding="utf-8", errors="replace",
+    )
+    subprocess.run(
+        ["git", "-C", src, "config", "user.name", "T"],
+        check=True, capture_output=True, encoding="utf-8", errors="replace",
+    )
+    with open(os.path.join(src, "a.py"), "w") as f:
+        f.write("x = 1\n")
+    subprocess.run(
+        ["git", "-C", src, "add", "a.py"], check=True, capture_output=True,
+        encoding="utf-8", errors="replace",
+    )
+    subprocess.run(
+        ["git", "-C", src, "commit", "-q", "-m", "init"],
+        check=True, capture_output=True, encoding="utf-8", errors="replace",
+    )
+    return src
+
+
+class TestCloneRetry:
+    """Verify _clone_repo retries on transient failure and cleans partial dest."""
+
+    def test_clone_succeeds_after_transient_failure(self):
+        """Clone succeeds on second attempt after transient first failure."""
+        tmpdir = tempfile.mkdtemp()
+        try:
+            source_repo = _make_source_repo(tmpdir)
+            source_url = "file:///" + source_repo.replace("\\", "/")
+
+            import backend.scripts.generate_exp_4_5a as gen_mod
+            original_repos_dir = gen_mod.REPOS_DIR
+            gen_mod.REPOS_DIR = Path(tmpdir)
+
+            call_count = 0
+            original_run = subprocess.run
+
+            def mock_run(cmd, **kwargs):
+                nonlocal call_count
+                if isinstance(cmd, list) and len(cmd) > 2 and cmd[1] == "clone":
+                    call_count += 1
+                    if call_count == 1:
+                        r = subprocess.CompletedProcess(
+                            cmd, returncode=1, stdout="", stderr="mock error",
+                        )
+                        return r
+                return original_run(cmd, **kwargs)
+
+            try:
+                with patch("backend.scripts.generate_exp_4_5a.subprocess.run",
+                           side_effect=mock_run):
+                    result = _clone_repo(source_url, "myrepo")
+                    assert result is not None
+                    assert os.path.exists(os.path.join(result, ".git"))
+                    assert call_count == 2
+            finally:
+                gen_mod.REPOS_DIR = original_repos_dir
+        finally:
+            shutil.rmtree(tmpdir, ignore_errors=True)
+
+    def test_clone_cleans_partial_destination(self):
+        """Partial destination (no .git) is cleaned before fresh clone."""
+        tmpdir = tempfile.mkdtemp()
+        try:
+            source_repo = _make_source_repo(tmpdir)
+            source_url = "file:///" + source_repo.replace("\\", "/")
+
+            import backend.scripts.generate_exp_4_5a as gen_mod
+            original_repos_dir = gen_mod.REPOS_DIR
+            gen_mod.REPOS_DIR = Path(tmpdir)
+
+            # Create partial destination (no .git)
+            partial_dir = os.path.join(tmpdir, "myrepo")
+            os.makedirs(partial_dir)
+            with open(os.path.join(partial_dir, "junk.txt"), "w") as f:
+                f.write("partial")
+
+            try:
+                result = _clone_repo(source_url, "myrepo")
+                assert result is not None
+                assert os.path.exists(os.path.join(result, ".git"))
+                assert not os.path.exists(os.path.join(result, "junk.txt"))
+            finally:
+                gen_mod.REPOS_DIR = original_repos_dir
+        finally:
+            shutil.rmtree(tmpdir, ignore_errors=True)
+
+    def test_clone_all_attempts_fail(self):
+        """Returns None after 3 failed attempts."""
+        tmpdir = tempfile.mkdtemp()
+        try:
+            import backend.scripts.generate_exp_4_5a as gen_mod
+            original_repos_dir = gen_mod.REPOS_DIR
+            gen_mod.REPOS_DIR = Path(tmpdir)
+
+            call_count = 0
+            original_run = subprocess.run
+
+            def mock_run(cmd, **kwargs):
+                nonlocal call_count
+                if isinstance(cmd, list) and len(cmd) > 2 and cmd[1] == "clone":
+                    call_count += 1
+                return original_run(cmd, **kwargs)
+
+            try:
+                with patch("backend.scripts.generate_exp_4_5a.subprocess.run",
+                           side_effect=mock_run):
+                    result = _clone_repo("file:///nonexistent", "myrepo")
+                    assert result is None
+                    assert call_count == 3
+            finally:
+                gen_mod.REPOS_DIR = original_repos_dir
+        finally:
+            shutil.rmtree(tmpdir, ignore_errors=True)
+
+    def test_valid_clone_reuse_no_extra_clone(self):
+        """Second call reuses valid clone without calling subprocess."""
+        tmpdir = tempfile.mkdtemp()
+        try:
+            source_repo = _make_source_repo(tmpdir)
+            source_url = "file:///" + source_repo.replace("\\", "/")
+
+            import backend.scripts.generate_exp_4_5a as gen_mod
+            original_repos_dir = gen_mod.REPOS_DIR
+            gen_mod.REPOS_DIR = Path(tmpdir)
+
+            clone_count = 0
+            original_run = subprocess.run
+
+            def mock_run(cmd, **kwargs):
+                nonlocal clone_count
+                if isinstance(cmd, list) and len(cmd) > 2 and cmd[1] == "clone":
+                    clone_count += 1
+                return original_run(cmd, **kwargs)
+
+            try:
+                with patch("backend.scripts.generate_exp_4_5a.subprocess.run",
+                           side_effect=mock_run):
+                    result1 = _clone_repo(source_url, "myrepo")
+                    assert result1 is not None
+                    assert clone_count == 1
+
+                    result2 = _clone_repo(source_url, "myrepo")
+                    assert result2 is not None
+                    assert clone_count == 1
+            finally:
+                gen_mod.REPOS_DIR = original_repos_dir
+        finally:
+            shutil.rmtree(tmpdir, ignore_errors=True)
+
+    def test_partial_destination_without_git_cleaned(self):
+        """Partial dir without .git is removed before clone attempt."""
+        tmpdir = tempfile.mkdtemp()
+        try:
+            import backend.scripts.generate_exp_4_5a as gen_mod
+            original_repos_dir = gen_mod.REPOS_DIR
+            gen_mod.REPOS_DIR = Path(tmpdir)
+
+            partial_dir = os.path.join(tmpdir, "myrepo")
+            os.makedirs(partial_dir)
+            with open(os.path.join(partial_dir, "data.txt"), "w") as f:
+                f.write("incomplete")
+
+            assert os.path.exists(partial_dir)
+            assert not os.path.exists(os.path.join(partial_dir, ".git"))
+
+            result = _clone_repo("file:///nonexistent", "myrepo")
+            assert result is None
+        finally:
+            gen_mod.REPOS_DIR = original_repos_dir
+            shutil.rmtree(tmpdir, ignore_errors=True)
