@@ -1,0 +1,326 @@
+{
+  "feature_importance_map": {
+    "avg_changed_line_indent": {
+      "variant_A_importance": 0.04452034193683334,
+      "variant_A_rank": 18,
+      "variant_B_importance": 0.04417441052606321,
+      "variant_B_rank": 19,
+      "variant_C_importance": 0.04417441052606321,
+      "variant_C_rank": 19
+    },
+    "avg_hunks_per_file": {
+      "variant_A_importance": 0.039897631986589306,
+      "variant_A_rank": 20
+    },
+    "change_entropy": {
+      "variant_A_importance": 0.052926432611796165,
+      "variant_A_rank": 16,
+      "variant_B_importance": 0.04561502815224761,
+      "variant_B_rank": 18,
+      "variant_C_importance": 0.04561502815224761,
+      "variant_C_rank": 18
+    },
+    "file_function_declarations_added": {
+      "variant_A_importance": 0.05692295912942291,
+      "variant_A_rank": 13
+    },
+    "file_language": {
+      "variant_A_importance": 0.05681803205607892,
+      "variant_A_rank": 14,
+      "variant_B_importance": 0.059764289003301566,
+      "variant_B_rank": 10,
+      "variant_C_importance": 0.059764289003301566,
+      "variant_C_rank": 10
+    },
+    "files_added": {
+      "variant_A_importance": 0.282036260400354,
+      "variant_A_rank": 3,
+      "variant_B_importance": 0.30085688211552447,
+      "variant_B_rank": 3,
+      "variant_C_importance": 0.30085688211552447,
+      "variant_C_rank": 3
+    },
+    "files_binary": {
+      "variant_A_importance": 0.04393589221022406,
+      "variant_A_rank": 19,
+      "variant_B_importance": 0.06727958841578588,
+      "variant_B_rank": 9,
+      "variant_C_importance": 0.06727958841578588,
+      "variant_C_rank": 9
+    },
+    "files_changed": {
+      "variant_A_importance": 0.05621197602608257,
+      "variant_A_rank": 15,
+      "variant_B_importance": 0.05441133514411456,
+      "variant_B_rank": 15,
+      "variant_C_importance": 0.05441133514411456,
+      "variant_C_rank": 15
+    },
+    "files_deleted": {
+      "variant_A_importance": 0.26370430571037906,
+      "variant_A_rank": 4,
+      "variant_B_importance": 0.27228760089466897,
+      "variant_B_rank": 4,
+      "variant_C_importance": 0.27228760089466897,
+      "variant_C_rank": 4
+    },
+    "files_modified": {
+      "variant_A_importance": 0.06637714740135295,
+      "variant_A_rank": 10,
+      "variant_B_importance": 0.04118746057465764,
+      "variant_B_rank": 20,
+      "variant_C_importance": 0.04118746057465764,
+      "variant_C_rank": 20
+    },
+    "files_renamed": {
+      "variant_A_importance": 0.06773653176928449,
+      "variant_A_rank": 9,
+      "variant_B_importance": 0.0734163022167032,
+      "variant_B_rank": 7,
+      "variant_C_importance": 0.0734163022167032,
+      "variant_C_rank": 7
+    },
+    "lines_deleted": {
+      "variant_A_importance": 0.07273619605257049,
+      "variant_A_rank": 7,
+      "variant_B_importance": 0.06742461691109966,
+      "variant_B_rank": 8,
+      "variant_C_importance": 0.06742461691109966,
+      "variant_C_rank": 8
+    },
+    "max_changed_line_indent": {
+      "variant_A_importance": 0.0586725736168097,
+      "variant_A_rank": 12,
+      "variant_B_importance": 0.05569332185020145,
+      "variant_B_rank": 14,
+      "variant_C_importance": 0.05569332185020145,
+      "variant_C_rank": 14
+    },
+    "max_file_changes": {
+      "variant_A_importance": 0.04531657711724925,
+      "variant_A_rank": 17,
+      "variant_B_importance": 0.05039680720910914,
+      "variant_B_rank": 16,
+      "variant_C_importance": 0.05039680720910914,
+      "variant_C_rank": 16
+    },
+    "prod_files_changed": {
+      "variant_A_importance": 0.3662480399884783,
+      "variant_A_rank": 2,
+      "variant_B_importance": 0.3240732156741974,
+      "variant_B_rank": 2,
+      "variant_C_importance": 0.3240732156741974,
+      "variant_C_rank": 2
+    },
+    "test_files_changed": {
+      "variant_B_importance": 0.055726382868981045,
+      "variant_B_rank": 13,
+      "variant_C_importance": 0.055726382868981045,
+      "variant_C_rank": 13
+    },
+    "test_prod_coupling": {
+      "variant_A_importance": 1.0,
+      "variant_A_rank": 1,
+      "variant_B_importance": 1.0,
+      "variant_B_rank": 1,
+      "variant_C_importance": 1.0,
+      "variant_C_rank": 1
+    },
+    "test_ratio": {
+      "variant_A_importance": 0.07942727352600394,
+      "variant_A_rank": 6,
+      "variant_B_importance": 0.08175395651467778,
+      "variant_B_rank": 6,
+      "variant_C_importance": 0.08175395651467778,
+      "variant_C_rank": 6
+    },
+    "total_class_declarations_changed": {
+      "variant_A_importance": 0.094617737224419,
+      "variant_A_rank": 5,
+      "variant_B_importance": 0.08377753874416763,
+      "variant_B_rank": 5,
+      "variant_C_importance": 0.08377753874416763,
+      "variant_C_rank": 5
+    },
+    "total_hunks": {
+      "variant_A_importance": 0.07272257394129425,
+      "variant_A_rank": 8,
+      "variant_B_importance": 0.05757022718119188,
+      "variant_B_rank": 11,
+      "variant_C_importance": 0.05757022718119188,
+      "variant_C_rank": 11
+    },
+    "total_imports_changed": {
+      "variant_B_importance": 0.04640767149986744,
+      "variant_B_rank": 17,
+      "variant_C_importance": 0.04640767149986744,
+      "variant_C_rank": 17
+    },
+    "total_lines_changed": {
+      "variant_A_importance": 0.06279213594205604,
+      "variant_A_rank": 11,
+      "variant_B_importance": 0.05688610887413021,
+      "variant_B_rank": 12,
+      "variant_C_importance": 0.05688610887413021,
+      "variant_C_rank": 12
+    }
+  },
+  "top_features_by_variant": {
+    "A": [
+      {
+        "feature": "test_prod_coupling",
+        "importance": 1.0,
+        "rank": 1
+      },
+      {
+        "feature": "prod_files_changed",
+        "importance": 0.3662480399884783,
+        "rank": 2
+      },
+      {
+        "feature": "files_added",
+        "importance": 0.282036260400354,
+        "rank": 3
+      },
+      {
+        "feature": "files_deleted",
+        "importance": 0.26370430571037906,
+        "rank": 4
+      },
+      {
+        "feature": "total_class_declarations_changed",
+        "importance": 0.094617737224419,
+        "rank": 5
+      },
+      {
+        "feature": "test_ratio",
+        "importance": 0.07942727352600394,
+        "rank": 6
+      },
+      {
+        "feature": "lines_deleted",
+        "importance": 0.07273619605257049,
+        "rank": 7
+      },
+      {
+        "feature": "total_hunks",
+        "importance": 0.07272257394129425,
+        "rank": 8
+      },
+      {
+        "feature": "files_renamed",
+        "importance": 0.06773653176928449,
+        "rank": 9
+      },
+      {
+        "feature": "files_modified",
+        "importance": 0.06637714740135295,
+        "rank": 10
+      }
+    ],
+    "B": [
+      {
+        "feature": "test_prod_coupling",
+        "importance": 1.0,
+        "rank": 1
+      },
+      {
+        "feature": "prod_files_changed",
+        "importance": 0.3240732156741974,
+        "rank": 2
+      },
+      {
+        "feature": "files_added",
+        "importance": 0.30085688211552447,
+        "rank": 3
+      },
+      {
+        "feature": "files_deleted",
+        "importance": 0.27228760089466897,
+        "rank": 4
+      },
+      {
+        "feature": "total_class_declarations_changed",
+        "importance": 0.08377753874416763,
+        "rank": 5
+      },
+      {
+        "feature": "test_ratio",
+        "importance": 0.08175395651467778,
+        "rank": 6
+      },
+      {
+        "feature": "files_renamed",
+        "importance": 0.0734163022167032,
+        "rank": 7
+      },
+      {
+        "feature": "lines_deleted",
+        "importance": 0.06742461691109966,
+        "rank": 8
+      },
+      {
+        "feature": "files_binary",
+        "importance": 0.06727958841578588,
+        "rank": 9
+      },
+      {
+        "feature": "file_language",
+        "importance": 0.059764289003301566,
+        "rank": 10
+      }
+    ],
+    "C": [
+      {
+        "feature": "test_prod_coupling",
+        "importance": 1.0,
+        "rank": 1
+      },
+      {
+        "feature": "prod_files_changed",
+        "importance": 0.3240732156741974,
+        "rank": 2
+      },
+      {
+        "feature": "files_added",
+        "importance": 0.30085688211552447,
+        "rank": 3
+      },
+      {
+        "feature": "files_deleted",
+        "importance": 0.27228760089466897,
+        "rank": 4
+      },
+      {
+        "feature": "total_class_declarations_changed",
+        "importance": 0.08377753874416763,
+        "rank": 5
+      },
+      {
+        "feature": "test_ratio",
+        "importance": 0.08175395651467778,
+        "rank": 6
+      },
+      {
+        "feature": "files_renamed",
+        "importance": 0.0734163022167032,
+        "rank": 7
+      },
+      {
+        "feature": "lines_deleted",
+        "importance": 0.06742461691109966,
+        "rank": 8
+      },
+      {
+        "feature": "files_binary",
+        "importance": 0.06727958841578588,
+        "rank": 9
+      },
+      {
+        "feature": "file_language",
+        "importance": 0.059764289003301566,
+        "rank": 10
+      }
+    ]
+  }
+}

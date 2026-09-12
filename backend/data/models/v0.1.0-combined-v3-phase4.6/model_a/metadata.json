@@ -1,0 +1,26 @@
+{
+  "dataset_version": "v3-multi-phase3.7",
+  "feature_count": 45,
+  "feature_version": "exp-4.5a",
+  "model_config": {
+    "backend": "xgboost",
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "n_estimators": 200,
+    "random_state": 42,
+    "scale_pos_weight": null
+  },
+  "model_type": "xgboost_defect_model",
+  "model_version": "v0.1.0-combined-v3-phase4.6-a",
+  "split_assignment": "repo-level round-robin",
+  "test_examples": 16321,
+  "test_positive": 319,
+  "test_repos": 16,
+  "train_examples": 15828,
+  "train_positive": 550,
+  "train_repos": 17,
+  "train_time_seconds": 2.4969565868377686,
+  "val_examples": 22240,
+  "val_positive": 186,
+  "val_repos": 17
+}

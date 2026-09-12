@@ -1,0 +1,364 @@
+{
+  "concentration": {
+    "entropy": 0.7892464951761041,
+    "gini": 0.8337037037037036,
+    "herfindahl": 0.16358024691358025,
+    "top_10_share": 0.8703703703703703,
+    "top_5_share": 0.6851851851851851
+  },
+  "per_repo": [
+    {
+      "observed_positive_commits": 2,
+      "observed_positive_ratio": 0.03104575163398693,
+      "observed_positive_rows": 38,
+      "repo_name": "networkx",
+      "total_file_rows": 1224
+    },
+    {
+      "observed_positive_commits": 5,
+      "observed_positive_ratio": 0.01157613535173642,
+      "observed_positive_rows": 13,
+      "repo_name": "uvicorn",
+      "total_file_rows": 1123
+    },
+    {
+      "observed_positive_commits": 3,
+      "observed_positive_ratio": 0.007205764611689352,
+      "observed_positive_rows": 9,
+      "repo_name": "jinja2",
+      "total_file_rows": 1249
+    },
+    {
+      "observed_positive_commits": 6,
+      "observed_positive_ratio": 0.008264462809917356,
+      "observed_positive_rows": 8,
+      "repo_name": "sqlalchemy",
+      "total_file_rows": 968
+    },
+    {
+      "observed_positive_commits": 2,
+      "observed_positive_ratio": 0.007633587786259542,
+      "observed_positive_rows": 6,
+      "repo_name": "click",
+      "total_file_rows": 786
+    },
+    {
+      "observed_positive_commits": 2,
+      "observed_positive_ratio": 0.004431314623338257,
+      "observed_positive_rows": 6,
+      "repo_name": "mypy",
+      "total_file_rows": 1354
+    },
+    {
+      "observed_positive_commits": 3,
+      "observed_positive_ratio": 0.011389521640091117,
+      "observed_positive_rows": 5,
+      "repo_name": "pytest",
+      "total_file_rows": 439
+    },
+    {
+      "observed_positive_commits": 3,
+      "observed_positive_ratio": 0.004592422502870264,
+      "observed_positive_rows": 4,
+      "repo_name": "celery",
+      "total_file_rows": 871
+    },
+    {
+      "observed_positive_commits": 2,
+      "observed_positive_ratio": 0.002926829268292683,
+      "observed_positive_rows": 3,
+      "repo_name": "bandit",
+      "total_file_rows": 1025
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.00258732212160414,
+      "observed_positive_rows": 2,
+      "repo_name": "aiohttp",
+      "total_file_rows": 773
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.0022935779816513763,
+      "observed_positive_rows": 2,
+      "repo_name": "invoke",
+      "total_file_rows": 872
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.002574002574002574,
+      "observed_positive_rows": 2,
+      "repo_name": "pymemcache",
+      "total_file_rows": 777
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.003937007874015748,
+      "observed_positive_rows": 2,
+      "repo_name": "redis",
+      "total_file_rows": 508
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.002306805074971165,
+      "observed_positive_rows": 2,
+      "repo_name": "tox",
+      "total_file_rows": 867
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.001445086705202312,
+      "observed_positive_rows": 2,
+      "repo_name": "werkzeug",
+      "total_file_rows": 1384
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.00099601593625498,
+      "observed_positive_rows": 1,
+      "repo_name": "bottle",
+      "total_file_rows": 1004
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.0007905138339920949,
+      "observed_positive_rows": 1,
+      "repo_name": "flask",
+      "total_file_rows": 1265
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.0008992805755395684,
+      "observed_positive_rows": 1,
+      "repo_name": "tornado",
+      "total_file_rows": 1112
+    },
+    {
+      "observed_positive_commits": 1,
+      "observed_positive_ratio": 0.000855431993156544,
+      "observed_positive_rows": 1,
+      "repo_name": "urllib3",
+      "total_file_rows": 1169
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "Pillow",
+      "total_file_rows": 1329
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "black",
+      "total_file_rows": 361
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "cherrypy",
+      "total_file_rows": 1094
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "fabric",
+      "total_file_rows": 877
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "falcon",
+      "total_file_rows": 1308
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "fastapi",
+      "total_file_rows": 6391
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "flake8",
+      "total_file_rows": 1337
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "flask-migrate",
+      "total_file_rows": 412
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "flask-sqlalchemy",
+      "total_file_rows": 1244
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "flask-testing",
+      "total_file_rows": 122
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "flask-wtf",
+      "total_file_rows": 1078
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "httpie",
+      "total_file_rows": 785
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "httpx",
+      "total_file_rows": 635
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "isort",
+      "total_file_rows": 674
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "itsdangerous",
+      "total_file_rows": 1235
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "marshmallow",
+      "total_file_rows": 579
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "nox",
+      "total_file_rows": 712
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "paramiko",
+      "total_file_rows": 1121
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "peewee",
+      "total_file_rows": 478
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "pre-commit",
+      "total_file_rows": 1466
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "psycopg2",
+      "total_file_rows": 1029
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "pycodestyle",
+      "total_file_rows": 484
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "pydantic",
+      "total_file_rows": 1171
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "pymongo",
+      "total_file_rows": 2005
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "pyyaml",
+      "total_file_rows": 1822
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "requests",
+      "total_file_rows": 838
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "rich",
+      "total_file_rows": 463
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "starlette",
+      "total_file_rows": 1291
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "sympy",
+      "total_file_rows": 752
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "treq",
+      "total_file_rows": 1250
+    },
+    {
+      "observed_positive_commits": 0,
+      "observed_positive_ratio": 0.0,
+      "observed_positive_rows": 0,
+      "repo_name": "twisted",
+      "total_file_rows": 1276
+    }
+  ],
+  "repos_with_signal": 19,
+  "repos_without_signal": 31,
+  "total_repos": 50
+}

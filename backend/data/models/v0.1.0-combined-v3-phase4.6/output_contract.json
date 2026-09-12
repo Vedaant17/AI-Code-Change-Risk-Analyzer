@@ -1,0 +1,16 @@
+{
+  "evaluation_only_fields": [
+    "label",
+    "probability",
+    "prediction",
+    "commit_positive_files"
+  ],
+  "inference_fields": [
+    "commit_sha",
+    "repo_name",
+    "file_path",
+    "risk_score",
+    "rank_in_commit",
+    "commit_total_files"
+  ]
+}

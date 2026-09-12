@@ -1,0 +1,92 @@
+{
+  "evidence_statistics": {
+    "by_category": {
+      "COMMIT_ONLY": 172,
+      "FILE_PARTIAL": 38
+    },
+    "by_source": {
+      "explicit_sha_reference": {
+        "COMMIT_ONLY": 85,
+        "FILE_PARTIAL": 29,
+        "count": 114
+      },
+      "revert": {
+        "COMMIT_ONLY": 87,
+        "FILE_PARTIAL": 9,
+        "count": 96
+      }
+    },
+    "commit_only_details": {
+      "commits": 172,
+      "full_overlap_commits": 147,
+      "path_overlap_file_rows": 594,
+      "unknown_file_rows": 117,
+      "zero_overlap_commits": 25
+    },
+    "file_partial_details": {
+      "commits": 38,
+      "path_associated_per_commit": {
+        "count": 38,
+        "max": 37,
+        "mean": 2.8421052631578947,
+        "median": 2.0,
+        "min": 1,
+        "std": 5.765260371120665
+      },
+      "positive_file_rows": 108,
+      "unknown_file_rows": 236
+    },
+    "file_yield": {
+      "path_overlap_ratio": 0.5630331753554503,
+      "total_candidate_files": 1055,
+      "total_corrective_files": 809,
+      "total_path_associated_files": 108,
+      "total_path_overlap_files": 594,
+      "total_path_transform_candidates": 60,
+      "total_unknown_files": 353
+    },
+    "no_attribution_details": {
+      "commits": 0
+    },
+    "total_positive_commits": 210,
+    "unusable_details": {
+      "commits": 0
+    }
+  },
+  "negative_label_investigation": {
+    "conclusion": "No defensible negative labels can be constructed from path-level evidence alone. All non-intersected candidate files remain UNKNOWN.",
+    "defensible_negative_files": 0,
+    "negative_investigation": {
+      "commit_only_zero_overlap_files": 117,
+      "file_partial_unknown_files": 236,
+      "reasons_not_negative": [
+        "Corrective commit may be partial",
+        "File may have been renamed between candidate and corrective",
+        "Defect may involve interaction between files",
+        "Corrective commit may address different manifestation",
+        "No content-level analysis possible without repository checkout"
+      ]
+    },
+    "total_candidate_files": 1055,
+    "total_path_associated_files": 108,
+    "total_unknown_files": 353
+  },
+  "recommendation": {
+    "factors": {
+      "commit_only_commits": 172,
+      "defensible_negatives": 0,
+      "file_partial_commits": 38,
+      "file_partial_pct": 18.095238095238095,
+      "no_attribution_commits": 0,
+      "path_associated_file_rows": 108,
+      "supervision_type": "positive/unknown (PU)",
+      "total_candidate_file_rows": 1055,
+      "total_positive_commits": 210,
+      "unknown_file_rows": 236,
+      "unknown_rate": 0.3345971563981043,
+      "unusable_commits": 0
+    },
+    "reasoning": "38 FILE_PARTIAL cases exist (18.1%) with 108 path-associated file rows and 236 unknown file rows. However, no defensible negative labels can be constructed. The supervision is positive/unknown (positive-unlabeled), not binary positive/negative. This requires a PU learning approach rather than standard binary classification.",
+    "recommendation": "PATH_LEVEL_EVIDENCE_ONLY"
+  }
+}

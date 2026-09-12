@@ -16,3 +16,13 @@ backend/data/datasets/
 
 # Temporary workspace for repo clones during feature generation
 .tmp/
+
+# Phase 4 model predictions (large, reproducible)
+**/predictions.jsonl
+
+# Pre-Phase 4.6 baseline model directories (superseded)
+backend/data/models/v0.1.0-combined-real/
+backend/data/models/v0.1.0-combined-v2-real/
+backend/data/models/v0.1.0-combined-v3-real/
+backend/data/models/v0.1.0-flask-real/
+backend/data/models/v0.1.0-local/

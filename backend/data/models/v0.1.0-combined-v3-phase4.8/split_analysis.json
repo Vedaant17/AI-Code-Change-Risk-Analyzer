@@ -1,0 +1,162 @@
+{
+  "test": {
+    "by_category": {
+      "COMMIT_ONLY": 51,
+      "FILE_PARTIAL": 6
+    },
+    "by_source": {
+      "explicit_sha_reference": {
+        "COMMIT_ONLY": 44,
+        "FILE_PARTIAL": 6,
+        "count": 50
+      },
+      "revert": {
+        "COMMIT_ONLY": 7,
+        "count": 7
+      }
+    },
+    "commit_only_details": {
+      "commits": 51,
+      "full_overlap_commits": 44,
+      "path_overlap_file_rows": 164,
+      "unknown_file_rows": 19,
+      "zero_overlap_commits": 7
+    },
+    "file_partial_details": {
+      "commits": 6,
+      "path_associated_per_commit": {
+        "count": 6,
+        "max": 3,
+        "mean": 1.6666666666666667,
+        "median": 1.5,
+        "min": 1,
+        "std": 0.74535599249993
+      },
+      "positive_file_rows": 10,
+      "unknown_file_rows": 21
+    },
+    "file_yield": {
+      "path_overlap_ratio": 0.7663551401869159,
+      "total_candidate_files": 214,
+      "total_corrective_files": 184,
+      "total_path_associated_files": 10,
+      "total_path_overlap_files": 164,
+      "total_path_transform_candidates": 8,
+      "total_unknown_files": 40
+    },
+    "no_attribution_details": {
+      "commits": 0
+    },
+    "total_positive_commits": 57,
+    "unusable_details": {
+      "commits": 0
+    }
+  },
+  "train": {
+    "by_category": {
+      "COMMIT_ONLY": 85,
+      "FILE_PARTIAL": 26
+    },
+    "by_source": {
+      "explicit_sha_reference": {
+        "COMMIT_ONLY": 21,
+        "FILE_PARTIAL": 17,
+        "count": 38
+      },
+      "revert": {
+        "COMMIT_ONLY": 64,
+        "FILE_PARTIAL": 9,
+        "count": 73
+      }
+    },
+    "commit_only_details": {
+      "commits": 85,
+      "full_overlap_commits": 74,
+      "path_overlap_file_rows": 350,
+      "unknown_file_rows": 79,
+      "zero_overlap_commits": 11
+    },
+    "file_partial_details": {
+      "commits": 26,
+      "path_associated_per_commit": {
+        "count": 26,
+        "max": 37,
+        "mean": 3.3076923076923075,
+        "median": 2.0,
+        "min": 1,
+        "std": 6.89352667791832
+      },
+      "positive_file_rows": 86,
+      "unknown_file_rows": 142
+    },
+    "file_yield": {
+      "path_overlap_ratio": 0.532724505327245,
+      "total_candidate_files": 657,
+      "total_corrective_files": 508,
+      "total_path_associated_files": 86,
+      "total_path_overlap_files": 350,
+      "total_path_transform_candidates": 47,
+      "total_unknown_files": 221
+    },
+    "no_attribution_details": {
+      "commits": 0
+    },
+    "total_positive_commits": 111,
+    "unusable_details": {
+      "commits": 0
+    }
+  },
+  "validation": {
+    "by_category": {
+      "COMMIT_ONLY": 36,
+      "FILE_PARTIAL": 6
+    },
+    "by_source": {
+      "explicit_sha_reference": {
+        "COMMIT_ONLY": 20,
+        "FILE_PARTIAL": 6,
+        "count": 26
+      },
+      "revert": {
+        "COMMIT_ONLY": 16,
+        "count": 16
+      }
+    },
+    "commit_only_details": {
+      "commits": 36,
+      "full_overlap_commits": 29,
+      "path_overlap_file_rows": 80,
+      "unknown_file_rows": 19,
+      "zero_overlap_commits": 7
+    },
+    "file_partial_details": {
+      "commits": 6,
+      "path_associated_per_commit": {
+        "count": 6,
+        "max": 4,
+        "mean": 2.0,
+        "median": 2.0,
+        "min": 1,
+        "std": 1.0
+      },
+      "positive_file_rows": 12,
+      "unknown_file_rows": 73
+    },
+    "file_yield": {
+      "path_overlap_ratio": 0.43478260869565216,
+      "total_candidate_files": 184,
+      "total_corrective_files": 117,
+      "total_path_associated_files": 12,
+      "total_path_overlap_files": 80,
+      "total_path_transform_candidates": 5,
+      "total_unknown_files": 92
+    },
+    "no_attribution_details": {
+      "commits": 0
+    },
+    "total_positive_commits": 42,
+    "unusable_details": {
+      "commits": 0
+    }
+  }
+}

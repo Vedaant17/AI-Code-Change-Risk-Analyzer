@@ -1,0 +1,2122 @@
+{
+  "repos": [
+    {
+      "by_category": {
+        "COMMIT_ONLY": 42,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 40,
+          "FILE_PARTIAL": 1,
+          "count": 41
+        },
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 42,
+        "full_overlap_commits": 42,
+        "path_overlap_file_rows": 133,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 1
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.9779411764705882,
+        "total_candidate_files": 136,
+        "total_corrective_files": 135,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 133,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 1
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "aiohttp",
+      "total_positive_commits": 43,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 14,
+        "FILE_PARTIAL": 3
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 13,
+          "FILE_PARTIAL": 3,
+          "count": 16
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 14,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 5,
+        "unknown_file_rows": 31,
+        "zero_overlap_commits": 11
+      },
+      "file_partial_details": {
+        "commits": 3,
+        "path_associated_per_commit": {
+          "count": 3,
+          "max": 2,
+          "mean": 1.6666666666666667,
+          "median": 2.0,
+          "min": 1,
+          "std": 0.4714045207910317
+        },
+        "positive_file_rows": 5,
+        "unknown_file_rows": 6
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.10638297872340426,
+        "total_candidate_files": 47,
+        "total_corrective_files": 28,
+        "total_path_associated_files": 5,
+        "total_path_overlap_files": 5,
+        "total_path_transform_candidates": 2,
+        "total_unknown_files": 37
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pytest",
+      "total_positive_commits": 17,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 11,
+        "FILE_PARTIAL": 3
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 6,
+          "FILE_PARTIAL": 1,
+          "count": 7
+        },
+        "revert": {
+          "COMMIT_ONLY": 5,
+          "FILE_PARTIAL": 2,
+          "count": 7
+        }
+      },
+      "commit_only_details": {
+        "commits": 11,
+        "full_overlap_commits": 10,
+        "path_overlap_file_rows": 20,
+        "unknown_file_rows": 3,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 3,
+        "path_associated_per_commit": {
+          "count": 3,
+          "max": 2,
+          "mean": 1.3333333333333333,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.4714045207910317
+        },
+        "positive_file_rows": 4,
+        "unknown_file_rows": 5
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.625,
+        "total_candidate_files": 32,
+        "total_corrective_files": 32,
+        "total_path_associated_files": 4,
+        "total_path_overlap_files": 20,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 8
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "celery",
+      "total_positive_commits": 14,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 7,
+        "FILE_PARTIAL": 6
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 5,
+          "FILE_PARTIAL": 6,
+          "count": 11
+        },
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 7,
+        "full_overlap_commits": 4,
+        "path_overlap_file_rows": 36,
+        "unknown_file_rows": 36,
+        "zero_overlap_commits": 3
+      },
+      "file_partial_details": {
+        "commits": 6,
+        "path_associated_per_commit": {
+          "count": 6,
+          "max": 2,
+          "mean": 1.3333333333333333,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.4714045207910317
+        },
+        "positive_file_rows": 8,
+        "unknown_file_rows": 68
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.24324324324324326,
+        "total_candidate_files": 148,
+        "total_corrective_files": 52,
+        "total_path_associated_files": 8,
+        "total_path_overlap_files": 36,
+        "total_path_transform_candidates": 3,
+        "total_unknown_files": 104
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "sqlalchemy",
+      "total_positive_commits": 13,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 8,
+        "FILE_PARTIAL": 5
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 2,
+          "FILE_PARTIAL": 2,
+          "count": 4
+        },
+        "revert": {
+          "COMMIT_ONLY": 6,
+          "FILE_PARTIAL": 3,
+          "count": 9
+        }
+      },
+      "commit_only_details": {
+        "commits": 8,
+        "full_overlap_commits": 8,
+        "path_overlap_file_rows": 20,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 5,
+        "path_associated_per_commit": {
+          "count": 5,
+          "max": 6,
+          "mean": 2.6,
+          "median": 2.0,
+          "min": 1,
+          "std": 1.8547236990991407
+        },
+        "positive_file_rows": 13,
+        "unknown_file_rows": 11
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.45454545454545453,
+        "total_candidate_files": 44,
+        "total_corrective_files": 36,
+        "total_path_associated_files": 13,
+        "total_path_overlap_files": 20,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 11
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "uvicorn",
+      "total_positive_commits": 13,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 11
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 10,
+          "count": 10
+        }
+      },
+      "commit_only_details": {
+        "commits": 11,
+        "full_overlap_commits": 11,
+        "path_overlap_file_rows": 122,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 122,
+        "total_corrective_files": 122,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 122,
+        "total_path_transform_candidates": 5,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "cherrypy",
+      "total_positive_commits": 11,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 4,
+        "FILE_PARTIAL": 3
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 4,
+          "FILE_PARTIAL": 2,
+          "count": 6
+        }
+      },
+      "commit_only_details": {
+        "commits": 4,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 58,
+        "unknown_file_rows": 29,
+        "zero_overlap_commits": 2
+      },
+      "file_partial_details": {
+        "commits": 3,
+        "path_associated_per_commit": {
+          "count": 3,
+          "max": 7,
+          "mean": 3.0,
+          "median": 1.0,
+          "min": 1,
+          "std": 2.8284271247461903
+        },
+        "positive_file_rows": 9,
+        "unknown_file_rows": 47
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.40559440559440557,
+        "total_candidate_files": 143,
+        "total_corrective_files": 99,
+        "total_path_associated_files": 9,
+        "total_path_overlap_files": 58,
+        "total_path_transform_candidates": 30,
+        "total_unknown_files": 76
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "jinja2",
+      "total_positive_commits": 7,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 7
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 7,
+          "count": 7
+        }
+      },
+      "commit_only_details": {
+        "commits": 7,
+        "full_overlap_commits": 6,
+        "path_overlap_file_rows": 14,
+        "unknown_file_rows": 1,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.9333333333333333,
+        "total_candidate_files": 15,
+        "total_corrective_files": 16,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 14,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 1
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "requests",
+      "total_positive_commits": 7,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 5
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 4,
+          "count": 4
+        }
+      },
+      "commit_only_details": {
+        "commits": 5,
+        "full_overlap_commits": 5,
+        "path_overlap_file_rows": 7,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 7,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 7,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "Pillow",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3,
+        "FILE_PARTIAL": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "FILE_PARTIAL": 2,
+          "count": 3
+        },
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 19,
+        "unknown_file_rows": 4,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 2,
+        "path_associated_per_commit": {
+          "count": 2,
+          "max": 2,
+          "mean": 1.5,
+          "median": 1.5,
+          "min": 1,
+          "std": 0.5
+        },
+        "positive_file_rows": 3,
+        "unknown_file_rows": 7
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.5757575757575758,
+        "total_candidate_files": 33,
+        "total_corrective_files": 24,
+        "total_path_associated_files": 3,
+        "total_path_overlap_files": 19,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 11
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "bandit",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 4,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 4,
+          "FILE_PARTIAL": 1,
+          "count": 5
+        }
+      },
+      "commit_only_details": {
+        "commits": 4,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 2,
+        "zero_overlap_commits": 2
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.0
+        },
+        "positive_file_rows": 1,
+        "unknown_file_rows": 1
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.42857142857142855,
+        "total_candidate_files": 7,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 1,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 3
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "bottle",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3,
+        "FILE_PARTIAL": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 2,
+          "count": 2
+        },
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 18,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 2,
+        "path_associated_per_commit": {
+          "count": 2,
+          "max": 3,
+          "mean": 3.0,
+          "median": 3.0,
+          "min": 3,
+          "std": 0.0
+        },
+        "positive_file_rows": 6,
+        "unknown_file_rows": 3
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.6666666666666666,
+        "total_candidate_files": 27,
+        "total_corrective_files": 25,
+        "total_path_associated_files": 6,
+        "total_path_overlap_files": 18,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 3
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "click",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3,
+        "FILE_PARTIAL": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "FILE_PARTIAL": 2,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 2,
+        "unknown_file_rows": 2,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 2,
+        "path_associated_per_commit": {
+          "count": 2,
+          "max": 37,
+          "mean": 19.0,
+          "median": 19.0,
+          "min": 1,
+          "std": 18.0
+        },
+        "positive_file_rows": 38,
+        "unknown_file_rows": 2
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.045454545454545456,
+        "total_candidate_files": 44,
+        "total_corrective_files": 47,
+        "total_path_associated_files": 38,
+        "total_path_overlap_files": 2,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 4
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "networkx",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 5
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 4,
+          "count": 4
+        }
+      },
+      "commit_only_details": {
+        "commits": 5,
+        "full_overlap_commits": 5,
+        "path_overlap_file_rows": 9,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 9,
+        "total_corrective_files": 9,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 9,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "starlette",
+      "total_positive_commits": 5,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2,
+        "FILE_PARTIAL": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 2,
+          "FILE_PARTIAL": 2,
+          "count": 4
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 4,
+        "unknown_file_rows": 2,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 2,
+        "path_associated_per_commit": {
+          "count": 2,
+          "max": 4,
+          "mean": 3.0,
+          "median": 3.0,
+          "min": 2,
+          "std": 1.0
+        },
+        "positive_file_rows": 6,
+        "unknown_file_rows": 44
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.07142857142857142,
+        "total_candidate_files": 56,
+        "total_corrective_files": 18,
+        "total_path_associated_files": 6,
+        "total_path_overlap_files": 4,
+        "total_path_transform_candidates": 1,
+        "total_unknown_files": 46
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "mypy",
+      "total_positive_commits": 4,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 4,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.0
+        },
+        "positive_file_rows": 1,
+        "unknown_file_rows": 1
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.6666666666666666,
+        "total_candidate_files": 6,
+        "total_corrective_files": 5,
+        "total_path_associated_files": 1,
+        "total_path_overlap_files": 4,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 1
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "tornado",
+      "total_positive_commits": 4,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 5,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.0
+        },
+        "positive_file_rows": 1,
+        "unknown_file_rows": 5
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.45454545454545453,
+        "total_candidate_files": 11,
+        "total_corrective_files": 6,
+        "total_path_associated_files": 1,
+        "total_path_overlap_files": 5,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 5
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "urllib3",
+      "total_positive_commits": 4,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 4,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 4,
+        "total_corrective_files": 4,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 4,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "black",
+      "total_positive_commits": 3,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 4,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 4,
+        "total_corrective_files": 4,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 4,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "marshmallow",
+      "total_positive_commits": 3,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "FILE_PARTIAL": 1,
+          "count": 2
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 1
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.5,
+        "total_candidate_files": 6,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 1
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pymemcache",
+      "total_positive_commits": 3,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 3
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 3,
+          "count": 3
+        }
+      },
+      "commit_only_details": {
+        "commits": 3,
+        "full_overlap_commits": 3,
+        "path_overlap_file_rows": 4,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 4,
+        "total_corrective_files": 4,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 4,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "treq",
+      "total_positive_commits": 3,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 3,
+        "total_corrective_files": 4,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "flask-sqlalchemy",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 3,
+        "total_corrective_files": 3,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "httpie",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 7,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 7,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 7,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "httpx",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 1,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 2
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.2,
+        "total_candidate_files": 5,
+        "total_corrective_files": 4,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 1,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 2
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "invoke",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 30,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 30,
+        "total_corrective_files": 33,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 30,
+        "total_path_transform_candidates": 9,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "isort",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        },
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 14,
+        "unknown_file_rows": 4,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.7777777777777778,
+        "total_candidate_files": 18,
+        "total_corrective_files": 15,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 14,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 4
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "nox",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 2,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 2,
+        "total_corrective_files": 2,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 2,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "paramiko",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 3,
+        "total_corrective_files": 3,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pre-commit",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 2
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 2,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 2,
+        "full_overlap_commits": 2,
+        "path_overlap_file_rows": 7,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 7,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 7,
+        "total_path_transform_candidates": 2,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pydantic",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1,
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "FILE_PARTIAL": 1,
+          "count": 2
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 0,
+        "path_overlap_file_rows": 0,
+        "unknown_file_rows": 3,
+        "zero_overlap_commits": 1
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 4
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.0,
+        "total_candidate_files": 9,
+        "total_corrective_files": 7,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 0,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 7
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "tox",
+      "total_positive_commits": 2,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 8,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 8,
+        "total_corrective_files": 8,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 8,
+        "total_path_transform_candidates": 1,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "fabric",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 0,
+        "full_overlap_commits": 0,
+        "path_overlap_file_rows": 0,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 1,
+          "mean": 1.0,
+          "median": 1.0,
+          "min": 1,
+          "std": 0.0
+        },
+        "positive_file_rows": 1,
+        "unknown_file_rows": 23
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.0,
+        "total_candidate_files": 24,
+        "total_corrective_files": 1,
+        "total_path_associated_files": 1,
+        "total_path_overlap_files": 0,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 23
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "flask",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 3,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 3,
+        "total_corrective_files": 3,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 3,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "flask-testing",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 1,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 1,
+        "total_corrective_files": 1,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 1,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "flask-wtf",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 2,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 2,
+        "total_corrective_files": 2,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 2,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "itsdangerous",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "revert": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 13,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 13,
+        "total_corrective_files": 13,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 13,
+        "total_path_transform_candidates": 6,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pymongo",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 1,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 1,
+        "total_corrective_files": 1,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 1,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "pyyaml",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 0,
+        "full_overlap_commits": 0,
+        "path_overlap_file_rows": 0,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 4
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.0,
+        "total_candidate_files": 6,
+        "total_corrective_files": 2,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 0,
+        "total_path_transform_candidates": 1,
+        "total_unknown_files": 4
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "redis",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 1,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 1,
+        "total_corrective_files": 3,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 1,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "rich",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "COMMIT_ONLY": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "COMMIT_ONLY": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 1,
+        "full_overlap_commits": 1,
+        "path_overlap_file_rows": 1,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 0,
+        "path_associated_per_commit": {
+          "count": 0,
+          "max": 0,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0,
+          "std": 0.0
+        },
+        "positive_file_rows": 0,
+        "unknown_file_rows": 0
+      },
+      "file_yield": {
+        "path_overlap_ratio": 1.0,
+        "total_candidate_files": 1,
+        "total_corrective_files": 1,
+        "total_path_associated_files": 0,
+        "total_path_overlap_files": 1,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 0
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "sympy",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    },
+    {
+      "by_category": {
+        "FILE_PARTIAL": 1
+      },
+      "by_source": {
+        "explicit_sha_reference": {
+          "FILE_PARTIAL": 1,
+          "count": 1
+        }
+      },
+      "commit_only_details": {
+        "commits": 0,
+        "full_overlap_commits": 0,
+        "path_overlap_file_rows": 0,
+        "unknown_file_rows": 0,
+        "zero_overlap_commits": 0
+      },
+      "file_partial_details": {
+        "commits": 1,
+        "path_associated_per_commit": {
+          "count": 1,
+          "max": 2,
+          "mean": 2.0,
+          "median": 2.0,
+          "min": 2,
+          "std": 0.0
+        },
+        "positive_file_rows": 2,
+        "unknown_file_rows": 1
+      },
+      "file_yield": {
+        "path_overlap_ratio": 0.0,
+        "total_candidate_files": 3,
+        "total_corrective_files": 2,
+        "total_path_associated_files": 2,
+        "total_path_overlap_files": 0,
+        "total_path_transform_candidates": 0,
+        "total_unknown_files": 1
+      },
+      "no_attribution_details": {
+        "commits": 0
+      },
+      "repo_name": "werkzeug",
+      "total_positive_commits": 1,
+      "unusable_details": {
+        "commits": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "sparsity_warnings": [],
+  "test": {
+    "classified_total": 10574,
+    "defensible_negative_count": 0,
+    "observed_commits": 6,
+    "observed_count": 10,
+    "observed_positive_rate": 0.0009457159069415548,
+    "out_of_scope_count": 11,
+    "raw_total": 10574,
+    "reconciled": true,
+    "repos_with_signal": 4,
+    "repos_without_signal": 36,
+    "sensitivity_count": 164,
+    "total_repos_in_split": 40,
+    "unlabeled_count": 10389
+  },
+  "train": {
+    "classified_total": 34405,
+    "defensible_negative_count": 0,
+    "observed_commits": 26,
+    "observed_count": 86,
+    "observed_positive_rate": 0.0024996366807150125,
+    "out_of_scope_count": 95,
+    "raw_total": 34405,
+    "reconciled": true,
+    "repos_with_signal": 14,
+    "repos_without_signal": 32,
+    "sensitivity_count": 350,
+    "total_repos_in_split": 46,
+    "unlabeled_count": 33874
+  },
+  "validation": {
+    "classified_total": 9410,
+    "defensible_negative_count": 0,
+    "observed_commits": 6,
+    "observed_count": 12,
+    "observed_positive_rate": 0.0012752391073326248,
+    "out_of_scope_count": 8,
+    "raw_total": 9410,
+    "reconciled": true,
+    "repos_with_signal": 5,
+    "repos_without_signal": 39,
+    "sensitivity_count": 80,
+    "total_repos_in_split": 44,
+    "unlabeled_count": 9310
+  }
+}

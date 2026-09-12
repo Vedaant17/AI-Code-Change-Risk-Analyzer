@@ -1,0 +1,337 @@
+{
+  "method": "round-robin by (positive_commit_count DESC, repo_name ASC)",
+  "phase": "4.6",
+  "repos": {
+    "test": [
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "Pillow",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "black",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "celery",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "cherrypy",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "click",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flake8",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flask",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "httpx",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "itsdangerous",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "mypy",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "nox",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "psycopg2",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pydantic",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "redis",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "treq",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "werkzeug",
+        "total_rows": 0
+      }
+    ],
+    "train": [
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "aiohttp",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "bandit",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "falcon",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flask-migrate",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flask-sqlalchemy",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flask-testing",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "invoke",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "jinja2",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "marshmallow",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "networkx",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "paramiko",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pycodestyle",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pymongo",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "rich",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "sqlalchemy",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "tornado",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "tox",
+        "total_rows": 0
+      }
+    ],
+    "validation": [
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "bottle",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "fabric",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "fastapi",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "flask-wtf",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "httpie",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "isort",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "peewee",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pre-commit",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pymemcache",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pytest",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "pyyaml",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "requests",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "starlette",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "sympy",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "twisted",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "urllib3",
+        "total_rows": 0
+      },
+      {
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "repo_name": "uvicorn",
+        "total_rows": 0
+      }
+    ]
+  },
+  "summaries": {
+    "test": {
+      "positive_commits": 0,
+      "positive_rows": 0,
+      "prevalence": 0.0,
+      "repo_count": 16,
+      "total_rows": 0
+    },
+    "train": {
+      "positive_commits": 0,
+      "positive_rows": 0,
+      "prevalence": 0.0,
+      "repo_count": 17,
+      "total_rows": 0
+    },
+    "validation": {
+      "positive_commits": 0,
+      "positive_rows": 0,
+      "prevalence": 0.0,
+      "repo_count": 17,
+      "total_rows": 0
+    }
+  },
+  "total_repos": 50,
+  "total_rows": 0
+}

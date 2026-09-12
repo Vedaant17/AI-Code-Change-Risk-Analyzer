@@ -1,0 +1,39 @@
+{
+  "possible_directions": [
+    {
+      "assumptions": "That some bug-fix commits exist where only specific files are implicated and others are collateral.",
+      "changes_frozen_semantics": false,
+      "direction": "Construct mixed-commit evaluation subset",
+      "evidence_needed": "Commits where bug-fixes touch a subset of changed files, with reliable file-level attribution.",
+      "requires_regeneration": true,
+      "supports_ranking": true
+    },
+    {
+      "assumptions": "That git diff hunk analysis can reliably identify which files in a bug-fix commit are directly related to the defect.",
+      "changes_frozen_semantics": true,
+      "direction": "Improve file-level defect attribution",
+      "evidence_needed": "Implementation of line-overlap or other file-level attribution that can identify specific files implicated by a defect.",
+      "requires_regeneration": true,
+      "supports_ranking": true
+    },
+    {
+      "assumptions": "That bug-introducing commits can be identified through follow-up bug-fix analysis.",
+      "changes_frozen_semantics": true,
+      "direction": "Use post-hoc bug-fix evidence for labeling",
+      "evidence_needed": "Later commits that fix bugs introduced by earlier commits, where the fix touches specific files.",
+      "requires_regeneration": true,
+      "supports_ranking": true
+    }
+  ],
+  "question_a_classification": {
+    "answer": "The model can distinguish positive from negative file rows globally.",
+    "evidence": "Dataset contains 1055 positive and 53334 negative file rows. Global classification metrics measure this ability."
+  },
+  "question_b_ranking": {
+    "answer": "The dataset provides NO supervision for ranking files within a commit.",
+    "evidence": "Zero mixed commits exist. All positive commits label every file as positive, providing no signal to distinguish risky from safe files within a commit."
+  },
+  "reasoning": "All 210 positive commits are all-positive (100.0%). 210/210 positive commits use commit-level attribution (explicit SHA reference or revert). 0 commits use file-level attribution (line overlap). The labeling methodology cannot distinguish implicated files from unrelated files within the same commit. File-level risk ranking requires mixed commits where some files are positive and others are negative.",
+  "root_cause": "The labeling methodology uses commit-level attribution for all positive labels in the dataset. No file-level attribution (line overlap) was successfully applied.",
+  "suitability": "not_suitable"
+}

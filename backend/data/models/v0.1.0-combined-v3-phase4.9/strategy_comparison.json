@@ -1,0 +1,96 @@
+{
+  "recommended_for_next_phase": [
+    "PU learning (positive-unlabeled)",
+    "Commit-level prediction"
+  ],
+  "strategies": [
+    {
+      "additional_evidence_required": [
+        "Defensible negative labels from independent sources"
+      ],
+      "assumptions": [
+        "All unlabeled examples are negative",
+        "Defensible negatives exist in sufficient quantity",
+        "Binary labels capture the defect concept"
+      ],
+      "available_evidence": "108 observed-path-associated rows, 0 defensible negatives, 53573 unlabeled rows.",
+      "compatibility_with_dataset": "NOT_COMPATIBLE",
+      "evaluation_difficulty": "Cannot be evaluated without defensible negatives.",
+      "methodological_risk": "Zero defensible negatives. Treating unlabeled as negative would introduce massive label noise. Model would learn the labeling mechanism, not defects.",
+      "name": "Standard binary supervised classification",
+      "pursue_next": false,
+      "reasoning": "The dataset contains zero defensible negatives. Standard binary classification requires reliable negative labels. Not viable with current evidence."
+    },
+    {
+      "additional_evidence_required": [
+        "Validation samples to assess PU assumption validity",
+        "Sensitivity analysis across repository subsets"
+      ],
+      "assumptions": [
+        "SAR approximately holds conditional on observed features",
+        "Observed-path-associated is a non-random sample of all positives",
+        "PU correction methods can account for label noise"
+      ],
+      "available_evidence": "108 observed-path-associated rows as candidate positives, 53573 unlabeled rows. SAR assessed as COMPATIBLE_WITH_CAVEATS.",
+      "compatibility_with_dataset": "CONDITIONALLY_COMPATIBLE",
+      "evaluation_difficulty": "Requires PU-compatible metrics. True defect performance cannot be measured without additional validation data.",
+      "methodological_risk": "Small observed-positive set. Possible repository-dependent selection. Path-associated evidence is not ground-truth defect labeling. PU assumptions may not hold.",
+      "name": "PU learning (positive-unlabeled)",
+      "pursue_next": true,
+      "reasoning": "PU learning is the only viable approach given zero defensible negatives. The primary observed population is small (10.2% rate) but non-trivial. SAR is the working assumption with caveats. Restrictions apply."
+    },
+    {
+      "additional_evidence_required": [
+        "Heuristic label validation against independent samples",
+        "SNR analysis of candidate heuristics"
+      ],
+      "assumptions": [
+        "Heuristic labels capture some signal",
+        "Label noise is manageable with SNR analysis",
+        "Heuristics do not correlate with commit patterns instead of defects"
+      ],
+      "available_evidence": "108 path-associated rows could seed heuristics. 60 path-transform candidates available. Commit-level features available.",
+      "compatibility_with_dataset": "PARTIALLY_COMPATIBLE",
+      "evaluation_difficulty": "Requires heuristic label validation.",
+      "methodological_risk": "Heuristic labels may correlate with commit patterns rather than defects. May amplify existing selection bias.",
+      "name": "Weak supervision / heuristic labeling",
+      "pursue_next": false,
+      "reasoning": "Weak supervision could complement PU learning but should not be the primary approach. Could be explored as a secondary signal source."
+    },
+    {
+      "additional_evidence_required": [],
+      "assumptions": [
+        "Binary commit-level labels are sufficient",
+        "File-level attribution not needed for the use case",
+        "Commit-level features capture defect signal"
+      ],
+      "available_evidence": "210 positive commits, ~21,581 negative commits. Binary labels clear at commit level. 45 commit-level features available.",
+      "compatibility_with_dataset": "COMPATIBLE",
+      "evaluation_difficulty": "Standard binary classification metrics applicable.",
+      "methodological_risk": "Loses file-level granularity. Not directly useful for targeted code review. Commit-level prediction may not translate to file-level utility.",
+      "name": "Commit-level prediction",
+      "pursue_next": true,
+      "reasoning": "Commit-level prediction is viable with current data. Binary labels are clear. Could serve as an intermediate step before file-level PU learning."
+    },
+    {
+      "additional_evidence_required": [
+        "Line-level blame/history",
+        "Issue-to-file linkage",
+        "Patch-level causal evidence",
+        "Manually validated samples"
+      ],
+      "assumptions": [
+        "Better attribution data can be acquired",
+        "Repository checkouts or external data sources available",
+        "Improved attribution produces reliable file-level labels"
+      ],
+      "available_evidence": "Current attribution is path-level only. No content-level or line-level analysis possible with frozen JSONL data.",
+      "compatibility_with_dataset": "NOT_CURRENTLY_COMPATIBLE",
+      "evaluation_difficulty": "Requires new data acquisition pipeline.",
+      "methodological_risk": "High implementation cost. May not be feasible for all repos. External data access required.",
+      "name": "Improved file-level attribution followed by supervised learning",
+      "pursue_next": false,
+      "reasoning": "Improved attribution would provide stronger supervision but requires capabilities beyond the frozen JSONL data. This is a future-work direction, not the next step."
+    }
+  ]
+}

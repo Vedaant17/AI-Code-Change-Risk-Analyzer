@@ -1,0 +1,498 @@
+{
+  "commit_composition": {
+    "all_negative_commits": 6913,
+    "all_positive_commits": 55,
+    "mixed_commits": 0,
+    "total_commits": 6968
+  },
+  "dominance_check": {
+    "any_dominates": false,
+    "repos": {
+      "Pillow": {
+        "dominates": false,
+        "fraction_of_total": 0.0219435736677116,
+        "positive_count": 7
+      },
+      "black": {
+        "dominates": false,
+        "fraction_of_total": 0.012539184952978056,
+        "positive_count": 4
+      },
+      "celery": {
+        "dominates": false,
+        "fraction_of_total": 0.10031347962382445,
+        "positive_count": 32
+      },
+      "cherrypy": {
+        "dominates": false,
+        "fraction_of_total": 0.3824451410658307,
+        "positive_count": 122
+      },
+      "click": {
+        "dominates": false,
+        "fraction_of_total": 0.08463949843260188,
+        "positive_count": 27
+      },
+      "flask": {
+        "dominates": false,
+        "fraction_of_total": 0.07523510971786834,
+        "positive_count": 24
+      },
+      "httpx": {
+        "dominates": false,
+        "fraction_of_total": 0.0219435736677116,
+        "positive_count": 7
+      },
+      "itsdangerous": {
+        "dominates": false,
+        "fraction_of_total": 0.006269592476489028,
+        "positive_count": 2
+      },
+      "mypy": {
+        "dominates": false,
+        "fraction_of_total": 0.1755485893416928,
+        "positive_count": 56
+      },
+      "nox": {
+        "dominates": false,
+        "fraction_of_total": 0.05642633228840126,
+        "positive_count": 18
+      },
+      "pydantic": {
+        "dominates": false,
+        "fraction_of_total": 0.0219435736677116,
+        "positive_count": 7
+      },
+      "redis": {
+        "dominates": false,
+        "fraction_of_total": 0.018808777429467086,
+        "positive_count": 6
+      },
+      "treq": {
+        "dominates": false,
+        "fraction_of_total": 0.012539184952978056,
+        "positive_count": 4
+      },
+      "werkzeug": {
+        "dominates": false,
+        "fraction_of_total": 0.009404388714733543,
+        "positive_count": 3
+      }
+    },
+    "total_positives": 319
+  },
+  "feature_importance_top20": [
+    {
+      "feature": "test_prod_coupling",
+      "importance": 1.0,
+      "rank": 1
+    },
+    {
+      "feature": "prod_files_changed",
+      "importance": 0.3662480399884783,
+      "rank": 2
+    },
+    {
+      "feature": "files_added",
+      "importance": 0.282036260400354,
+      "rank": 3
+    },
+    {
+      "feature": "files_deleted",
+      "importance": 0.26370430571037906,
+      "rank": 4
+    },
+    {
+      "feature": "total_class_declarations_changed",
+      "importance": 0.094617737224419,
+      "rank": 5
+    },
+    {
+      "feature": "test_ratio",
+      "importance": 0.07942727352600394,
+      "rank": 6
+    },
+    {
+      "feature": "lines_deleted",
+      "importance": 0.07273619605257049,
+      "rank": 7
+    },
+    {
+      "feature": "total_hunks",
+      "importance": 0.07272257394129425,
+      "rank": 8
+    },
+    {
+      "feature": "files_renamed",
+      "importance": 0.06773653176928449,
+      "rank": 9
+    },
+    {
+      "feature": "files_modified",
+      "importance": 0.06637714740135295,
+      "rank": 10
+    },
+    {
+      "feature": "total_lines_changed",
+      "importance": 0.06279213594205604,
+      "rank": 11
+    },
+    {
+      "feature": "max_changed_line_indent",
+      "importance": 0.0586725736168097,
+      "rank": 12
+    },
+    {
+      "feature": "file_function_declarations_added",
+      "importance": 0.05692295912942291,
+      "rank": 13
+    },
+    {
+      "feature": "file_language",
+      "importance": 0.05681803205607892,
+      "rank": 14
+    },
+    {
+      "feature": "files_changed",
+      "importance": 0.05621197602608257,
+      "rank": 15
+    },
+    {
+      "feature": "change_entropy",
+      "importance": 0.052926432611796165,
+      "rank": 16
+    },
+    {
+      "feature": "max_file_changes",
+      "importance": 0.04531657711724925,
+      "rank": 17
+    },
+    {
+      "feature": "avg_changed_line_indent",
+      "importance": 0.04452034193683334,
+      "rank": 18
+    },
+    {
+      "feature": "files_binary",
+      "importance": 0.04393589221022406,
+      "rank": 19
+    },
+    {
+      "feature": "avg_hunks_per_file",
+      "importance": 0.039897631986589306,
+      "rank": 20
+    }
+  ],
+  "global_classification": {
+    "secondary": true,
+    "test": {
+      "f1": 0.0,
+      "positive_prevalence": 0.01954537099442436,
+      "pr_auc": 0.021016903698523985,
+      "pr_auc_lift": 1.0752880415787145,
+      "precision": 0.0,
+      "precision_at_10": 0.0,
+      "precision_at_100": 0.0,
+      "precision_at_20": 0.0,
+      "precision_at_5": 0.0,
+      "precision_at_50": 0.0,
+      "recall": 0.0,
+      "recall_at_10": 0.0,
+      "recall_at_100": 0.0,
+      "recall_at_20": 0.0,
+      "recall_at_5": 0.0,
+      "recall_at_50": 0.0,
+      "roc_auc": 0.5443226336519846,
+      "top_100_capture": 0,
+      "top_10_capture": 0,
+      "top_20_capture": 0,
+      "top_50_capture": 0,
+      "total_examples": 16321
+    },
+    "train": {
+      "f1": 0.9358426005132592,
+      "positive_prevalence": 0.0347485468789487,
+      "pr_auc": 0.9931074417047926,
+      "pr_auc_lift": 28.579826522369924,
+      "precision": 0.8836833602584814,
+      "precision_at_10": 1.0,
+      "precision_at_100": 1.0,
+      "precision_at_20": 1.0,
+      "precision_at_5": 1.0,
+      "precision_at_50": 1.0,
+      "recall": 0.9945454545454545,
+      "recall_at_10": 0.01818181818181818,
+      "recall_at_100": 0.18181818181818182,
+      "recall_at_20": 0.03636363636363636,
+      "recall_at_5": 0.00909090909090909,
+      "recall_at_50": 0.09090909090909091,
+      "roc_auc": 0.9997381261231241,
+      "top_100_capture": 100,
+      "top_10_capture": 10,
+      "top_20_capture": 20,
+      "top_50_capture": 50,
+      "total_examples": 15828
+    },
+    "validation": {
+      "f1": 0.018433179723502304,
+      "positive_prevalence": 0.008363309352517986,
+      "pr_auc": 0.009110233062083771,
+      "pr_auc_lift": 1.0893095876384036,
+      "precision": 0.016129032258064516,
+      "precision_at_10": 0.0,
+      "precision_at_100": 0.0,
+      "precision_at_20": 0.0,
+      "precision_at_5": 0.0,
+      "precision_at_50": 0.0,
+      "recall": 0.021505376344086023,
+      "recall_at_10": 0.0,
+      "recall_at_100": 0.0,
+      "recall_at_20": 0.0,
+      "recall_at_5": 0.0,
+      "recall_at_50": 0.0,
+      "roc_auc": 0.46980517517608295,
+      "top_100_capture": 0,
+      "top_10_capture": 0,
+      "top_20_capture": 0,
+      "top_50_capture": 0,
+      "total_examples": 22240
+    }
+  },
+  "historical_leakage_sanity_checks": {},
+  "per_commit_ranking": {
+    "primary": true,
+    "summary": {
+      "fraction_top_1_capture": 1.0,
+      "fraction_top_3_capture": 1.0,
+      "fraction_top_5_capture": 1.0,
+      "mean_files_per_commit": 2.3422789896670495,
+      "mean_precision_at_1": 1.0,
+      "mean_precision_at_2": 1.0,
+      "mean_precision_at_3": 1.0,
+      "mean_precision_at_5": 1.0,
+      "mean_rank_of_first_positive": 1.0,
+      "mean_recall_at_1": 0.5745492549636935,
+      "mean_recall_at_2": 0.767280328109205,
+      "mean_recall_at_3": 0.8418295830728987,
+      "mean_recall_at_5": 0.9075947596669524,
+      "mean_reciprocal_rank": 1.0,
+      "median_precision_at_1": 1.0,
+      "median_precision_at_2": 1.0,
+      "median_precision_at_3": 1.0,
+      "median_precision_at_5": 1.0,
+      "median_rank_of_first_positive": 1.0,
+      "median_recall_at_1": 0.5,
+      "median_recall_at_2": 1.0,
+      "median_recall_at_3": 1.0,
+      "median_recall_at_5": 1.0,
+      "num_commits_total": 6968,
+      "num_commits_with_positives": 55,
+      "num_commits_zero_positives": 6913
+    },
+    "warning": "All positive commits have ALL files positive. Ranking is trivially perfect. Metrics are not informative."
+  },
+  "per_repository": {
+    "macro_average": {
+      "mean_pr_auc": 0.030788625534744693,
+      "mean_precision_at_1": 1.0,
+      "mean_prevalence": 0.02002293850756219,
+      "mean_recall_at_1": 0.4663295135547331,
+      "mean_reciprocal_rank": 1.0,
+      "num_repos": 16
+    },
+    "repos": [
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.8,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 5,
+        "positive_rows": 7,
+        "pr_auc": 0.012810227401984758,
+        "prevalence": 0.005267118133935289,
+        "repo_name": "Pillow",
+        "total_commits": 681,
+        "total_rows": 1329
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.8333333333333334,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 3,
+        "positive_rows": 4,
+        "pr_auc": 0.010985528446047662,
+        "prevalence": 0.0110803324099723,
+        "repo_name": "black",
+        "total_commits": 261,
+        "total_rows": 361
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.5595238095238094,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 14,
+        "positive_rows": 32,
+        "pr_auc": 0.03475061557469944,
+        "prevalence": 0.03673938002296211,
+        "repo_name": "celery",
+        "total_commits": 543,
+        "total_rows": 871
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.8190082644628099,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 11,
+        "positive_rows": 122,
+        "pr_auc": 0.10459949376824755,
+        "prevalence": 0.11151736745886655,
+        "repo_name": "cherrypy",
+        "total_commits": 586,
+        "total_rows": 1094
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.3372222222222222,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 5,
+        "positive_rows": 27,
+        "pr_auc": 0.059407652022811626,
+        "prevalence": 0.03435114503816794,
+        "repo_name": "click",
+        "total_commits": 278,
+        "total_rows": 786
+      },
+      {
+        "mean_precision_at_1": null,
+        "mean_recall_at_1": null,
+        "mean_reciprocal_rank": null,
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "pr_auc": null,
+        "prevalence": 0.0,
+        "repo_name": "flake8",
+        "total_commits": 603,
+        "total_rows": 1337
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.041666666666666664,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 1,
+        "positive_rows": 24,
+        "pr_auc": 0.013647698479050466,
+        "prevalence": 0.018972332015810278,
+        "repo_name": "flask",
+        "total_commits": 451,
+        "total_rows": 1265
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.35,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 2,
+        "positive_rows": 7,
+        "pr_auc": 0.008878519066351039,
+        "prevalence": 0.011023622047244094,
+        "repo_name": "httpx",
+        "total_commits": 365,
+        "total_rows": 635
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.5,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 1,
+        "positive_rows": 2,
+        "pr_auc": null,
+        "prevalence": 0.0016194331983805667,
+        "repo_name": "itsdangerous",
+        "total_commits": 446,
+        "total_rows": 1235
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.2104779411764706,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 4,
+        "positive_rows": 56,
+        "pr_auc": 0.08769338837510413,
+        "prevalence": 0.0413589364844904,
+        "repo_name": "mypy",
+        "total_commits": 233,
+        "total_rows": 1354
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.1607142857142857,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 2,
+        "positive_rows": 18,
+        "pr_auc": 0.01810250881942517,
+        "prevalence": 0.025280898876404494,
+        "repo_name": "nox",
+        "total_commits": 339,
+        "total_rows": 712
+      },
+      {
+        "mean_precision_at_1": null,
+        "mean_recall_at_1": null,
+        "mean_reciprocal_rank": null,
+        "positive_commits": 0,
+        "positive_rows": 0,
+        "pr_auc": null,
+        "prevalence": 0.0,
+        "repo_name": "psycopg2",
+        "total_commits": 492,
+        "total_rows": 1029
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.5833333333333334,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 2,
+        "positive_rows": 7,
+        "pr_auc": 0.0049417082919314915,
+        "prevalence": 0.005977796754910333,
+        "repo_name": "pydantic",
+        "total_commits": 446,
+        "total_rows": 1171
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.16666666666666666,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 1,
+        "positive_rows": 6,
+        "pr_auc": 0.01172630997085043,
+        "prevalence": 0.011811023622047244,
+        "repo_name": "redis",
+        "total_commits": 286,
+        "total_rows": 508
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.8333333333333334,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 3,
+        "positive_rows": 4,
+        "pr_auc": 0.0036463488994595184,
+        "prevalence": 0.0032,
+        "repo_name": "treq",
+        "total_commits": 578,
+        "total_rows": 1250
+      },
+      {
+        "mean_precision_at_1": 1.0,
+        "mean_recall_at_1": 0.3333333333333333,
+        "mean_reciprocal_rank": 1.0,
+        "positive_commits": 1,
+        "positive_rows": 3,
+        "pr_auc": 0.029062132835717742,
+        "prevalence": 0.002167630057803468,
+        "repo_name": "werkzeug",
+        "total_commits": 380,
+        "total_rows": 1384
+      }
+    ]
+  }
+}

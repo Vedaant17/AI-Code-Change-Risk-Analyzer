@@ -1,0 +1,546 @@
+{
+  "notable_differences": [
+    {
+      "description": "observed median 14.5000 vs unlabeled median 4.0000",
+      "feature": "files_changed",
+      "possible_implication": "Distribution of files_changed differs between observed-path-associated and unlabeled populations."
+    },
+    {
+      "description": "observed median 29.0000 vs unlabeled median 6.0000",
+      "feature": "total_hunks",
+      "possible_implication": "Distribution of total_hunks differs between observed-path-associated and unlabeled populations."
+    },
+    {
+      "description": "observed median 66.0000 vs unlabeled median 23.0000",
+      "feature": "max_file_changes",
+      "possible_implication": "Distribution of max_file_changes differs between observed-path-associated and unlabeled populations."
+    },
+    {
+      "description": "observed median 0.7009 vs unlabeled median 0.5455",
+      "feature": "additions_ratio",
+      "possible_implication": "Distribution of additions_ratio differs between observed-path-associated and unlabeled populations."
+    },
+    {
+      "description": "observed median 0.3158 vs unlabeled median 0.0000",
+      "feature": "test_ratio",
+      "possible_implication": "Distribution of test_ratio differs between observed-path-associated and unlabeled populations."
+    },
+    {
+      "description": "click: observed share 0.056 vs unlabeled share 0.014",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=click differs between populations."
+    },
+    {
+      "description": "sqlalchemy: observed share 0.074 vs unlabeled share 0.017",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=sqlalchemy differs between populations."
+    },
+    {
+      "description": "uvicorn: observed share 0.120 vs unlabeled share 0.020",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=uvicorn differs between populations."
+    },
+    {
+      "description": "networkx: observed share 0.352 vs unlabeled share 0.022",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=networkx differs between populations."
+    },
+    {
+      "description": "jinja2: observed share 0.083 vs unlabeled share 0.022",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=jinja2 differs between populations."
+    },
+    {
+      "description": "pytest: observed share 0.046 vs unlabeled share 0.008",
+      "feature": "repo_name",
+      "possible_implication": "Concentration of repo_name=pytest differs between populations."
+    },
+    {
+      "description": "explicit_sha_reference: observed share 0.454 vs unlabeled share 0.005",
+      "feature": "label_source",
+      "possible_implication": "Concentration of label_source=explicit_sha_reference differs between populations."
+    },
+    {
+      "description": "revert: observed share 0.546 vs unlabeled share 0.001",
+      "feature": "label_source",
+      "possible_implication": "Concentration of label_source=revert differs between populations."
+    },
+    {
+      "description": "deleted: observed share 0.009 vs unlabeled share 0.046",
+      "feature": "file_status",
+      "possible_implication": "Concentration of file_status=deleted differs between populations."
+    }
+  ],
+  "per_feature_coverage": [
+    {
+      "comparison": {},
+      "feature_name": "file_total_lines_changed",
+      "level": "file",
+      "observed_stats": {
+        "count": 0,
+        "iqr": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "std": 0.0
+      },
+      "unlabeled_stats": {
+        "count": 0,
+        "iqr": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "comparison": {},
+      "feature_name": "file_hunk_count",
+      "level": "file",
+      "observed_stats": {
+        "count": 0,
+        "iqr": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "std": 0.0
+      },
+      "unlabeled_stats": {
+        "count": 0,
+        "iqr": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "std": 0.0
+      }
+    },
+    {
+      "comparison": {
+        "effect_size": -0.361365523401437,
+        "iqr_ratio": 2.8333333333333335,
+        "mann_whitney_p": 5.2741479712398767e-11,
+        "mann_whitney_u": 3938351.5,
+        "median_ratio": 3.625
+      },
+      "description": "observed median 14.5000 vs unlabeled median 4.0000",
+      "feature_name": "files_changed",
+      "level": "commit",
+      "observed_stats": {
+        "count": 108,
+        "iqr": 34.0,
+        "mean": 20.083333333333332,
+        "median": 14.5,
+        "p10": 3.0,
+        "p25": 4.0,
+        "p50": 14.5,
+        "p75": 38.0,
+        "p90": 38.0,
+        "std": 16.13205056883828
+      },
+      "unlabeled_stats": {
+        "count": 53573,
+        "iqr": 12.0,
+        "mean": 40.63545069344632,
+        "median": 4.0,
+        "p10": 1.0,
+        "p25": 2.0,
+        "p50": 4.0,
+        "p75": 14.0,
+        "p90": 86.0,
+        "std": 124.75721093906952
+      }
+    },
+    {
+      "comparison": {
+        "effect_size": -0.37232599201781436,
+        "iqr_ratio": 2.6,
+        "mann_whitney_p": 1.768748330895377e-11,
+        "mann_whitney_u": 3970059.5,
+        "median_ratio": 4.833333333333333
+      },
+      "description": "observed median 29.0000 vs unlabeled median 6.0000",
+      "feature_name": "total_hunks",
+      "level": "commit",
+      "observed_stats": {
+        "count": 108,
+        "iqr": 65.0,
+        "mean": 42.73148148148148,
+        "median": 29.0,
+        "p10": 4.700000000000001,
+        "p25": 8.0,
+        "p50": 29.0,
+        "p75": 73.0,
+        "p90": 73.0,
+        "std": 47.00898386980811
+      },
+      "unlabeled_stats": {
+        "count": 53573,
+        "iqr": 25.0,
+        "mean": 66.51628618893845,
+        "median": 6.0,
+        "p10": 1.0,
+        "p25": 2.0,
+        "p50": 6.0,
+        "p75": 27.0,
+        "p90": 181.0,
+        "std": 185.98711566846387
+      }
+    },
+    {
+      "comparison": {
+        "effect_size": -0.31055997666043766,
+        "iqr_ratio": 0.5321100917431193,
+        "mann_whitney_p": 2.2712697493762195e-08,
+        "mann_whitney_u": 3791374.0,
+        "median_ratio": 2.869565217391304
+      },
+      "description": "observed median 66.0000 vs unlabeled median 23.0000",
+      "feature_name": "max_file_changes",
+      "level": "commit",
+      "observed_stats": {
+        "count": 108,
+        "iqr": 58.0,
+        "mean": 127.87962962962963,
+        "median": 66.0,
+        "p10": 13.0,
+        "p25": 40.75,
+        "p50": 66.0,
+        "p75": 98.75,
+        "p90": 262.0,
+        "std": 230.56391086303037
+      },
+      "unlabeled_stats": {
+        "count": 53573,
+        "iqr": 109.0,
+        "mean": 193.0606648871633,
+        "median": 23.0,
+        "p10": 2.0,
+        "p25": 6.0,
+        "p50": 23.0,
+        "p75": 115.0,
+        "p90": 422.0,
+        "std": 1458.727297107332
+      }
+    },
+    {
+      "comparison": {
+        "effect_size": -0.08318296737369768,
+        "iqr_ratio": 1.3111642877911946,
+        "mann_whitney_p": 0.13320992591792177,
+        "mann_whitney_u": 3133585.5,
+        "median_ratio": 1.2850467289719627
+      },
+      "description": "observed median 0.7009 vs unlabeled median 0.5455",
+      "feature_name": "additions_ratio",
+      "level": "commit",
+      "observed_stats": {
+        "count": 108,
+        "iqr": 0.4308111231313926,
+        "mean": 0.6854622407803965,
+        "median": 0.7009345794392523,
+        "p10": 0.47317073170731705,
+        "p25": 0.47317073170731705,
+        "p50": 0.7009345794392523,
+        "p75": 0.9039818548387096,
+        "p90": 0.9431788931788931,
+        "std": 0.22751856532344017
+      },
+      "unlabeled_stats": {
+        "count": 53573,
+        "iqr": 0.3285714285714286,
+        "mean": 0.6084528396810144,
+        "median": 0.5454545454545454,
+        "p10": 0.2831001076426265,
+        "p25": 0.5,
+        "p50": 0.5454545454545454,
+        "p75": 0.8285714285714286,
+        "p90": 0.9981167608286252,
+        "std": 0.25796641615646176
+      }
+    },
+    {
+      "comparison": {
+        "effect_size": -0.31853939691843114,
+        "iqr_ratio": 0.923076923076923,
+        "mann_whitney_p": 5.179417185797668e-11,
+        "mann_whitney_u": 3814458.0
+      },
+      "description": "observed median 0.3158 vs unlabeled median 0.0000",
+      "feature_name": "test_ratio",
+      "level": "commit",
+      "observed_stats": {
+        "count": 108,
+        "iqr": 0.30769230769230765,
+        "mean": 0.26631262829018243,
+        "median": 0.3157894736842105,
+        "p10": 0.0,
+        "p25": 0.02564102564102564,
+        "p50": 0.3157894736842105,
+        "p75": 0.3333333333333333,
+        "p90": 0.5,
+        "std": 0.18593603716363058
+      },
+      "unlabeled_stats": {
+        "count": 53573,
+        "iqr": 0.3333333333333333,
+        "mean": 0.19093875208699207,
+        "median": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.3333333333333333,
+        "p90": 0.6666666666666666,
+        "std": 0.30870442352235544
+      }
+    },
+    {
+      "feature_name": "repo_name",
+      "level": "categorical",
+      "observed_counts": {
+        "aiohttp": 2,
+        "bandit": 3,
+        "bottle": 1,
+        "celery": 4,
+        "click": 6,
+        "flask": 1,
+        "invoke": 2,
+        "jinja2": 9,
+        "mypy": 6,
+        "networkx": 38,
+        "pymemcache": 2,
+        "pytest": 5,
+        "redis": 2,
+        "sqlalchemy": 8,
+        "tornado": 1,
+        "tox": 2,
+        "urllib3": 1,
+        "uvicorn": 13,
+        "werkzeug": 2
+      },
+      "observed_shares": {
+        "aiohttp": 0.018518518518518517,
+        "bandit": 0.027777777777777776,
+        "bottle": 0.009259259259259259,
+        "celery": 0.037037037037037035,
+        "click": 0.05555555555555555,
+        "flask": 0.009259259259259259,
+        "invoke": 0.018518518518518517,
+        "jinja2": 0.08333333333333333,
+        "mypy": 0.05555555555555555,
+        "networkx": 0.35185185185185186,
+        "pymemcache": 0.018518518518518517,
+        "pytest": 0.046296296296296294,
+        "redis": 0.018518518518518517,
+        "sqlalchemy": 0.07407407407407407,
+        "tornado": 0.009259259259259259,
+        "tox": 0.018518518518518517,
+        "urllib3": 0.009259259259259259,
+        "uvicorn": 0.12037037037037036,
+        "werkzeug": 0.018518518518518517
+      },
+      "observed_unique": 19,
+      "unlabeled_counts": {
+        "Pillow": 1311,
+        "aiohttp": 638,
+        "bandit": 998,
+        "black": 357,
+        "bottle": 966,
+        "celery": 844,
+        "cherrypy": 972,
+        "click": 762,
+        "fabric": 869,
+        "falcon": 1305,
+        "fastapi": 6388,
+        "flake8": 1337,
+        "flask": 1257,
+        "flask-migrate": 412,
+        "flask-sqlalchemy": 1240,
+        "flask-testing": 119,
+        "flask-wtf": 1076,
+        "httpie": 781,
+        "httpx": 623,
+        "invoke": 869,
+        "isort": 644,
+        "itsdangerous": 1233,
+        "jinja2": 1181,
+        "marshmallow": 575,
+        "mypy": 1344,
+        "networkx": 1183,
+        "nox": 697,
+        "paramiko": 1119,
+        "peewee": 475,
+        "pre-commit": 1463,
+        "psycopg2": 1029,
+        "pycodestyle": 484,
+        "pydantic": 1163,
+        "pymemcache": 772,
+        "pymongo": 1992,
+        "pytest": 429,
+        "pyyaml": 1821,
+        "redis": 501,
+        "requests": 811,
+        "rich": 462,
+        "sqlalchemy": 924,
+        "starlette": 1277,
+        "sympy": 751,
+        "tornado": 1107,
+        "tox": 865,
+        "treq": 1246,
+        "twisted": 1276,
+        "urllib3": 1163,
+        "uvicorn": 1086,
+        "werkzeug": 1376
+      },
+      "unlabeled_shares": {
+        "Pillow": 0.024471282175722846,
+        "aiohttp": 0.011908984003135907,
+        "bandit": 0.018628786888917927,
+        "black": 0.0066638045284005,
+        "bottle": 0.018031471076848413,
+        "celery": 0.015754204543333396,
+        "cherrypy": 0.018143467791611446,
+        "click": 0.014223582774905269,
+        "fabric": 0.016220857521512703,
+        "falcon": 0.024359285460959813,
+        "fastapi": 0.11923916898437646,
+        "flake8": 0.024956601273029323,
+        "flask": 0.02346331174285554,
+        "flask-migrate": 0.007690441080394975,
+        "flask-sqlalchemy": 0.023145987717693613,
+        "flask-testing": 0.0022212681761335,
+        "flask-wtf": 0.02008474418083736,
+        "httpie": 0.014578239038321542,
+        "httpx": 0.011628992216228325,
+        "invoke": 0.016220857521512703,
+        "isort": 0.012020980717898942,
+        "itsdangerous": 0.02301532488380341,
+        "jinja2": 0.022044686689190452,
+        "marshmallow": 0.010733018498124055,
+        "mypy": 0.02508726410691953,
+        "networkx": 0.022082018927444796,
+        "nox": 0.013010285031639071,
+        "paramiko": 0.02088738730330577,
+        "peewee": 0.008866406585406827,
+        "pre-commit": 0.02730853228305303,
+        "psycopg2": 0.019207436581860266,
+        "pycodestyle": 0.009034401657551379,
+        "pydantic": 0.02170869654490135,
+        "pymemcache": 0.014410243966176992,
+        "pymongo": 0.03718290930132716,
+        "pytest": 0.008007765105556904,
+        "pyyaml": 0.0339910029305807,
+        "redis": 0.009351725682713308,
+        "requests": 0.015138222612136711,
+        "rich": 0.008623747036753589,
+        "sqlalchemy": 0.017247494073507178,
+        "starlette": 0.02383663412539899,
+        "sympy": 0.014018255464506375,
+        "tornado": 0.020663393873779703,
+        "tox": 0.016146193045004014,
+        "treq": 0.02325798443245665,
+        "twisted": 0.023817968006271815,
+        "urllib3": 0.02170869654490135,
+        "uvicorn": 0.020271405372109086,
+        "werkzeug": 0.025684579918989044
+      },
+      "unlabeled_unique": 50
+    },
+    {
+      "feature_name": "split",
+      "level": "categorical",
+      "observed_counts": {
+        "test": 10,
+        "train": 86,
+        "validation": 12
+      },
+      "observed_shares": {
+        "test": 0.09259259259259259,
+        "train": 0.7962962962962963,
+        "validation": 0.1111111111111111
+      },
+      "observed_unique": 3,
+      "unlabeled_counts": {
+        "test": 10389,
+        "train": 33874,
+        "validation": 9310
+      },
+      "unlabeled_shares": {
+        "test": 0.1939223116121927,
+        "train": 0.6322961193138334,
+        "validation": 0.17378156907397382
+      },
+      "unlabeled_unique": 3
+    },
+    {
+      "feature_name": "label_source",
+      "level": "categorical",
+      "observed_counts": {
+        "explicit_sha_reference": 49,
+        "revert": 59
+      },
+      "observed_shares": {
+        "explicit_sha_reference": 0.4537037037037037,
+        "revert": 0.5462962962962963
+      },
+      "observed_unique": 2,
+      "unlabeled_counts": {
+        "explicit_sha_reference": 279,
+        "none": 53224,
+        "revert": 70
+      },
+      "unlabeled_shares": {
+        "explicit_sha_reference": 0.005207847236481063,
+        "none": 0.9934855244246169,
+        "revert": 0.001306628338902059
+      },
+      "unlabeled_unique": 3
+    },
+    {
+      "feature_name": "file_status",
+      "level": "categorical",
+      "observed_counts": {
+        "added": 3,
+        "deleted": 1,
+        "modified": 104
+      },
+      "observed_shares": {
+        "added": 0.027777777777777776,
+        "deleted": 0.009259259259259259,
+        "modified": 0.9629629629629629
+      },
+      "observed_unique": 3,
+      "unlabeled_counts": {
+        "added": 3938,
+        "binary": 273,
+        "deleted": 2486,
+        "modified": 45186,
+        "renamed": 1690
+      },
+      "unlabeled_shares": {
+        "added": 0.0735071771228044,
+        "binary": 0.00509585052171803,
+        "deleted": 0.04640397215015026,
+        "modified": 0.8434472588804062,
+        "renamed": 0.031545741324921134
+      },
+      "unlabeled_unique": 5
+    }
+  ],
+  "total_observed_path_associated": 108
+}

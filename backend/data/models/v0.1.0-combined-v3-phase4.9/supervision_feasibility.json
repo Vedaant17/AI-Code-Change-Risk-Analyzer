@@ -1,0 +1,144 @@
+{
+  "coverage_summary": {
+    "notable_differences_count": 14,
+    "observed_count": 108,
+    "unlabeled_count": 53573
+  },
+  "negative_feasibility_summary": {
+    "defensible_negatives": 0,
+    "out_of_scope": 114,
+    "reconciled": true
+  },
+  "pu_assumptions_summary": {
+    "sar_verdict": "COMPATIBLE_WITH_CAVEATS",
+    "scar_verdict": "UNTESTABLE_WITH_CURRENT_EVIDENCE"
+  },
+  "recommendation": {
+    "evidence_matrix": {
+      "attribution_strength": {
+        "assessment": "Path-level evidence only. No content-level or line-level attribution available.",
+        "level": "path_level_only"
+      },
+      "evaluation_feasibility": {
+        "assessment": "7 measurable-now diagnostics identified. True defect metrics not measurable.",
+        "measurable_diagnostics": 7
+      },
+      "feature_distribution": {
+        "assessment": "14 feature distribution differences noted.",
+        "notable_differences_count": 14
+      },
+      "negative_availability": {
+        "assessment": "0 defensible negatives available.",
+        "defensible_negatives": 0
+      },
+      "observed_positive_quantity": {
+        "assessment": "108 observed-path-associated rows (0.2% of total file rows).",
+        "rate": 0.0019856956369854197,
+        "value": 108
+      },
+      "repository_diversity": {
+        "assessment": "19/50 repos contain signal. Top-5 share: 68.5%. Gini: 0.834.",
+        "gini": 0.8337037037037036,
+        "repos_total": 50,
+        "repos_with_signal": 19,
+        "signal_ratio": 0.38,
+        "top_5_share": 0.6851851851851851
+      },
+      "reproducibility": {
+        "assessment": "Analysis is deterministic and auditable.",
+        "deterministic": true
+      },
+      "selection_dependence": {
+        "assessment": "SCAR: UNTESTABLE_WITH_CURRENT_EVIDENCE. SAR: COMPATIBLE_WITH_CAVEATS. Repository-dependence: medium.",
+        "repo_severity": "medium",
+        "sar_verdict": "COMPATIBLE_WITH_CAVEATS",
+        "scar_verdict": "UNTESTABLE_WITH_CURRENT_EVIDENCE"
+      },
+      "split_coverage": {
+        "assessment": "3/3 splits contain observed signal.",
+        "per_split": {
+          "test": 10,
+          "train": 86,
+          "validation": 12
+        },
+        "splits_with_signal": 3
+      }
+    },
+    "next_step": "Proceed with PU learning experiment with explicit restrictions. Include sensitivity analysis across repository subsets and population definitions.",
+    "reasoning": "Some concerns identified: Many feature distribution differences (14); SCAR not established. PU learning is feasible with appropriate restrictions and sensitivity analyses.",
+    "recommendation": "PU_LEARNING_FEASIBLE_WITH_RESTRICTIONS",
+    "restrictions": [
+      "Many feature distribution differences (14)",
+      "SCAR not established"
+    ]
+  },
+  "repo_concentration_summary": {
+    "entropy": 0.7892464951761041,
+    "gini": 0.8337037037037036,
+    "herfindahl": 0.16358024691358025,
+    "top_10_share": 0.8703703703703703,
+    "top_5_share": 0.6851851851851851
+  },
+  "split_summary": {
+    "test": {
+      "classified_total": 10574,
+      "defensible_negative_count": 0,
+      "observed_commits": 6,
+      "observed_count": 10,
+      "observed_positive_rate": 0.0009457159069415548,
+      "out_of_scope_count": 11,
+      "raw_total": 10574,
+      "reconciled": true,
+      "repos_with_signal": 4,
+      "repos_without_signal": 36,
+      "sensitivity_count": 164,
+      "total_repos_in_split": 40,
+      "unlabeled_count": 10389
+    },
+    "train": {
+      "classified_total": 34405,
+      "defensible_negative_count": 0,
+      "observed_commits": 26,
+      "observed_count": 86,
+      "observed_positive_rate": 0.0024996366807150125,
+      "out_of_scope_count": 95,
+      "raw_total": 34405,
+      "reconciled": true,
+      "repos_with_signal": 14,
+      "repos_without_signal": 32,
+      "sensitivity_count": 350,
+      "total_repos_in_split": 46,
+      "unlabeled_count": 33874
+    },
+    "validation": {
+      "classified_total": 9410,
+      "defensible_negative_count": 0,
+      "observed_commits": 6,
+      "observed_count": 12,
+      "observed_positive_rate": 0.0012752391073326248,
+      "out_of_scope_count": 8,
+      "raw_total": 9410,
+      "reconciled": true,
+      "repos_with_signal": 5,
+      "repos_without_signal": 39,
+      "sensitivity_count": 80,
+      "total_repos_in_split": 44,
+      "unlabeled_count": 9310
+    }
+  },
+  "strategy_comparison_summary": {
+    "recommended_for_next_phase": [
+      "PU learning (positive-unlabeled)",
+      "Commit-level prediction"
+    ]
+  },
+  "supervision_sets_summary": {
+    "defensible_negative_count": 0,
+    "observed_positive_rate": 0.0019856956369854197,
+    "out_of_scope_count": 114,
+    "primary_observed_count": 108,
+    "sensitivity_count": 594,
+    "total_file_rows": 54389,
+    "unlabeled_count": 53573
+  }
+}

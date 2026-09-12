@@ -1,0 +1,71 @@
+{
+  "by_split": {
+    "test": {
+      "all_positive_commits": 57,
+      "all_positive_pct": 100.0,
+      "mixed_commits": 0,
+      "mixed_pct": 0.0,
+      "positive_commits": 57,
+      "positive_rows": 214,
+      "total_commits": 3169,
+      "total_rows": 10574
+    },
+    "train": {
+      "all_positive_commits": 111,
+      "all_positive_pct": 100.0,
+      "mixed_commits": 0,
+      "mixed_pct": 0.0,
+      "positive_commits": 111,
+      "positive_rows": 657,
+      "total_commits": 15670,
+      "total_rows": 34405
+    },
+    "validation": {
+      "all_positive_commits": 42,
+      "all_positive_pct": 100.0,
+      "mixed_commits": 0,
+      "mixed_pct": 0.0,
+      "positive_commits": 42,
+      "positive_rows": 184,
+      "total_commits": 2952,
+      "total_rows": 9410
+    }
+  },
+  "overall": {
+    "all_positive_commits": 210,
+    "all_positive_pct": 100.0,
+    "ambiguous_commits": 0,
+    "ambiguous_rows": 0,
+    "mixed_commits": 0,
+    "mixed_pct": 0.0,
+    "negative_commits": 21581,
+    "negative_rows": 53334,
+    "positive_commits": 210,
+    "positive_rows": 1055,
+    "total_commits": 21791,
+    "total_rows": 54389
+  },
+  "positive_commit_file_distribution": {
+    "positive_files": {
+      "max": 110.0,
+      "mean": 5.023809523809524,
+      "median": 2.0,
+      "min": 1.0,
+      "std": 10.267118330907737
+    },
+    "positive_ratio": {
+      "max": 1.0,
+      "mean": 1.0,
+      "median": 1.0,
+      "min": 1.0,
+      "std": 0.0
+    },
+    "total_files": {
+      "max": 110.0,
+      "mean": 5.023809523809524,
+      "median": 2.0,
+      "min": 1.0,
+      "std": 10.267118330907737
+    }
+  }
+}

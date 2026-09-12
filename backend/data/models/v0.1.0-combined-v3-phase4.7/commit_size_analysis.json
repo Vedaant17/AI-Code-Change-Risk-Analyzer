@@ -1,0 +1,40 @@
+{
+  "buckets": {
+    "1": {
+      "all_positive": 67,
+      "count": 67,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    },
+    "11-20": {
+      "all_positive": 8,
+      "count": 8,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    },
+    "2-3": {
+      "all_positive": 77,
+      "count": 77,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    },
+    "4-5": {
+      "all_positive": 30,
+      "count": 30,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    },
+    "6-10": {
+      "all_positive": 17,
+      "count": 17,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    },
+    ">20": {
+      "all_positive": 11,
+      "count": 11,
+      "mean_ratio": 1.0,
+      "mixed": 0
+    }
+  }
+}

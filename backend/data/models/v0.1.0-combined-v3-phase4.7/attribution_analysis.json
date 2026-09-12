@@ -1,0 +1,40 @@
+{
+  "by_source": {
+    "ambiguous": {
+      "all_positive_commits": 0,
+      "mixed_commits": 0,
+      "positive_commits": 0,
+      "positive_file_rows": 0
+    },
+    "explicit_sha_reference": {
+      "all_positive_commits": 114,
+      "mixed_commits": 0,
+      "positive_commits": 114,
+      "positive_file_rows": 516
+    },
+    "line_overlap": {
+      "all_positive_commits": 0,
+      "mixed_commits": 0,
+      "positive_commits": 0,
+      "positive_file_rows": 0
+    },
+    "none": {
+      "all_positive_commits": 0,
+      "mixed_commits": 0,
+      "positive_commits": 0,
+      "positive_file_rows": 0
+    },
+    "revert": {
+      "all_positive_commits": 96,
+      "mixed_commits": 0,
+      "positive_commits": 96,
+      "positive_file_rows": 539
+    }
+  },
+  "labeling_granularity_summary": {
+    "commit_level_commits": 210,
+    "file_level_commits": 0,
+    "pct_commit_level": 100.0,
+    "total_positive_commits": 210
+  }
+}
