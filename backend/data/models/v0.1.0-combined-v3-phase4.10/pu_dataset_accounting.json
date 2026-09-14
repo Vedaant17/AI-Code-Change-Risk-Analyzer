@@ -1,0 +1,43 @@
+{
+  "total_source_rows": 54389,
+  "primary": {
+    "positive_count": 108,
+    "unlabeled_count": 53573,
+    "eligible_count": 53681,
+    "excluded_sensitivity": 594,
+    "out_of_scope": 114,
+    "defensible_negative": 0
+  },
+  "sensitivity": {
+    "positive_count": 702,
+    "unlabeled_count": 53573,
+    "eligible_count": 54275,
+    "out_of_scope": 114,
+    "defensible_negative": 0
+  },
+  "per_split": {
+    "train": {
+      "primary": 65,
+      "sensitivity": 279,
+      "unlabeled": 15473,
+      "out_of_scope": 7,
+      "total": 15824
+    },
+    "validation": {
+      "primary": 22,
+      "sensitivity": 106,
+      "unlabeled": 22048,
+      "out_of_scope": 26,
+      "total": 22202
+    },
+    "test": {
+      "primary": 21,
+      "sensitivity": 209,
+      "unlabeled": 16052,
+      "out_of_scope": 21,
+      "total": 16303
+    }
+  },
+  "metric_semantics": "observed-positive ranking metrics only",
+  "elkan_noto_status": "NOT_IDENTIFIABLE_WITH_CURRENT_EVIDENCE"
+}

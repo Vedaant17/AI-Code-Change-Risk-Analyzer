@@ -1,0 +1,43 @@
+{
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "modes": [
+    "E0",
+    "E1",
+    "E2",
+    "E4"
+  ],
+  "sensitivity_modes": [
+    "E0",
+    "E2"
+  ],
+  "methods": [
+    "random",
+    "naive_biased",
+    "pu_ranker"
+  ],
+  "recall_at_k_values": [
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500
+  ],
+  "data_dir": "backend\\data\\datasets\\combined-v3",
+  "exp_dir": "backend\\data\\models\\v0.1.0-combined-v3-exp-4.5a-real",
+  "output_dir": "C:\\Users\\hp\\OneDrive\\Desktop\\ai-risk-analyzer\\backend\\data\\models\\v0.1.0-combined-v3-phase4.10",
+  "elkan_noto_status": "NOT_IDENTIFIABLE_WITH_CURRENT_EVIDENCE",
+  "pu_assumptions": {
+    "scar_testable": false,
+    "scar_status": "UNTESTABLE_WITH_CURRENT_EVIDENCE",
+    "sar_status": "COMPATIBLE_WITH_CAVEATS",
+    "elkan_noto_c_identifiable": false,
+    "metric_semantics": "observed-positive ranking only",
+    "no_true_defect_metrics": true
+  }
+}

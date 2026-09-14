@@ -1,0 +1,96 @@
+{
+  "positive_repos": [
+    "aiohttp",
+    "bandit",
+    "bottle",
+    "celery",
+    "click",
+    "flask",
+    "invoke",
+    "jinja2",
+    "mypy",
+    "networkx",
+    "pymemcache",
+    "pytest",
+    "redis",
+    "sqlalchemy",
+    "tornado",
+    "tox",
+    "urllib3",
+    "uvicorn",
+    "werkzeug"
+  ],
+  "n_positive_repos": 19,
+  "repo_positive_counts": {
+    "aiohttp": 2,
+    "bandit": 3,
+    "bottle": 1,
+    "celery": 4,
+    "click": 6,
+    "flask": 1,
+    "invoke": 2,
+    "jinja2": 9,
+    "mypy": 6,
+    "networkx": 38,
+    "pymemcache": 2,
+    "pytest": 5,
+    "redis": 2,
+    "sqlalchemy": 8,
+    "tornado": 1,
+    "tox": 2,
+    "urllib3": 1,
+    "uvicorn": 13,
+    "werkzeug": 2
+  },
+  "repo_positive_fraction": {
+    "aiohttp": 0.018518518518518517,
+    "bandit": 0.027777777777777776,
+    "bottle": 0.009259259259259259,
+    "celery": 0.037037037037037035,
+    "click": 0.05555555555555555,
+    "flask": 0.009259259259259259,
+    "invoke": 0.018518518518518517,
+    "jinja2": 0.08333333333333333,
+    "mypy": 0.05555555555555555,
+    "networkx": 0.35185185185185186,
+    "pymemcache": 0.018518518518518517,
+    "pytest": 0.046296296296296294,
+    "redis": 0.018518518518518517,
+    "sqlalchemy": 0.07407407407407407,
+    "tornado": 0.009259259259259259,
+    "tox": 0.018518518518518517,
+    "urllib3": 0.009259259259259259,
+    "uvicorn": 0.12037037037037036,
+    "werkzeug": 0.018518518518518517
+  },
+  "total_positive": 108,
+  "top_5_share": 0.6851851851851851,
+  "gini_coefficient": 0.5623781676413264,
+  "concentration_summary": [
+    {
+      "repo": "networkx",
+      "positive_count": 38,
+      "fraction": 0.35185185185185186
+    },
+    {
+      "repo": "uvicorn",
+      "positive_count": 13,
+      "fraction": 0.12037037037037036
+    },
+    {
+      "repo": "jinja2",
+      "positive_count": 9,
+      "fraction": 0.08333333333333333
+    },
+    {
+      "repo": "sqlalchemy",
+      "positive_count": 8,
+      "fraction": 0.07407407407407407
+    },
+    {
+      "repo": "click",
+      "positive_count": 6,
+      "fraction": 0.05555555555555555
+    }
+  ]
+}
