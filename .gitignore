@@ -26,3 +26,6 @@ backend/data/models/v0.1.0-combined-v2-real/
 backend/data/models/v0.1.0-combined-v3-real/
 backend/data/models/v0.1.0-flask-real/
 backend/data/models/v0.1.0-local/
+
+# Phase 4.11b cloned repository cache
+backend/data/repos/

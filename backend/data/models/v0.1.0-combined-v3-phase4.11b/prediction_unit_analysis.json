@@ -1,0 +1,30 @@
+{
+  "commit_level": {
+    "label_availability": "high",
+    "label_count": 210,
+    "attribution_quality": "STRONG commit-level",
+    "coverage": "210/210",
+    "practical_usefulness": "Limited \u2014 identifies risky commits but not which files within the commit"
+  },
+  "file_level": {
+    "label_availability": "medium",
+    "label_count": 1055,
+    "attribution_quality": "STRONG=499, MODERATE=0, WEAK=238",
+    "coverage": "1055 files analyzed",
+    "practical_usefulness": "High potential if MODERATE/STRONG evidence exists"
+  },
+  "function_level": {
+    "label_availability": "limited",
+    "label_count": 516,
+    "attribution_quality": "Requires AST parse + content correspondence",
+    "coverage": "Python files only",
+    "practical_usefulness": "Most actionable for developers if available"
+  },
+  "hunk_level": {
+    "label_availability": "unavailable",
+    "label_count": 0,
+    "attribution_quality": "UNAVAILABLE without diff analysis",
+    "coverage": "Requires patch reconstruction",
+    "practical_usefulness": "Most precise but hardest to act on"
+  }
+}

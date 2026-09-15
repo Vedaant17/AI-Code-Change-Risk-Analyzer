@@ -1,0 +1,4652 @@
+{
+  "python_files_analyzed": 516,
+  "function_attributable": 95,
+  "same_function_count": 516,
+  "function_with_content_count": 95,
+  "details": [
+    {
+      "commit_sha": "c0b3c0d9861a5324fd371732630b0dd3e20d8081",
+      "file_path": "bottle.py",
+      "same_function": true,
+      "function_name": "POST",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ba21723f60ecdbeae1805bd13b2e9e2d6c4c2ce9",
+      "file_path": "test_sqlalchemy.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "b1d77ea962128e8d3b32b9ebea4c36a7cd1b5157",
+      "file_path": "flask_wtf/csrf.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "972b84f6c3ca31f6ba6672290e41e1cd2f6808d2",
+      "file_path": "treq/test/test_api.py",
+      "same_function": true,
+      "function_name": "setUp",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f513b48dba9a5adb02380873f44f57d3d495e40f",
+      "file_path": "itsdangerous.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f513b48dba9a5adb02380873f44f57d3d495e40f",
+      "file_path": "tests.py",
+      "same_function": true,
+      "function_name": "_coerce_string",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6d7e13da0f998820800ecb3fe9ccee4189aefb54",
+      "file_path": "bottle.py",
+      "same_function": true,
+      "function_name": "POST",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6d7e13da0f998820800ecb3fe9ccee4189aefb54",
+      "file_path": "test/test_environ.py",
+      "same_function": true,
+      "function_name": "_test_chunked",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8f74c51935058cacd77ee2a2a40dc6e6efbde4a2",
+      "file_path": "bandit/plugins/injection_shell.py",
+      "same_function": true,
+      "function_name": "_evaluate_shell_call",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "b0fde07cfd8676a75292188dd8bedab7de74e6f2",
+      "file_path": "httpie/cli.py",
+      "same_function": true,
+      "function_name": "__contains__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "b0fde07cfd8676a75292188dd8bedab7de74e6f2",
+      "file_path": "httpie/output/formatters/colors.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "624c6473788a02b5ea75944ab49335bf1869f5ea",
+      "file_path": "flask_testing/utils.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "624c6473788a02b5ea75944ab49335bf1869f5ea",
+      "file_path": "tests/flask_app/__init__.py",
+      "same_function": true,
+      "function_name": "ajax",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "624c6473788a02b5ea75944ab49335bf1869f5ea",
+      "file_path": "tests/test_utils.py",
+      "same_function": true,
+      "function_name": "_pre_setup",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "3bcefda0a5e397e12a6122fd8004cbbbce6a2b15",
+      "file_path": "cherrypy/lib/httputil.py",
+      "same_function": true,
+      "function_name": "__bytes__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "fabric/config.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "fabric/connection.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "fabric/util.py",
+      "same_function": true,
+      "function_name": "get_local_user",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "tests/_support/fabfile.py",
+      "same_function": true,
+      "function_name": "basic_run",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "tests/_util.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "tests/connection.py",
+      "same_function": true,
+      "function_name": "_forward_local",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "tests/group.py",
+      "same_function": true,
+      "function_name": "_make_serial_tester",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0cc40438105201e6dca94b11ecd63ba8ab333696",
+      "file_path": "tests/main.py",
+      "same_function": true,
+      "function_name": "IOErrors_if_given_missing_file",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "471ae664021fd282217d2e0ed607a697fb01ece6",
+      "file_path": "cherrypy/test/test_session.py",
+      "same_function": true,
+      "function_name": "_test_Concurrency",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "43c83f36f36ce0f04d590b83017526429cf217b2",
+      "file_path": "cherrypy/test/test_session.py",
+      "same_function": true,
+      "function_name": "_test_Concurrency",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7c4b9fa8b8d980a27c53000eb1961d436da7b223",
+      "file_path": "bandit/formatters/screen.py",
+      "same_function": true,
+      "function_name": "_output_issue_str",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7c4b9fa8b8d980a27c53000eb1961d436da7b223",
+      "file_path": "bandit/formatters/text.py",
+      "same_function": true,
+      "function_name": "_output_issue_str",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "58a6e40b7bdc4adfe03e57f918ab62789cfbe366",
+      "file_path": "cherrypy/test/test_session.py",
+      "same_function": true,
+      "function_name": "_test_Concurrency",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5a3422e01fa63062dad7bc0f98943c5934a05bb6",
+      "file_path": "flask_sqlalchemy/model.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5a3422e01fa63062dad7bc0f98943c5934a05bb6",
+      "file_path": "tests/test_binds.py",
+      "same_function": true,
+      "function_name": "test_abstract_binds",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "20bc9dbf617c61b8c2b7e847d3b88caeabfd6528",
+      "file_path": "cherrypy/process/wspbus.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbe48fbb7c5b96cde3a16453311e45f723516afd",
+      "file_path": "requests/sessions.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "54d75a716ea6b56cef5ad88ab2de6324f36c0bab",
+      "file_path": "bandit/blacklists/calls.py",
+      "same_function": true,
+      "function_name": "gen_blacklist",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "54d75a716ea6b56cef5ad88ab2de6324f36c0bab",
+      "file_path": "bandit/plugins/asserts.py",
+      "same_function": true,
+      "function_name": "assert_used",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "54d75a716ea6b56cef5ad88ab2de6324f36c0bab",
+      "file_path": "bandit/plugins/exec.py",
+      "same_function": true,
+      "function_name": "exec_issue",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "54d75a716ea6b56cef5ad88ab2de6324f36c0bab",
+      "file_path": "bandit/plugins/injection_shell.py",
+      "same_function": true,
+      "function_name": "_evaluate_shell_call",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "bd100472443dcf4189630f6b1ed3ec0a61259dd8",
+      "file_path": "requests/models.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "bd100472443dcf4189630f6b1ed3ec0a61259dd8",
+      "file_path": "tests/test_lowlevel.py",
+      "same_function": true,
+      "function_name": "digest_failed_response_handler",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "26f7c1b1371e86b0aab7f640af980a59df1ec098",
+      "file_path": "pymemcache/client/base.py",
+      "same_function": true,
+      "function_name": "__delitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "26f7c1b1371e86b0aab7f640af980a59df1ec098",
+      "file_path": "pymemcache/test/test_client.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "75c4d5eb68c9bd0165de564be9aa11f02b1f88d3",
+      "file_path": "invoke/util.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "75c4d5eb68c9bd0165de564be9aa11f02b1f88d3",
+      "file_path": "tests/concurrency.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2da7fe08586aeaff614c017a9a834a22c937384a",
+      "file_path": "requests/adapters.py",
+      "same_function": true,
+      "function_name": "SOCKSProxyManager",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4b6077a8c0a0f56bb8dbac37f8f9027130b4091c",
+      "file_path": "jinja2/loaders.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4b6077a8c0a0f56bb8dbac37f8f9027130b4091c",
+      "file_path": "tests/test_loader.py",
+      "same_function": true,
+      "function_name": "_test_common",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d2e0e78afe7c6ae864a20c2cc29e80936cff47af",
+      "file_path": "jinja2/loaders.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "docs/examples/cache_extension.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "docs/examples/inline_gettext_extension.py",
+      "same_function": true,
+      "function_name": "filter_stream",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "scripts/generate_identifier_pattern.py",
+      "same_function": true,
+      "function_name": "build_pattern",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/bccache.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/compiler.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/environment.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/ext.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/filters.py",
+      "same_function": true,
+      "function_name": "_min_or_max",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/lexer.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/loaders.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/meta.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/nodes.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/runtime.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/sandbox.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "src/jinja/utils.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/conftest.py",
+      "same_function": true,
+      "function_name": "choice_loader",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_api.py",
+      "same_function": true,
+      "function_name": "error",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_async.py",
+      "same_function": true,
+      "function_name": "async_func",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_asyncfilters.py",
+      "same_function": true,
+      "function_name": "decorator",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_bytecode_cache.py",
+      "same_function": true,
+      "function_name": "env",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_core_tags.py",
+      "same_function": true,
+      "function_name": "_myfilter",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_debug.py",
+      "same_function": true,
+      "function_name": "assert_traceback_matches",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_ext.py",
+      "same_function": true,
+      "function_name": "_dump",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_features.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_filters.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_idtracking.py",
+      "same_function": true,
+      "function_name": "test_basics",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_imports.py",
+      "same_function": true,
+      "function_name": "test_choice_includes",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_inheritance.py",
+      "same_function": true,
+      "function_name": "env",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_lexnparse.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_loader.py",
+      "same_function": true,
+      "function_name": "_test_common",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_nativetypes.py",
+      "same_function": true,
+      "function_name": "env",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_regression.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_runtime.py",
+      "same_function": true,
+      "function_name": "test_iterator_not_advanced_early",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_security.py",
+      "same_function": true,
+      "function_name": "__html__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_tests.py",
+      "same_function": true,
+      "function_name": "matching",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1167525b73863119f8bbec03ddb9d35eacff4bef",
+      "file_path": "tests/test_utils.py",
+      "same_function": true,
+      "function_name": "test_autoescape_select",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/_compat.py",
+      "same_function": true,
+      "function_name": "__new__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/asyncfilters.py",
+      "same_function": true,
+      "function_name": "async_select_or_reject",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/asyncsupport.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/bccache.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/compiler.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/debug.py",
+      "same_function": true,
+      "function_name": "controller",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/environment.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/exceptions.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/ext.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/filters.py",
+      "same_function": true,
+      "function_name": "_min_or_max",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/idtracking.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/lexer.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/loaders.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/meta.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/nativetypes.py",
+      "same_function": true,
+      "function_name": "_default_finalize",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/nodes.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/optimizer.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/runtime.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/sandbox.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/tests.py",
+      "same_function": true,
+      "function_name": "test_boolean",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/utils.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "file_path": "src/jinja/visitor.py",
+      "same_function": true,
+      "function_name": "generic_visit",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc9c60ba457efc4cadf6fa2886567e0ee6ca1a99",
+      "file_path": "src/jinja/compiler.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc9c60ba457efc4cadf6fa2886567e0ee6ca1a99",
+      "file_path": "src/jinja/runtime.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc9c60ba457efc4cadf6fa2886567e0ee6ca1a99",
+      "file_path": "tests/test_bytecode_cache.py",
+      "same_function": true,
+      "function_name": "env",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "474e06ddf74e1260cc9890a2b62013e32c37210b",
+      "file_path": "src/marshmallow/fields.py",
+      "same_function": true,
+      "function_name": "__deepcopy__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "474e06ddf74e1260cc9890a2b62013e32c37210b",
+      "file_path": "tests/test_deserialization.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "60293416db69782fd048a7820667afa4ae7c423b",
+      "file_path": "src/jinja2/nodes.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "939f3ce7ce43d11f3a9829dabaa292b3a906b56d",
+      "file_path": "httpx/_content_streams.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "939f3ce7ce43d11f3a9829dabaa292b3a906b56d",
+      "file_path": "tests/client/test_headers.py",
+      "same_function": true,
+      "function_name": "send",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "939f3ce7ce43d11f3a9829dabaa292b3a906b56d",
+      "file_path": "tests/client/test_redirects.py",
+      "same_function": true,
+      "function_name": "body",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "939f3ce7ce43d11f3a9829dabaa292b3a906b56d",
+      "file_path": "tests/models/test_requests.py",
+      "same_function": true,
+      "function_name": "streaming_body",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "939f3ce7ce43d11f3a9829dabaa292b3a906b56d",
+      "file_path": "tests/test_content_streams.py",
+      "same_function": true,
+      "function_name": "hello_world",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fdb89e9cc942aaf38eb57b71172d02c868502aa3",
+      "file_path": "uvicorn/subprocess.py",
+      "same_function": true,
+      "function_name": "get_subprocess",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fdb89e9cc942aaf38eb57b71172d02c868502aa3",
+      "file_path": "uvicorn/supervisors/basereload.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fdb89e9cc942aaf38eb57b71172d02c868502aa3",
+      "file_path": "uvicorn/supervisors/multiprocess.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "44e7debe4e35e7242588c770753f0c62c236bd28",
+      "file_path": "uvicorn/workers.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "37e6ff95ea439edf0d504089507aafba5564324c",
+      "file_path": "tests/supervisors/test_statreload.py",
+      "same_function": true,
+      "function_name": "run",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "37e6ff95ea439edf0d504089507aafba5564324c",
+      "file_path": "tests/supervisors/test_watchgodreload.py",
+      "same_function": true,
+      "function_name": "run",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "37e6ff95ea439edf0d504089507aafba5564324c",
+      "file_path": "uvicorn/supervisors/statreload.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "file_path": "tests/conftest.py",
+      "same_function": true,
+      "function_name": "certfile_and_keyfile",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "file_path": "tests/test_config.py",
+      "same_function": true,
+      "function_name": "asgi_app",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "file_path": "tests/test_main.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "file_path": "uvicorn/config.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ae0fd316f03dbef926e40216024dfb934417d48d",
+      "file_path": "tests/test_config.py",
+      "same_function": true,
+      "function_name": "asgi",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ae0fd316f03dbef926e40216024dfb934417d48d",
+      "file_path": "uvicorn/config.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "acd962b586a4fe018a00acb7e1621be373c13c3b",
+      "file_path": "pymemcache/client/hash.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "acd962b586a4fe018a00acb7e1621be373c13c3b",
+      "file_path": "pymemcache/test/test_client_hash.py",
+      "same_function": true,
+      "function_name": "get_clients",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d5dcf80cf7b666ab0dbbb4299fd6e9a13f80ad6f",
+      "file_path": "uvicorn/protocols/http/h11_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d5dcf80cf7b666ab0dbbb4299fd6e9a13f80ad6f",
+      "file_path": "uvicorn/protocols/http/httptools_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4b66260cb7c88a41a971d2458d75efd556f2e00e",
+      "file_path": "requests/sessions.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4b66260cb7c88a41a971d2458d75efd556f2e00e",
+      "file_path": "tests/test_requests.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8581b348480c0f76a152d97de5f0304a84207341",
+      "file_path": "uvicorn/protocols/websockets/websockets_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2e17dd9ff3cbb826237639005fe2cd24bc8d225c",
+      "file_path": "uvicorn/protocols/http/h11_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "be94fd7bae1f7d00bd8b93a5e9b48f30f50b52fc",
+      "file_path": "setup.py",
+      "same_function": true,
+      "function_name": "find_version",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5f16269c5b1130e65b8eec6cfbe530987820787b",
+      "file_path": "uvicorn/server.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5f16269c5b1130e65b8eec6cfbe530987820787b",
+      "file_path": "uvicorn/workers.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "31c9daa84723e956039990f58d996bf24a6fe64c",
+      "file_path": "isort/core.py",
+      "same_function": true,
+      "function_name": "_has_changed",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "31c9daa84723e956039990f58d996bf24a6fe64c",
+      "file_path": "isort/settings.py",
+      "same_function": true,
+      "function_name": "__hash__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "31c9daa84723e956039990f58d996bf24a6fe64c",
+      "file_path": "tests/unit/test_isort.py",
+      "same_function": true,
+      "function_name": "default_settings_path",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "83675fe7687def4b5a673fd794c9472c31fe69e4",
+      "file_path": "pre_commit/xargs.py",
+      "same_function": true,
+      "function_name": "_command_length",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "83675fe7687def4b5a673fd794c9472c31fe69e4",
+      "file_path": "tests/xargs_test.py",
+      "same_function": true,
+      "function_name": "linux_mock",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc6e056e628923b0ae41a39f02b8fee8f1fc932e",
+      "file_path": "uvicorn/_handlers/http.py",
+      "same_function": true,
+      "function_name": "handle_http",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc6e056e628923b0ae41a39f02b8fee8f1fc932e",
+      "file_path": "uvicorn/protocols/http/h11_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fc6e056e628923b0ae41a39f02b8fee8f1fc932e",
+      "file_path": "uvicorn/protocols/http/httptools_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dca52aa8a2ddbc32fc874a8d235652c68e1dc3b9",
+      "file_path": "tests/test_client.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d3dccdc477652b6de5a7b6b14a2bf3fa2f94be2c",
+      "file_path": "starlette/staticfiles.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d3dccdc477652b6de5a7b6b14a2bf3fa2f94be2c",
+      "file_path": "tests/test_staticfiles.py",
+      "same_function": true,
+      "function_name": "does_nothing_middleware",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "bea72995fd39b01e2f0a1682b16b6c7690933f36",
+      "file_path": "redis/asyncio/client.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "bea72995fd39b01e2f0a1682b16b6c7690933f36",
+      "file_path": "redis/client.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d3e8d711d9f2da76ac952418579899b79545a5e8",
+      "file_path": "tests/test_default_headers.py",
+      "same_function": true,
+      "function_name": "app",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d3e8d711d9f2da76ac952418579899b79545a5e8",
+      "file_path": "uvicorn/protocols/http/h11_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d3e8d711d9f2da76ac952418579899b79545a5e8",
+      "file_path": "uvicorn/protocols/http/httptools_impl.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4cbf13ece2e584b45b935df0a0c670e1863c4569",
+      "file_path": "httpx/_utils.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4cbf13ece2e584b45b935df0a0c670e1863c4569",
+      "file_path": "tests/models/test_queryparams.py",
+      "same_function": true,
+      "function_name": "test_empty_query_params",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6b7c2cdc91ca5ba1f6cf3e5d9e8e386266c64ce6",
+      "file_path": "cherrypy/lib/httputil.py",
+      "same_function": true,
+      "function_name": "__bytes__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5efa354ce9fff1217d22e52493d1442866821a7b",
+      "file_path": "tests/test_proxy.py",
+      "same_function": true,
+      "function_name": "test_close_kills_subprocess",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f4bd44996c888f48bc3a37d5ab19514325cb3f01",
+      "file_path": "pre_commit/languages/ruby.py",
+      "same_function": true,
+      "function_name": "_extract_resource",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "082e0e5b9c01fa3178ac0153413f082616f10914",
+      "file_path": "src/werkzeug/sansio/multipart.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "53104edae32247038f92fdafaccbc2efcd7565bd",
+      "file_path": "pymemcache/test/test_utils.py",
+      "same_function": true,
+      "function_name": "test_add",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "51b28461d0d8b2fdf7db8a7cd2368ba11222bb6d",
+      "file_path": "celery/backends/database/models.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "51b28461d0d8b2fdf7db8a7cd2368ba11222bb6d",
+      "file_path": "t/unit/backends/test_database.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "62363740c1cc0e137ff4344c3afc3d52e070f200",
+      "file_path": "tornado/platform/asyncio.py",
+      "same_function": true,
+      "function_name": "__getattribute__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1c363876147325a196c474e757e355c451a0cdff",
+      "file_path": "celery/app/task.py",
+      "same_function": true,
+      "function_name": "AsyncResult",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1c363876147325a196c474e757e355c451a0cdff",
+      "file_path": "celery/result.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1c363876147325a196c474e757e355c451a0cdff",
+      "file_path": "t/unit/tasks/test_chord.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1c363876147325a196c474e757e355c451a0cdff",
+      "file_path": "t/unit/tasks/test_result.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1dca2c6af2e6b17906daf13bf8e26e58ac37f9fa",
+      "file_path": "doc/conf.py",
+      "same_function": true,
+      "function_name": "setup",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "483849a466a2bfc121f5a367339e1aa3ed20344b",
+      "file_path": "starlette/testclient.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "483849a466a2bfc121f5a367339e1aa3ed20344b",
+      "file_path": "tests/test_testclient.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7936e86f0a0eb7494aee8a1094b0ccda31c67a72",
+      "file_path": "starlette/responses.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7936e86f0a0eb7494aee8a1094b0ccda31c67a72",
+      "file_path": "tests/test_responses.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7a38204cb51dee761792a6b086784602899f06df",
+      "file_path": "rich/panel.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d48061505e72271116c5a33b04dbca6273f2a737",
+      "file_path": "src/urllib3/util/ssl_.py",
+      "same_function": true,
+      "function_name": "_is_bpo_43522_fixed",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d48061505e72271116c5a33b04dbca6273f2a737",
+      "file_path": "test/test_ssl.py",
+      "same_function": true,
+      "function_name": "test_assert_fingerprint_raises_exception_on_none_cert",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eee4cdcb9a4e787d53df88ccbee2861a0bb9b0a8",
+      "file_path": "starlette/staticfiles.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "eee4cdcb9a4e787d53df88ccbee2861a0bb9b0a8",
+      "file_path": "tests/test_staticfiles.py",
+      "same_function": true,
+      "function_name": "does_nothing_middleware",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/__init__.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpchecker.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpcompat.py",
+      "same_function": true,
+      "function_name": "assert_native",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpconfig.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpdispatch.py",
+      "same_function": true,
+      "function_name": "VirtualHost",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cperror.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cplogging.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpmodpy.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpnative_server.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpreqbody.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cprequest.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpserver.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cptools.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cptree.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpwsgi.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_cpwsgi_server.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_helper.py",
+      "same_function": true,
+      "function_name": "__get__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_json.py",
+      "same_function": true,
+      "function_name": "encode",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/_private_api/compat/headers.py",
+      "same_function": true,
+      "function_name": "_parse_param",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/daemon.py",
+      "same_function": true,
+      "function_name": "run",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/__init__.py",
+      "same_function": true,
+      "function_name": "__del__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/auth_basic.py",
+      "same_function": true,
+      "function_name": "_try_decode",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/auth_digest.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/caching.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/covercp.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/cpstats.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/cptools.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/encoding.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/gctools.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/httputil.py",
+      "same_function": true,
+      "function_name": "__bytes__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/jsontools.py",
+      "same_function": true,
+      "function_name": "json_handler",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/locking.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/profiler.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/reprconf.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/sessions.py",
+      "same_function": true,
+      "function_name": "__contains__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/static.py",
+      "same_function": true,
+      "function_name": "_attempt",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/lib/xmlrpcutil.py",
+      "same_function": true,
+      "function_name": "_set_response",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/process/plugins.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/process/servers.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/process/win32.py",
+      "same_function": true,
+      "function_name": "SvcDoRun",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/process/wspbus.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/scaffold/__init__.py",
+      "same_function": true,
+      "function_name": "default",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/_test_decorators.py",
+      "same_function": true,
+      "function_name": "andrews",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/_test_states_demo.py",
+      "same_function": true,
+      "function_name": "exit",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/benchmark.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/helper.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/logtest.py",
+      "same_function": true,
+      "function_name": "_handleLogError",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/modfastcgi.py",
+      "same_function": true,
+      "function_name": "__str__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/modfcgid.py",
+      "same_function": true,
+      "function_name": "__str__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/modpy.py",
+      "same_function": true,
+      "function_name": "__str__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/modwsgi.py",
+      "same_function": true,
+      "function_name": "__str__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/sessiondemo.py",
+      "same_function": true,
+      "function_name": "expire",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_auth_basic.py",
+      "same_function": true,
+      "function_name": "checkpasshash",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_auth_digest.py",
+      "same_function": true,
+      "function_name": "_fetch_users",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_bus.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_caching.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_config.py",
+      "same_function": true,
+      "function_name": "StringIOFromNative",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_config_server.py",
+      "same_function": true,
+      "function_name": "index",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_conn.py",
+      "same_function": true,
+      "function_name": "_streaming",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_core.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_dynamicobjectmapping.py",
+      "same_function": true,
+      "function_name": "DELETE",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_encoding.py",
+      "same_function": true,
+      "function_name": "cookies_and_headers",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_etags.py",
+      "same_function": true,
+      "function_name": "fail",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_http.py",
+      "same_function": true,
+      "function_name": "encode_filename",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_httputil.py",
+      "same_function": true,
+      "function_name": "test_invalid_status",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_iterator.py",
+      "same_function": true,
+      "function_name": "__del__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_json.py",
+      "same_function": true,
+      "function_name": "json_cached",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_logging.py",
+      "same_function": true,
+      "function_name": "access_log_file",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_mime.py",
+      "same_function": true,
+      "function_name": "flashupload",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_misc_tools.py",
+      "same_function": true,
+      "function_name": "accept",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_native.py",
+      "same_function": true,
+      "function_name": "cp_native_server",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_objectmapping.py",
+      "same_function": true,
+      "function_name": "GET",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_params.py",
+      "same_function": true,
+      "function_name": "resource",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_plugins.py",
+      "same_function": true,
+      "function_name": "test_file_for_file_module_when_None",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_proxy.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_refleaks.py",
+      "same_function": true,
+      "function_name": "getpage",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_request_obj.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_routes.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_session.py",
+      "same_function": true,
+      "function_name": "_test_Concurrency",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_sessionauthenticate.py",
+      "same_function": true,
+      "function_name": "augment_params",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_states.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_static.py",
+      "same_function": true,
+      "function_name": "_check_unicode_filesystem",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_tools.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_tutorials.py",
+      "same_function": true,
+      "function_name": "load_module",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_virtualhost.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_wsgi_ns.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_wsgi_unix_socket.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_wsgi_vhost.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_wsgiapps.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/test/test_xmlrpc.py",
+      "same_function": true,
+      "function_name": "foo",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut01_helloworld.py",
+      "same_function": true,
+      "function_name": "index",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut02_expose_methods.py",
+      "same_function": true,
+      "function_name": "index",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut03_get_and_post.py",
+      "same_function": true,
+      "function_name": "greetUser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut04_complex_site.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut05_derived_objects.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut06_default_method.py",
+      "same_function": true,
+      "function_name": "default",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut07_sessions.py",
+      "same_function": true,
+      "function_name": "index",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut08_generators_and_yield.py",
+      "same_function": true,
+      "function_name": "footer",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut09_files.py",
+      "same_function": true,
+      "function_name": "download",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "cherrypy/tutorial/tut10_http_errors.py",
+      "same_function": true,
+      "function_name": "error",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "docs/conf.py",
+      "same_function": true,
+      "function_name": "get_supported_pythons",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5fe3dcef35d44ab60e32e5130d2e37089820bc4a",
+      "file_path": "tests/dist-check.py",
+      "same_function": true,
+      "function_name": "data_file_path",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/core/blacklisting.py",
+      "same_function": true,
+      "function_name": "blacklist",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/core/context.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/core/node_visitor.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/core/utils.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/django_sql_injection.py",
+      "same_function": true,
+      "function_name": "django_extra_used",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/django_xss.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/general_hardcoded_password.py",
+      "same_function": true,
+      "function_name": "_report",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/injection_shell.py",
+      "same_function": true,
+      "function_name": "_evaluate_shell_call",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/injection_sql.py",
+      "same_function": true,
+      "function_name": "_check_string",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "bandit/plugins/tarfile_unsafe_members.py",
+      "same_function": true,
+      "function_name": "exec_issue",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "13d3406dbba67e22d80f8f8e5b182c5f6e45face",
+      "file_path": "tests/unit/core/test_context.py",
+      "same_function": true,
+      "function_name": "test__get_literal_value",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "72e30c647b4d8f009db341e66750541bd99efeec",
+      "file_path": "src/marshmallow/schema.py",
+      "same_function": true,
+      "function_name": "__apply_nested_option",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "451f2e8d7e9feb79aed2282014d90c9367ea64dc",
+      "file_path": "isort/setuptools_commands.py",
+      "same_function": true,
+      "function_name": "distribution_files",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "451f2e8d7e9feb79aed2282014d90c9367ea64dc",
+      "file_path": "tests/unit/test_isort.py",
+      "same_function": true,
+      "function_name": "default_settings_path",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "451f2e8d7e9feb79aed2282014d90c9367ea64dc",
+      "file_path": "tests/unit/test_settings.py",
+      "same_function": true,
+      "function_name": "_write_simple_settings",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0316198dc2511e34028b37a67607c067151e7c91",
+      "file_path": "celery/app/task.py",
+      "same_function": true,
+      "function_name": "AsyncResult",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4ac02007e030232f57226aafbb9313c8ff186a62",
+      "file_path": "test/typing/plain_files/engine/engine_result.py",
+      "same_function": true,
+      "function_name": "result_one",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "examples/subclass/plot_antigraph.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/approximation/density.py",
+      "same_function": true,
+      "function_name": "_fista",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/approximation/kcomponents.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/approximation/tests/test_steinertree.py",
+      "same_function": true,
+      "function_name": "setup_class",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/bipartite/matching.py",
+      "same_function": true,
+      "function_name": "_alternating_dfs",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/broadcasting.py",
+      "same_function": true,
+      "function_name": "_get_broadcast_centers",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/degree_alg.py",
+      "same_function": true,
+      "function_name": "degree_centrality",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/eigenvector.py",
+      "same_function": true,
+      "function_name": "eigenvector_centrality",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/harmonic.py",
+      "same_function": true,
+      "function_name": "harmonic_centrality",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/katz.py",
+      "same_function": true,
+      "function_name": "katz_centrality",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/laplacian.py",
+      "same_function": true,
+      "function_name": "laplacian_centrality",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/tests/test_eigenvector_centrality.py",
+      "same_function": true,
+      "function_name": "setup_class",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/centrality/tests/test_katz_centrality.py",
+      "same_function": true,
+      "function_name": "setup_class",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/chordal.py",
+      "same_function": true,
+      "function_name": "_find_chordality_breaker",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/clique.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/connectivity/tests/test_edge_augmentation.py",
+      "same_function": true,
+      "function_name": "_assert_solution_properties",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/cycles.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/flow/tests/test_maxflow.py",
+      "same_function": true,
+      "function_name": "compare_flows_and_cuts",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/flow/tests/test_maxflow_large_graph.py",
+      "same_function": true,
+      "function_name": "gen_pyramid",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/flow/utils.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/graph_hashing.py",
+      "same_function": true,
+      "function_name": "_hash_label",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/isomorphism/tests/test_vf2pp_helpers.py",
+      "same_function": true,
+      "function_name": "test_const_covered_neighbors",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/isomorphism/tree_isomorphism.py",
+      "same_function": true,
+      "function_name": "root_trees",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/isomorphism/vf2pp.py",
+      "same_function": true,
+      "function_name": "_consistent_PT",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/link_analysis/tests/test_hits.py",
+      "same_function": true,
+      "function_name": "setup_class",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/shortest_paths/weighted.py",
+      "same_function": true,
+      "function_name": "_bellman_ford",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/tests/test_cluster.py",
+      "same_function": true,
+      "function_name": "setup_class",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/tests/test_dominance.py",
+      "same_function": true,
+      "function_name": "test_boost_example",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/tests/test_triads.py",
+      "same_function": true,
+      "function_name": "test_all_triads",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/traversal/breadth_first_search.py",
+      "same_function": true,
+      "function_name": "bfs_edges",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/algorithms/triads.py",
+      "same_function": true,
+      "function_name": "_tricode",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/generators/directed.py",
+      "same_function": true,
+      "function_name": "_choose_node",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/generators/line.py",
+      "same_function": true,
+      "function_name": "_find_partition",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/generators/tests/test_geometric.py",
+      "same_function": true,
+      "function_name": "dist",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/utils/backends.py",
+      "same_function": true,
+      "function_name": "__doc__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "85ec579723d323193df0a7df7570160fd0e878a6",
+      "file_path": "networkx/utils/configs.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "51a7678db2f0fcb1552afa40333640bc7fbb6dac",
+      "file_path": "lib/sqlalchemy/dialects/mysql/base.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "51a7678db2f0fcb1552afa40333640bc7fbb6dac",
+      "file_path": "lib/sqlalchemy/dialects/mysql/mysqlconnector.py",
+      "same_function": true,
+      "function_name": "_compat_fetchall",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "51a7678db2f0fcb1552afa40333640bc7fbb6dac",
+      "file_path": "lib/sqlalchemy/pool/base.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "262bdf02288daf9a37b9e815b44acafd62b5c6fe",
+      "file_path": "src/click/testing.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "262bdf02288daf9a37b9e815b44acafd62b5c6fe",
+      "file_path": "tests/test_chain.py",
+      "same_function": true,
+      "function_name": "a",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6d8bfd1d1d3031e8c198a834a3a7bcddb7266620",
+      "file_path": "t/integration/test_tasks.py",
+      "same_function": true,
+      "function_name": "_producer",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "src/click/core.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "src/click/exceptions.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "src/click/shell_completion.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "src/click/testing.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "tests/test_options.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "tests/test_shell_completion.py",
+      "same_function": true,
+      "function_name": "_get_completions",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8bc912710774c7b4c84f5d4effd0c764f3e2bbb9",
+      "file_path": "tests/test_testing.py",
+      "same_function": true,
+      "function_name": "cli",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/__init__.py",
+      "same_function": true,
+      "function_name": "__go",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/decl_api.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/events.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/mapper.py",
+      "same_function": true,
+      "function_name": "__clause_element__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/properties.py",
+      "same_function": true,
+      "function_name": "__clause_element__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/orm/util.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/sql/sqltypes.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/sql/type_api.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "lib/sqlalchemy/util/typing.py",
+      "same_function": true,
+      "function_name": "__delete__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7111dc0cbaae2070173e9f4a054745ee7d036dfa",
+      "file_path": "test/orm/test_events.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "72ae3dbf9608a70df683d081cf53146a8d79f1ea",
+      "file_path": "src/_pytest/fixtures.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "72ae3dbf9608a70df683d081cf53146a8d79f1ea",
+      "file_path": "testing/python/fixtures.py",
+      "same_function": true,
+      "function_name": "check",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "456727df50c7dc29ddc31c6f67c1be21771386fa",
+      "file_path": "lib/sqlalchemy/testing/suite/test_reflection.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/_options.py",
+      "same_function": true,
+      "function_name": "_R_finalizer",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/_parametrize.py",
+      "same_function": true,
+      "function_name": "__dir__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/_resolver.py",
+      "same_function": true,
+      "function_name": "__dir__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/_typing.py",
+      "same_function": true,
+      "function_name": "__dir__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/manifest.py",
+      "same_function": true,
+      "function_name": "__contains__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/tasks.py",
+      "same_function": true,
+      "function_name": "__dir__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "nox/tox_to_nox.py",
+      "same_function": true,
+      "function_name": "__dir__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "noxfile.py",
+      "same_function": true,
+      "function_name": "_check_python_version",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "tests/test__cli.py",
+      "same_function": true,
+      "function_name": "test_dependencies_with_url",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "tests/test_main.py",
+      "same_function": true,
+      "function_name": "_run_nox",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "tests/test_sessions.py",
+      "same_function": true,
+      "function_name": "_run_with_defaults",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e3afd2dd02f608690393d0a0b5074dab1f883353",
+      "file_path": "tests/test_virtualenv.py",
+      "same_function": true,
+      "function_name": "factory",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d56b1af5252ceb8578d6751a6b2006e79defbb08",
+      "file_path": "src/_pytest/fixtures.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1b6ebb17b7fe64488a7b3c3b4b0187bb14fe331b",
+      "file_path": "mypyc/build.py",
+      "same_function": true,
+      "function_name": "build_single_module",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1b6ebb17b7fe64488a7b3c3b4b0187bb14fe331b",
+      "file_path": "mypyc/common.py",
+      "same_function": true,
+      "function_name": "bitmap_name",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1b6ebb17b7fe64488a7b3c3b4b0187bb14fe331b",
+      "file_path": "mypyc/lib-rt/setup.py",
+      "same_function": true,
+      "function_name": "get_library_names",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "81eaa5d1fb139d62418e16ee69d45b9c89ce46cb",
+      "file_path": "mypyc/codegen/emit.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4ff1d604f9bec061fb1936b80d3ed09979d930e8",
+      "file_path": "lib/sqlalchemy/orm/decl_base.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4ff1d604f9bec061fb1936b80d3ed09979d930e8",
+      "file_path": "test/orm/declarative/test_dc_transforms.py",
+      "same_function": true,
+      "function_name": "__mapper_args__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4ff1d604f9bec061fb1936b80d3ed09979d930e8",
+      "file_path": "test/orm/declarative/test_dc_transforms_future_anno_sync.py",
+      "same_function": true,
+      "function_name": "__mapper_args__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "544b97ec296e16e4c96a42a1b81d5dcd841cf232",
+      "file_path": "mypyc/irbuild/builder.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "544b97ec296e16e4c96a42a1b81d5dcd841cf232",
+      "file_path": "mypyc/irbuild/env_class.py",
+      "same_function": true,
+      "function_name": "add_args_to_env",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "78eb3948c496e5944d485fd0f37d3908e4e5f9d7",
+      "file_path": "src/tox/config/loader/ini/__init__.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "78eb3948c496e5944d485fd0f37d3908e4e5f9d7",
+      "file_path": "tests/config/loader/ini/test_factor.py",
+      "same_function": true,
+      "function_name": "complex_example",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6c4a77ba24854dab793a8ff72110a0a24c403c9f",
+      "file_path": "src/click/core.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "459e1c3d3bbde42c14bcb5df1db08933ff72c797",
+      "file_path": "tornado/web.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "b665afc848a83f7498b9a52c467ec255bbd208a1",
+      "file_path": "src/_pytest/config/__init__.py",
+      "same_function": true,
+      "function_name": "__delitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "cfcad08dbd4c2c4247f505d9a34ff5c09586b42e",
+      "file_path": "aiohttp/compression_utils.py",
+      "same_function": true,
+      "function_name": "MAX_WBITS",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "cfcad08dbd4c2c4247f505d9a34ff5c09586b42e",
+      "file_path": "tests/test_compression_utils.py",
+      "same_function": true,
+      "function_name": "test_compression_round_trip_in_event_loop",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "cfcad08dbd4c2c4247f505d9a34ff5c09586b42e",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_gen_ids",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2dc02ee0874134993c39dc071c11cda0aeb738f5",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2dc02ee0874134993c39dc071c11cda0aeb738f5",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_gen_ids",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f4dc0deedbae67a94b0ab86b6a0e748249f26d83",
+      "file_path": "aiohttp/base_protocol.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f4dc0deedbae67a94b0ab86b6a0e748249f26d83",
+      "file_path": "tests/test_web_server.py",
+      "same_function": true,
+      "function_name": "handler",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "522439ace1c695c5b73d4c27f2d67bba37277fa7",
+      "file_path": "aiohttp/worker.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "70ba324f34110ef42e2106c4359035a4d5e10714",
+      "file_path": "invoke/tasks.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7eb057747aa8ac6b0031fd032b8e2bda53d98b53",
+      "file_path": "tests/test_cookie_helpers.py",
+      "same_function": true,
+      "function_name": "test_bool_attrs_is_superset_of_morsel_flags",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d9b39790d526085b83770ee4de15fb0da14ee2e6",
+      "file_path": "celery/app/defaults.py",
+      "same_function": true,
+      "function_name": "Namespace",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d9b39790d526085b83770ee4de15fb0da14ee2e6",
+      "file_path": "celery/backends/rpc.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "d9b39790d526085b83770ee4de15fb0da14ee2e6",
+      "file_path": "t/unit/backends/test_rpc.py",
+      "same_function": true,
+      "function_name": "get_backend",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7eb0e8029cdb270a98a203bc5d4bad32cdc2c19c",
+      "file_path": "aiohttp/_cookie_helpers.py",
+      "same_function": true,
+      "function_name": "_unquote",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7eb0e8029cdb270a98a203bc5d4bad32cdc2c19c",
+      "file_path": "tests/test_cookie_helpers.py",
+      "same_function": true,
+      "function_name": "_mock_setstate",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0f71fe771ceefd5715b3b375c9b2e3a701c0648e",
+      "file_path": "src/click/core.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0f71fe771ceefd5715b3b375c9b2e3a701c0648e",
+      "file_path": "tests/test_options.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "a868ca9da80ebbc70c15c2d079ee135bf2569b43",
+      "file_path": "aiohttp/client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "a868ca9da80ebbc70c15c2d079ee135bf2569b43",
+      "file_path": "tests/test_client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2a35975f49ca12d9c32d3982a8efff75c9313d3b",
+      "file_path": "tests/test_client_middleware.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "77e2e2d701139ec9861d200503b403a43adad932",
+      "file_path": "tests/test_benchmarks_web_urldispatcher.py",
+      "same_function": true,
+      "function_name": "_mock_request",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "1a7de6fa49bcbfa72db517a7449a62ba46362819",
+      "file_path": "tests/test_client_functional.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dbe83fd0776fd91b94543c354f5b8172b49a1d15",
+      "file_path": "tests/conftest.py",
+      "same_function": true,
+      "function_name": "_proto_factory",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dbe83fd0776fd91b94543c354f5b8172b49a1d15",
+      "file_path": "tests/test_web_functional.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "b26cfbff865fcb7c3f89f37d0c351fb25193fb1d",
+      "file_path": "tests/test_run_app.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f69522cbfe6191bb60a926b5c313590f00349e9a",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_gen_ids",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ca9d73ddf1e2a182e058641561b7766186b30485",
+      "file_path": "aiohttp/abc.py",
+      "same_function": true,
+      "function_name": "__await__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ca9d73ddf1e2a182e058641561b7766186b30485",
+      "file_path": "aiohttp/cookiejar.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ca9d73ddf1e2a182e058641561b7766186b30485",
+      "file_path": "tests/test_client_session.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "ca9d73ddf1e2a182e058641561b7766186b30485",
+      "file_path": "tests/test_cookiejar.py",
+      "same_function": true,
+      "function_name": "cookies_to_receive",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "46478fad53774fad76d829f51679824d0131a0b3",
+      "file_path": "src/_pytest/fixtures.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "46478fad53774fad76d829f51679824d0131a0b3",
+      "file_path": "testing/test_conftest.py",
+      "same_function": true,
+      "function_name": "ConftestWithSetinitial",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "121d7a42a539cbda3fc1d0d53ba53901343a2e23",
+      "file_path": "src/_pytest/unittest.py",
+      "same_function": true,
+      "function_name": "_addexcinfo",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "808fd28297f36bf932443bae77ca5bb16bcbd4dd",
+      "file_path": "test/orm/test_selectin_relations.py",
+      "same_function": true,
+      "function_name": "_collection_to_collection_fixture",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2a4247b1adba3c9a6b1cb0bd6135f332f8ff2f3a",
+      "file_path": "aiohttp/test_utils.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2a4247b1adba3c9a6b1cb0bd6135f332f8ff2f3a",
+      "file_path": "aiohttp/web_ws.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2a4247b1adba3c9a6b1cb0bd6135f332f8ff2f3a",
+      "file_path": "tests/test_web_websocket_functional.py",
+      "same_function": true,
+      "function_name": "handle_null",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e8832aee7f694979292740b9b56a9c98fb0afc1a",
+      "file_path": "aiohttp/compression_utils.py",
+      "same_function": true,
+      "function_name": "MAX_WBITS",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e8832aee7f694979292740b9b56a9c98fb0afc1a",
+      "file_path": "tests/test_compression_utils.py",
+      "same_function": true,
+      "function_name": "test_compression_round_trip_in_event_loop",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e8832aee7f694979292740b9b56a9c98fb0afc1a",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_gen_ids",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0d864ff9644205e5aa860e7598e4984aff6e07a9",
+      "file_path": "tests/test_web_sendfile.py",
+      "same_function": true,
+      "function_name": "capture_write",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "972e68c6563a0c8942dad0be0573fbd8d625b1aa",
+      "file_path": "tests/test_connector.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4eb358863b3797af1e5a6712b02a01f4a7fe985d",
+      "file_path": "aiohttp/connector.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "4eb358863b3797af1e5a6712b02a01f4a7fe985d",
+      "file_path": "tests/test_connector.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "a927da1643b764bccfab91a0a683697b21333c05",
+      "file_path": "aiohttp/web_protocol.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "a927da1643b764bccfab91a0a683697b21333c05",
+      "file_path": "tests/test_web_websocket_functional.py",
+      "same_function": true,
+      "function_name": "handle_null",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/bulk.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/client_bulk.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/command_cursor.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/cursor.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/network.py",
+      "same_function": true,
+      "function_name": "command",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/asynchronous/server.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/bulk.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/client_bulk.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/command_cursor.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/cursor.py",
+      "same_function": true,
+      "function_name": "__copy__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/network.py",
+      "same_function": true,
+      "function_name": "command",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fff9bbff163276191925148204ce47ecfa207fb1",
+      "file_path": "pymongo/synchronous/server.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "69dff14d94b11c81bca6df3982c09a1176a1ca12",
+      "file_path": "aiohttp/streams.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e7d755d9a7a6220114df1ed4f6a879d597b823dc",
+      "file_path": "aiohttp/worker.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "e7d755d9a7a6220114df1ed4f6a879d597b823dc",
+      "file_path": "tests/test_worker.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "74a7a63bb4844f4f8e426fa1f6b6a073a89ef01d",
+      "file_path": "celery/backends/redis.py",
+      "same_function": true,
+      "function_name": "ConnectionPool",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "74a7a63bb4844f4f8e426fa1f6b6a073a89ef01d",
+      "file_path": "t/unit/backends/test_redis.py",
+      "same_function": true,
+      "function_name": "__enter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "0dcfa5e9ea49e481a7a35130f654cbdd3a8c1405",
+      "file_path": "lib/sqlalchemy/testing/fixtures/base.py",
+      "same_function": true,
+      "function_name": "assert_",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f5e63e856708076a5a5d0500cb19b798cb0a94c2",
+      "file_path": "aiohttp/multipart.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "f5e63e856708076a5a5d0500cb19b798cb0a94c2",
+      "file_path": "tests/test_multipart_helpers.py",
+      "same_function": true,
+      "function_name": "test_attabspath",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "aiohttp/_websocket/reader_py.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "aiohttp/client.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "tests/autobahn/test_autobahn.py",
+      "same_function": true,
+      "function_name": "build_autobahn_testsuite",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "tests/test_benchmarks_http_websocket.py",
+      "same_function": true,
+      "function_name": "_drain_helper",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "tests/test_client_ws_functional.py",
+      "same_function": true,
+      "function_name": "delayed_send_frame",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "tests/test_websocket_parser.py",
+      "same_function": true,
+      "function_name": "_handle_frame",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "dcac82ea3323605097d77ae2dde60d389546a9ba",
+      "file_path": "tests/test_websocket_writer.py",
+      "same_function": true,
+      "function_name": "protocol",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "aiohttp/client.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "aiohttp/helpers.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "aiohttp/test_utils.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "aiohttp/web_response.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "tests/test_helpers.py",
+      "same_function": true,
+      "function_name": "_ipaddress_accepts_ipv4",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "tests/test_test_utils.py",
+      "same_function": true,
+      "function_name": "_create_example_app",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "c4de98382fb641cf3ffb26739920cc9d58ff0295",
+      "file_path": "tests/test_urldispatch.py",
+      "same_function": true,
+      "function_name": "app",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5ff087abcde85d0bef9b65bbde67d1131f5331b5",
+      "file_path": "aiohttp/multipart.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "5ff087abcde85d0bef9b65bbde67d1131f5331b5",
+      "file_path": "tests/test_multipart_helpers.py",
+      "same_function": true,
+      "function_name": "test_attabspath",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8ef76ab8029d0f2d88449fe115feb42ded646c7c",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8ef76ab8029d0f2d88449fe115feb42ded646c7c",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "8ef76ab8029d0f2d88449fe115feb42ded646c7c",
+      "file_path": "tests/test_web_functional.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fd07a7a7d7cdff58ca2a98c6c7a26149562e13a7",
+      "file_path": "aiohttp/multipart.py",
+      "same_function": true,
+      "function_name": "__aiter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fd07a7a7d7cdff58ca2a98c6c7a26149562e13a7",
+      "file_path": "tests/test_multipart_helpers.py",
+      "same_function": true,
+      "function_name": "test_attabspath",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "20cde095cf3e8f7fab2926a1bbbbe8e6ad189381",
+      "file_path": "aiohttp/client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "20cde095cf3e8f7fab2926a1bbbbe8e6ad189381",
+      "file_path": "tests/test_client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7d7892044c6fe663a566e78c58e5fd25ac6d57b1",
+      "file_path": "aiohttp/client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "7d7892044c6fe663a566e78c58e5fd25ac6d57b1",
+      "file_path": "tests/test_client_middleware_digest_auth.py",
+      "same_function": true,
+      "function_name": "H",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fe353185eb5c6eb87cb3cca92213c7098aa42437",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fe353185eb5c6eb87cb3cca92213c7098aa42437",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "9e00085c958fbcd40de37867e773bf7cd3bbee0c",
+      "file_path": "aiohttp/helpers.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "9e00085c958fbcd40de37867e773bf7cd3bbee0c",
+      "file_path": "tests/test_helpers.py",
+      "same_function": true,
+      "function_name": "_ipaddress_accepts_ipv4",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "06fd857c553a9e9cc7b4f30d179ee7582655e7e7",
+      "file_path": "lib/sqlalchemy/dialects/postgresql/base.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "06fd857c553a9e9cc7b4f30d179ee7582655e7e7",
+      "file_path": "lib/sqlalchemy/sql/compiler.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "06fd857c553a9e9cc7b4f30d179ee7582655e7e7",
+      "file_path": "lib/sqlalchemy/sql/sqltypes.py",
+      "same_function": true,
+      "function_name": "__getitem__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "06fd857c553a9e9cc7b4f30d179ee7582655e7e7",
+      "file_path": "test/sql/test_types.py",
+      "same_function": true,
+      "function_name": "__clause_element__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "cba121d5864966d95b48f4a790ff0cefad7f041f",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "cba121d5864966d95b48f4a790ff0cefad7f041f",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "6fc22da5925633ba905fd300c1f2e8c47f8ab3f8",
+      "file_path": "sympy/integrals/manualintegrate.py",
+      "same_function": true,
+      "function_name": "__eq__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "src/click/testing.py",
+      "same_function": true,
+      "function_name": "__getattr__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "tests/test_arguments.py",
+      "same_function": true,
+      "function_name": "bar",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "tests/test_basic.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "tests/test_shell_completion.py",
+      "same_function": true,
+      "function_name": "_get_completions",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "tests/test_testing.py",
+      "same_function": true,
+      "function_name": "cli",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "fbdd434028fe07ecf35084c945b43b938dfd639f",
+      "file_path": "tests/test_utils/test_open_file.py",
+      "same_function": true,
+      "function_name": "cli",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "663d356fb61fd48e9e0d2ec3ab60292b011c92f7",
+      "file_path": "aiohttp/http_parser.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "663d356fb61fd48e9e0d2ec3ab60292b011c92f7",
+      "file_path": "aiohttp/web_request.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "663d356fb61fd48e9e0d2ec3ab60292b011c92f7",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "663d356fb61fd48e9e0d2ec3ab60292b011c92f7",
+      "file_path": "tests/test_web_middleware.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "663d356fb61fd48e9e0d2ec3ab60292b011c92f7",
+      "file_path": "tests/test_web_request.py",
+      "same_function": true,
+      "function_name": "get_extra_info",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "a57747ed361c7d16b72053f168808d6e62b7929a",
+      "file_path": "tests/test_http_parser.py",
+      "same_function": true,
+      "function_name": "_build_request_parser",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b9068690af7f868ccd01552c58cf045afc6d9f6",
+      "file_path": "aiohttp/web_response.py",
+      "same_function": true,
+      "function_name": "__bool__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "2b9068690af7f868ccd01552c58cf045afc6d9f6",
+      "file_path": "tests/test_web_response.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "lib/sqlalchemy/ext/asyncio/engine.py",
+      "same_function": true,
+      "function_name": "__aexit__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "lib/sqlalchemy/ext/asyncio/scoping.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "lib/sqlalchemy/ext/asyncio/session.py",
+      "same_function": true,
+      "function_name": "__aenter__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "lib/sqlalchemy/orm/scoping.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "lib/sqlalchemy/orm/session.py",
+      "same_function": true,
+      "function_name": "__call__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "test/ext/asyncio/test_scoping.py",
+      "same_function": true,
+      "function_name": "test_attributes",
+      "candidate_content_in_function": true,
+      "structural_relationship": true,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "test/ext/asyncio/test_session.py",
+      "same_function": true,
+      "function_name": "ab_fixture",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "test/orm/test_bind.py",
+      "same_function": true,
+      "function_name": "_connection_for_bind",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    },
+    {
+      "commit_sha": "93ab40efdcd58869c9dc772676423b7fbf412a5e",
+      "file_path": "tools/generate_proxy_methods.py",
+      "same_function": true,
+      "function_name": "__init__",
+      "candidate_content_in_function": false,
+      "structural_relationship": false,
+      "ast_parse_success": true
+    }
+  ]
+}

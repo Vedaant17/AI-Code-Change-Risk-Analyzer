@@ -1,0 +1,53 @@
+{
+  "units": {
+    "commit_level": {
+      "label_availability": "high",
+      "label_count": 210,
+      "label_method": "revert/explicit_sha provides strong commit-level evidence",
+      "attribution_quality": "STRONG commit-level, but all files in commit labeled equally",
+      "coverage": "210/210 commits have evidence",
+      "leakage_risk": "low \u2014 commit features use only pre-commit information",
+      "practical_usefulness": "Limited \u2014 identifies which commits are risky but not which files within the commit. Entire commit treated as positive.",
+      "investigation_budget": "Commit-level budget means reviewing ALL files in a commit. For commits touching 30+ files (e.g., jinja2), this is impractical."
+    },
+    "file_level": {
+      "label_availability": "low",
+      "label_count": 702,
+      "label_method": "path intersection with corrective commit (Phase 4.8 FILE_PARTIAL only)",
+      "attribution_quality": "WEAK \u2014 path intersection only. No content, line, or function-level evidence available without repositories.",
+      "coverage": "702/1055 candidate files attributed (66.5%)",
+      "unknown_rate": "353/1055 unknown (33.5%)",
+      "leakage_risk": "low \u2014 file features use only pre-commit information",
+      "practical_usefulness": "High potential but currently limited by WEAK attribution. If repository-level evidence improves attribution, this becomes the most practically useful unit.",
+      "investigation_budget": "File-level budget means reviewing specific files. Current 108 attributed files across 38 commits is manageable."
+    },
+    "function_level": {
+      "label_availability": "none",
+      "label_count": 0,
+      "label_method": "requires repository history for AST parsing of diffs",
+      "attribution_quality": "UNAVAILABLE without repository access",
+      "coverage": "0% \u2014 not measurable from JSONL data",
+      "leakage_risk": "N/A",
+      "practical_usefulness": "Highest potential practical usefulness \u2014 functions are the natural unit of code review. But requires repo access.",
+      "investigation_budget": "Function-level budget is the most actionable for developers. Currently unavailable."
+    },
+    "hunk_level": {
+      "label_availability": "none",
+      "label_count": 0,
+      "label_method": "requires repository history for diff extraction",
+      "attribution_quality": "UNAVAILABLE without repository access",
+      "coverage": "0% \u2014 not measurable from JSONL data",
+      "leakage_risk": "N/A",
+      "practical_usefulness": "Most precise but hardest to act on. Requires repo access.",
+      "investigation_budget": "Hunk-level budget would be extremely targeted but requires infrastructure not available here."
+    }
+  },
+  "recommendation": "FILE_LEVEL has the strongest methodological foundation among available units. It has low label coverage (108/1055 = 10.2%) and WEAK attribution, but it is the only unit with any file-level evidence at all. Commit-level has strong labels but poor practical usefulness (too many files per commit). Function and hunk levels require repository access.",
+  "summary": {
+    "commit_labels": 210,
+    "file_labels": 702,
+    "file_unknown": 353,
+    "function_labels": 0,
+    "hunk_labels": 0
+  }
+}

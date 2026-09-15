@@ -1,0 +1,410 @@
+{
+  "candidate_negative_count": 107,
+  "defensible_negative_count": 0,
+  "candidate_negatives": [
+    {
+      "commit_sha": "c0b3c0d9861a5324fd371732630b0dd3e20d8081",
+      "repo_name": "bottle",
+      "file_path": "test/test_environ.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "0d4b53522fd907c2ace7e69333a5cbaa2ea316c6",
+      "repo_name": "bottle",
+      "file_path": "bottle.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "d85a6983ceedacd9ab9afbcd027139d8773b67ac",
+      "repo_name": "bottle",
+      "file_path": "test/test_mount.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "dc3ff2d91785eee49394bd7c8b9e75ddfb616ea4",
+      "repo_name": "bandit",
+      "file_path": "README.rst",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "5a3422e01fa63062dad7bc0f98943c5934a05bb6",
+      "repo_name": "flask-sqlalchemy",
+      "file_path": "CHANGES.rst",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "54d75a716ea6b56cef5ad88ab2de6324f36c0bab",
+      "repo_name": "bandit",
+      "file_path": "bandit/cli/main.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "bd100472443dcf4189630f6b1ed3ec0a61259dd8",
+      "repo_name": "requests",
+      "file_path": "AUTHORS.rst",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "26f7c1b1371e86b0aab7f640af980a59df1ec098",
+      "repo_name": "pymemcache",
+      "file_path": "pymemcache/__init__.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "26f7c1b1371e86b0aab7f640af980a59df1ec098",
+      "repo_name": "pymemcache",
+      "file_path": "ChangeLog.rst",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "14c323492a42415a4ad0a93f669bdf1c1b2e999a",
+      "repo_name": "requests",
+      "file_path": "ext/deepmind-kr.jpg",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "4b6077a8c0a0f56bb8dbac37f8f9027130b4091c",
+      "repo_name": "jinja2",
+      "file_path": "tests/res/package.zip",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "4b6077a8c0a0f56bb8dbac37f8f9027130b4091c",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/loaders.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "d2e0e78afe7c6ae864a20c2cc29e80936cff47af",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/loaders.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/compiler.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/asyncsupport.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/defaults.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/meta.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/constants.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/ext.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/filters.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/utils.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/runtime.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/debug.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/lexer.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/environment.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/loaders.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/asyncfilters.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/nativetypes.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/sandbox.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/bccache.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/visitor.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/tests.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/idtracking.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/optimizer.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/parser.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/__init__.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/_identifier.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/exceptions.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/_compat.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "eac9acb7aeabf6f3e0ed4cb876e200e5e72d0d0e",
+      "repo_name": "jinja2",
+      "file_path": "src/jinja2/nodes.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "60293416db69782fd048a7820667afa4ae7c423b",
+      "repo_name": "jinja2",
+      "file_path": "tests/test_nodes.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "60293416db69782fd048a7820667afa4ae7c423b",
+      "repo_name": "jinja2",
+      "file_path": "CHANGES.rst",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "repo_name": "uvicorn",
+      "file_path": "tests/test_gunicorn_workers.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "2b93b84d11ada021b01fc994280a678e910743c4",
+      "repo_name": "uvicorn",
+      "file_path": "scripts/test",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "2e17dd9ff3cbb826237639005fe2cd24bc8d225c",
+      "repo_name": "uvicorn",
+      "file_path": "uvicorn/protocols/http/httptools_impl.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "1dca2c6af2e6b17906daf13bf8e26e58ac37f9fa",
+      "repo_name": "networkx",
+      "file_path": "requirements/doc.txt",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "1dca2c6af2e6b17906daf13bf8e26e58ac37f9fa",
+      "repo_name": "networkx",
+      "file_path": "examples/geospatial/plot_delaunay.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "1dca2c6af2e6b17906daf13bf8e26e58ac37f9fa",
+      "repo_name": "networkx",
+      "file_path": "pyproject.toml",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "78c06af57ec0bc4afe84bf21289d2c0b50dcb313",
+      "repo_name": "celery",
+      "file_path": "CONTRIBUTORS.txt",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    },
+    {
+      "commit_sha": "78c06af57ec0bc4afe84bf21289d2c0b50dcb313",
+      "repo_name": "celery",
+      "file_path": "celery/app/task.py",
+      "strategy": "unaffected_in_corrective",
+      "status": "CANDIDATE_NEGATIVE",
+      "justification_required": true
+    }
+  ],
+  "conclusion": "No defensible negatives constructed. All proposed negatives remain CANDIDATE_NEGATIVE requiring independent justification.",
+  "strategies_investigated": [
+    "unaffected_files_in_corrective_commit"
+  ]
+}

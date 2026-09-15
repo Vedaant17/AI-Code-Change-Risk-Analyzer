@@ -1,0 +1,214 @@
+{
+  "total_commits": 210,
+  "commit_evidence_distribution": {
+    "COMMIT_STRONG": 210
+  },
+  "file_evidence_distribution": {
+    "FILE_STRONG": 499,
+    "UNKNOWN": 318,
+    "FILE_WEAK": 238
+  },
+  "evidence_type_distribution": {
+    "EXACT_CANDIDATE_CONTENT_REMOVAL": 479,
+    "SAME_REGION_OVERLAP": 620,
+    "SAME_FUNCTION_ONLY": 421,
+    "CONTENT_RESTORATION": 420,
+    "SAME_FUNCTION_CANDIDATE_CONTENT": 95
+  },
+  "total_attributed_files": 737,
+  "total_candidate_files": 1055,
+  "total_unknown_files": 318,
+  "repos_with_positives": 42,
+  "per_repo_breakdown": {
+    "bottle": {
+      "commits": 5,
+      "files": 0
+    },
+    "flask-sqlalchemy": {
+      "commits": 2,
+      "files": 0
+    },
+    "flask-wtf": {
+      "commits": 1,
+      "files": 0
+    },
+    "treq": {
+      "commits": 3,
+      "files": 0
+    },
+    "itsdangerous": {
+      "commits": 1,
+      "files": 0
+    },
+    "bandit": {
+      "commits": 5,
+      "files": 0
+    },
+    "httpie": {
+      "commits": 2,
+      "files": 0
+    },
+    "flask-testing": {
+      "commits": 1,
+      "files": 0
+    },
+    "cherrypy": {
+      "commits": 11,
+      "files": 0
+    },
+    "fabric": {
+      "commits": 1,
+      "files": 0
+    },
+    "requests": {
+      "commits": 7,
+      "files": 0
+    },
+    "tornado": {
+      "commits": 4,
+      "files": 0
+    },
+    "pymemcache": {
+      "commits": 3,
+      "files": 0
+    },
+    "invoke": {
+      "commits": 2,
+      "files": 0
+    },
+    "jinja2": {
+      "commits": 7,
+      "files": 0
+    },
+    "pyyaml": {
+      "commits": 1,
+      "files": 0
+    },
+    "marshmallow": {
+      "commits": 3,
+      "files": 0
+    },
+    "httpx": {
+      "commits": 2,
+      "files": 0
+    },
+    "uvicorn": {
+      "commits": 13,
+      "files": 0
+    },
+    "isort": {
+      "commits": 2,
+      "files": 0
+    },
+    "pre-commit": {
+      "commits": 2,
+      "files": 0
+    },
+    "paramiko": {
+      "commits": 2,
+      "files": 0
+    },
+    "starlette": {
+      "commits": 5,
+      "files": 0
+    },
+    "urllib3": {
+      "commits": 4,
+      "files": 0
+    },
+    "redis": {
+      "commits": 1,
+      "files": 0
+    },
+    "werkzeug": {
+      "commits": 1,
+      "files": 0
+    },
+    "celery": {
+      "commits": 14,
+      "files": 0
+    },
+    "networkx": {
+      "commits": 5,
+      "files": 0
+    },
+    "black": {
+      "commits": 3,
+      "files": 0
+    },
+    "rich": {
+      "commits": 1,
+      "files": 0
+    },
+    "sqlalchemy": {
+      "commits": 13,
+      "files": 0
+    },
+    "flask": {
+      "commits": 1,
+      "files": 0
+    },
+    "click": {
+      "commits": 5,
+      "files": 0
+    },
+    "tox": {
+      "commits": 2,
+      "files": 0
+    },
+    "pytest": {
+      "commits": 17,
+      "files": 0
+    },
+    "nox": {
+      "commits": 2,
+      "files": 0
+    },
+    "mypy": {
+      "commits": 4,
+      "files": 0
+    },
+    "Pillow": {
+      "commits": 5,
+      "files": 0
+    },
+    "pydantic": {
+      "commits": 2,
+      "files": 0
+    },
+    "aiohttp": {
+      "commits": 43,
+      "files": 0
+    },
+    "pymongo": {
+      "commits": 1,
+      "files": 0
+    },
+    "sympy": {
+      "commits": 1,
+      "files": 0
+    }
+  },
+  "per_split_breakdown": {
+    "train": {
+      "commits": 111,
+      "files": 0
+    },
+    "validation": {
+      "commits": 42,
+      "files": 0
+    },
+    "test": {
+      "commits": 57,
+      "files": 0
+    }
+  },
+  "object_failure_count": 19,
+  "baseline_comparison": {
+    "phase48_file_partial": 38,
+    "phase48_file_exact": 0,
+    "phase411a_file_weak": 185,
+    "phase411a_file_moderate": 0,
+    "phase411a_file_strong": 0
+  }
+}

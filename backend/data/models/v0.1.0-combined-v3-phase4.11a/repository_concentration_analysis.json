@@ -1,0 +1,574 @@
+{
+  "total_repos_with_positives": 42,
+  "total_positive_commits": 210,
+  "total_candidate_files": 1055,
+  "gini_coefficient": 0.5442,
+  "top_5_share": 0.4762,
+  "repos": [
+    {
+      "repo": "aiohttp",
+      "commits": 43,
+      "commit_fraction": 0.2048,
+      "files": 136,
+      "attributed_files": 135,
+      "unknown_files": 1,
+      "commit_strong": 43,
+      "file_weak": 43,
+      "splits": [
+        "test",
+        "validation"
+      ]
+    },
+    {
+      "repo": "pytest",
+      "commits": 17,
+      "commit_fraction": 0.081,
+      "files": 47,
+      "attributed_files": 10,
+      "unknown_files": 37,
+      "commit_strong": 17,
+      "file_weak": 6,
+      "splits": [
+        "test",
+        "validation"
+      ]
+    },
+    {
+      "repo": "celery",
+      "commits": 14,
+      "commit_fraction": 0.0667,
+      "files": 32,
+      "attributed_files": 24,
+      "unknown_files": 8,
+      "commit_strong": 14,
+      "file_weak": 13,
+      "splits": [
+        "test",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "sqlalchemy",
+      "commits": 13,
+      "commit_fraction": 0.0619,
+      "files": 148,
+      "attributed_files": 44,
+      "unknown_files": 104,
+      "commit_strong": 13,
+      "file_weak": 10,
+      "splits": [
+        "test",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "uvicorn",
+      "commits": 13,
+      "commit_fraction": 0.0619,
+      "files": 44,
+      "attributed_files": 33,
+      "unknown_files": 11,
+      "commit_strong": 13,
+      "file_weak": 13,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "cherrypy",
+      "commits": 11,
+      "commit_fraction": 0.0524,
+      "files": 122,
+      "attributed_files": 122,
+      "unknown_files": 0,
+      "commit_strong": 11,
+      "file_weak": 11,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "jinja2",
+      "commits": 7,
+      "commit_fraction": 0.0333,
+      "files": 143,
+      "attributed_files": 67,
+      "unknown_files": 76,
+      "commit_strong": 7,
+      "file_weak": 5,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "requests",
+      "commits": 7,
+      "commit_fraction": 0.0333,
+      "files": 15,
+      "attributed_files": 14,
+      "unknown_files": 1,
+      "commit_strong": 7,
+      "file_weak": 6,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "Pillow",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 7,
+      "attributed_files": 7,
+      "unknown_files": 0,
+      "commit_strong": 5,
+      "file_weak": 5,
+      "splits": [
+        "validation"
+      ]
+    },
+    {
+      "repo": "bandit",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 33,
+      "attributed_files": 22,
+      "unknown_files": 11,
+      "commit_strong": 5,
+      "file_weak": 4,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "bottle",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 7,
+      "attributed_files": 4,
+      "unknown_files": 3,
+      "commit_strong": 5,
+      "file_weak": 3,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "click",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 27,
+      "attributed_files": 24,
+      "unknown_files": 3,
+      "commit_strong": 5,
+      "file_weak": 5,
+      "splits": [
+        "test",
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "networkx",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 44,
+      "attributed_files": 40,
+      "unknown_files": 4,
+      "commit_strong": 5,
+      "file_weak": 4,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "starlette",
+      "commits": 5,
+      "commit_fraction": 0.0238,
+      "files": 9,
+      "attributed_files": 9,
+      "unknown_files": 0,
+      "commit_strong": 5,
+      "file_weak": 5,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "mypy",
+      "commits": 4,
+      "commit_fraction": 0.019,
+      "files": 56,
+      "attributed_files": 10,
+      "unknown_files": 46,
+      "commit_strong": 4,
+      "file_weak": 3,
+      "splits": [
+        "validation"
+      ]
+    },
+    {
+      "repo": "tornado",
+      "commits": 4,
+      "commit_fraction": 0.019,
+      "files": 6,
+      "attributed_files": 5,
+      "unknown_files": 1,
+      "commit_strong": 4,
+      "file_weak": 4,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "urllib3",
+      "commits": 4,
+      "commit_fraction": 0.019,
+      "files": 11,
+      "attributed_files": 6,
+      "unknown_files": 5,
+      "commit_strong": 4,
+      "file_weak": 4,
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "repo": "black",
+      "commits": 3,
+      "commit_fraction": 0.0143,
+      "files": 4,
+      "attributed_files": 4,
+      "unknown_files": 0,
+      "commit_strong": 3,
+      "file_weak": 3,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "marshmallow",
+      "commits": 3,
+      "commit_fraction": 0.0143,
+      "files": 4,
+      "attributed_files": 4,
+      "unknown_files": 0,
+      "commit_strong": 3,
+      "file_weak": 3,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "pymemcache",
+      "commits": 3,
+      "commit_fraction": 0.0143,
+      "files": 6,
+      "attributed_files": 5,
+      "unknown_files": 1,
+      "commit_strong": 3,
+      "file_weak": 3,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "treq",
+      "commits": 3,
+      "commit_fraction": 0.0143,
+      "files": 4,
+      "attributed_files": 4,
+      "unknown_files": 0,
+      "commit_strong": 3,
+      "file_weak": 3,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "flask-sqlalchemy",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 3,
+      "attributed_files": 3,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "httpie",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 3,
+      "attributed_files": 3,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "httpx",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 7,
+      "attributed_files": 7,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "invoke",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 5,
+      "attributed_files": 3,
+      "unknown_files": 2,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "isort",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 30,
+      "attributed_files": 30,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "nox",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 18,
+      "attributed_files": 14,
+      "unknown_files": 4,
+      "commit_strong": 2,
+      "file_weak": 1,
+      "splits": [
+        "test",
+        "validation"
+      ]
+    },
+    {
+      "repo": "paramiko",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 2,
+      "attributed_files": 2,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "pre-commit",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 3,
+      "attributed_files": 3,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "pydantic",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 7,
+      "attributed_files": 7,
+      "unknown_files": 0,
+      "commit_strong": 2,
+      "file_weak": 2,
+      "splits": [
+        "validation"
+      ]
+    },
+    {
+      "repo": "tox",
+      "commits": 2,
+      "commit_fraction": 0.0095,
+      "files": 9,
+      "attributed_files": 2,
+      "unknown_files": 7,
+      "commit_strong": 2,
+      "file_weak": 1,
+      "splits": [
+        "train",
+        "validation"
+      ]
+    },
+    {
+      "repo": "fabric",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 8,
+      "attributed_files": 8,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "flask",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 24,
+      "attributed_files": 1,
+      "unknown_files": 23,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "flask-testing",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 3,
+      "attributed_files": 3,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "flask-wtf",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 1,
+      "attributed_files": 1,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "itsdangerous",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 2,
+      "attributed_files": 2,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "pymongo",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 13,
+      "attributed_files": 13,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "test"
+      ]
+    },
+    {
+      "repo": "pyyaml",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 1,
+      "attributed_files": 1,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "redis",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 6,
+      "attributed_files": 2,
+      "unknown_files": 4,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "rich",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 1,
+      "attributed_files": 1,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "repo": "sympy",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 1,
+      "attributed_files": 1,
+      "unknown_files": 0,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "test"
+      ]
+    },
+    {
+      "repo": "werkzeug",
+      "commits": 1,
+      "commit_fraction": 0.0048,
+      "files": 3,
+      "attributed_files": 2,
+      "unknown_files": 1,
+      "commit_strong": 1,
+      "file_weak": 1,
+      "splits": [
+        "train"
+      ]
+    }
+  ],
+  "repos_with_strong_commit_evidence": 42,
+  "repos_with_file_attribution": 42
+}

@@ -1,0 +1,35 @@
+{
+  "total_candidate_files": 1055,
+  "total_unknown_files": 353,
+  "total_path_overlap_files": 702,
+  "defensible_negative_count": 0,
+  "candidate_negative_count": 0,
+  "conclusion": "No defensible negatives can be constructed from existing JSONL data alone. All four investigated strategies require repository history access (commit timestamps, subsequent commits, neighboring changes). This is consistent with Phase 4.8 and Phase 4.9 findings.",
+  "strategies_investigated": {
+    "strategy_1_survival": {
+      "description": "Long post-change survival without defect attribution",
+      "feasible_without_repos": false,
+      "reason": "Requires git history to determine observation windows and subsequent commits",
+      "candidate_negative_count": 0
+    },
+    "strategy_2_subsequent_commits": {
+      "description": "Subsequent commits without defect attribution",
+      "feasible_without_repos": false,
+      "reason": "Requires git log to find subsequent commits to same file",
+      "candidate_negative_count": 0
+    },
+    "strategy_3_neighboring_correction": {
+      "description": "Independent corrective commits affecting neighboring code",
+      "feasible_without_repos": false,
+      "reason": "Requires git history to identify neighboring changes",
+      "candidate_negative_count": 0
+    },
+    "strategy_4_stable_files": {
+      "description": "Files with sufficient observation windows and no defect evidence",
+      "feasible_without_repos": false,
+      "reason": "Requires commit timestamps and window duration analysis",
+      "candidate_negative_count": 0
+    }
+  },
+  "requires_repo_access": true
+}

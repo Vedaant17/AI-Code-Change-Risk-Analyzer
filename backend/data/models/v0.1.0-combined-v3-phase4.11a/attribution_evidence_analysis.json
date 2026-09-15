@@ -1,0 +1,309 @@
+{
+  "total_commits": 210,
+  "commit_evidence_distribution": {
+    "COMMIT_STRONG": 210
+  },
+  "file_evidence_distribution": {
+    "FILE_WEAK": 185,
+    "UNKNOWN": 25
+  },
+  "phase48_baseline_distribution": {
+    "COMMIT_ONLY": 172,
+    "FILE_PARTIAL": 38
+  },
+  "per_repo_breakdown": {
+    "Pillow": {
+      "commits": 5,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 5,
+      "NO_ATTRIBUTION": 0
+    },
+    "aiohttp": {
+      "commits": 43,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 42,
+      "NO_ATTRIBUTION": 0
+    },
+    "bandit": {
+      "commits": 5,
+      "FILE_PARTIAL": 2,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "black": {
+      "commits": 3,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "bottle": {
+      "commits": 5,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 4,
+      "NO_ATTRIBUTION": 0
+    },
+    "celery": {
+      "commits": 14,
+      "FILE_PARTIAL": 3,
+      "COMMIT_ONLY": 11,
+      "NO_ATTRIBUTION": 0
+    },
+    "cherrypy": {
+      "commits": 11,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 11,
+      "NO_ATTRIBUTION": 0
+    },
+    "click": {
+      "commits": 5,
+      "FILE_PARTIAL": 2,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "fabric": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "flask": {
+      "commits": 1,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 0,
+      "NO_ATTRIBUTION": 0
+    },
+    "flask-sqlalchemy": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "flask-testing": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "flask-wtf": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "httpie": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "httpx": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "invoke": {
+      "commits": 2,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "isort": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "itsdangerous": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "jinja2": {
+      "commits": 7,
+      "FILE_PARTIAL": 3,
+      "COMMIT_ONLY": 4,
+      "NO_ATTRIBUTION": 0
+    },
+    "marshmallow": {
+      "commits": 3,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "mypy": {
+      "commits": 4,
+      "FILE_PARTIAL": 2,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "networkx": {
+      "commits": 5,
+      "FILE_PARTIAL": 2,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "nox": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "paramiko": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "pre-commit": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "pydantic": {
+      "commits": 2,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "pymemcache": {
+      "commits": 3,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 2,
+      "NO_ATTRIBUTION": 0
+    },
+    "pymongo": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "pytest": {
+      "commits": 17,
+      "FILE_PARTIAL": 3,
+      "COMMIT_ONLY": 14,
+      "NO_ATTRIBUTION": 0
+    },
+    "pyyaml": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "redis": {
+      "commits": 1,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 0,
+      "NO_ATTRIBUTION": 0
+    },
+    "requests": {
+      "commits": 7,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 7,
+      "NO_ATTRIBUTION": 0
+    },
+    "rich": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "sqlalchemy": {
+      "commits": 13,
+      "FILE_PARTIAL": 6,
+      "COMMIT_ONLY": 7,
+      "NO_ATTRIBUTION": 0
+    },
+    "starlette": {
+      "commits": 5,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 5,
+      "NO_ATTRIBUTION": 0
+    },
+    "sympy": {
+      "commits": 1,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "tornado": {
+      "commits": 4,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "tox": {
+      "commits": 2,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 1,
+      "NO_ATTRIBUTION": 0
+    },
+    "treq": {
+      "commits": 3,
+      "FILE_PARTIAL": 0,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "urllib3": {
+      "commits": 4,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 3,
+      "NO_ATTRIBUTION": 0
+    },
+    "uvicorn": {
+      "commits": 13,
+      "FILE_PARTIAL": 5,
+      "COMMIT_ONLY": 8,
+      "NO_ATTRIBUTION": 0
+    },
+    "werkzeug": {
+      "commits": 1,
+      "FILE_PARTIAL": 1,
+      "COMMIT_ONLY": 0,
+      "NO_ATTRIBUTION": 0
+    }
+  },
+  "per_split_breakdown": {
+    "validation": {
+      "commits": 42,
+      "categories": {
+        "COMMIT_ONLY": 36,
+        "FILE_PARTIAL": 6
+      }
+    },
+    "test": {
+      "commits": 57,
+      "categories": {
+        "COMMIT_ONLY": 51,
+        "FILE_PARTIAL": 6
+      }
+    },
+    "train": {
+      "commits": 111,
+      "categories": {
+        "COMMIT_ONLY": 85,
+        "FILE_PARTIAL": 26
+      }
+    }
+  },
+  "commits_with_any_attribution": 185,
+  "total_attributed_files": 702,
+  "source_breakdown": {
+    "revert": {
+      "commits": 96,
+      "commit_strong": 96,
+      "file_weak": 93
+    },
+    "explicit_sha_reference": {
+      "commits": 114,
+      "commit_strong": 114,
+      "file_weak": 92
+    }
+  },
+  "contextual_signals_summary": {
+    "message_file_match_count": 99,
+    "test_prod_mixed_commits": 101
+  }
+}

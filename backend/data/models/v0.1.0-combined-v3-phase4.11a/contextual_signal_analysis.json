@@ -1,0 +1,27 @@
+{
+  "message_file_signal": {
+    "commits_with_match": 99,
+    "total_commits": 210,
+    "note": "Contextual signal only \u2014 NOT causal attribution"
+  },
+  "file_status_pattern": {
+    "commits_with_overlap": 208,
+    "total_commits": 210,
+    "note": "Descriptive pattern \u2014 NOT causal attribution"
+  },
+  "feature_proximity": {
+    "commits_with_data": 210,
+    "mean_cosine": 0.886927,
+    "note": "Contextual predictor signal \u2014 NOT attribution evidence"
+  },
+  "test_separation": {
+    "mixed_commits": 101,
+    "total_commits": 210,
+    "note": "Contextual signal \u2014 NOT attribution evidence"
+  },
+  "corrective_exclusivity": {
+    "commits_with_data": 210,
+    "mean_overlap_ratio": 0.8264,
+    "note": "Descriptive statistic \u2014 NOT attribution evidence"
+  }
+}
