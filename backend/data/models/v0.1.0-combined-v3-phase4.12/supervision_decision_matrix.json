@@ -1,0 +1,253 @@
+{
+  "decision_matrix": [
+    {
+      "evidence_available": {
+        "evidence_unknown": 314,
+        "evidence_weak": 238,
+        "observed_positive": 499,
+        "total": 54389,
+        "unlabeled": 53224
+      },
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "PU ranking is identifiable but class prior and SCAR are not. Proceed with observed-positive ranking only, not prevalence estimation.",
+      "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "PU_LEARNING",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "NOT_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "No criterion produces defensible negatives with available evidence. All produce candidate negatives only.",
+      "recommended_for_4.13": "DO_NOT_PROCEED",
+      "required_assumptions": [],
+      "risk_of_label_bias": "NONE",
+      "strategy": "RELIABLE_NEGATIVES",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Observation windows are computable from available timestamps. However, censoring is informative and survival analysis is confounded by selection bias. Temporal survival is exposure/censoring analysis only, not negative-label evidence.",
+      "recommended_for_4.13": "FEASIBILITY_ONLY",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "TEMPORAL_NEGATIVES",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Matched controls reduce confounding but are NOT negative labels. They may serve as ranking references or evaluation strata. Selection bias and residual confounding remain.",
+      "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "REPOSITORY_CONTROLS",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "NOT_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Files in corrective commits without strong attribution are candidate controls/unlabeled, NOT negative labels. Absence of strong attribution evidence does not establish absence of defect.",
+      "recommended_for_4.13": "DO_NOT_PROCEED",
+      "required_assumptions": [],
+      "risk_of_label_bias": "NONE",
+      "strategy": "CORRECTIVE_COMMIT_CONTROLS",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Evidence-ranking pairs are constructible from available data with verified identity. The partial ordering is evidence-based, not true-defect-based. Proceed with explicit caveats about evidence semantics.",
+      "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "EVIDENCE_RANKING",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Weak signals exist but are correlated. Dependency-aware label modeling is possible in principle but requires explicit implementation of the implication structure.",
+      "recommended_for_4.13": "FEASIBILITY_ONLY",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "WEAK_SUPERVISION",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "NOT_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Domain shift between synthetic and real examples makes synthetic negatives unreliable for training. No synthetic dataset should be generated.",
+      "recommended_for_4.13": "DO_NOT_PROCEED",
+      "required_assumptions": [],
+      "risk_of_label_bias": "NONE",
+      "strategy": "SYNTHETIC_NEGATIVES",
+      "temporal_leakage_risk": "NONE"
+    },
+    {
+      "evidence_available": {},
+      "identifiability": "PARTIALLY_IDENTIFIABLE",
+      "negative_labels_created": 0,
+      "reason": "Commit-level labels are more reliable than file-level (less attribution ambiguity). However, commit risk is not file risk. A commit may introduce a defect in one file while others are clean. This is a valid fallback but does not solve file-level attribution.",
+      "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+      "required_assumptions": [],
+      "risk_of_label_bias": "MEDIUM",
+      "strategy": "COMMIT_LEVEL_FALLBACK",
+      "temporal_leakage_risk": "NONE"
+    }
+  ],
+  "feature_table": [
+    {
+      "leakage_status": "NO_LEAKAGE",
+      "name": "commit_features",
+      "permitted_usage": "FEATURE",
+      "prediction_time_available": "YES",
+      "source": "Raw JSONL",
+      "timestamp_relative": "pre-candidate"
+    },
+    {
+      "leakage_status": "NO_LEAKAGE",
+      "name": "file_features",
+      "permitted_usage": "FEATURE",
+      "prediction_time_available": "YES",
+      "source": "Raw JSONL",
+      "timestamp_relative": "pre-candidate"
+    },
+    {
+      "leakage_status": "NO_LEAKAGE",
+      "name": "commit_timestamp",
+      "permitted_usage": "FEATURE",
+      "prediction_time_available": "YES",
+      "source": "Raw JSONL",
+      "timestamp_relative": "pre-candidate"
+    },
+    {
+      "leakage_status": "NO_LEAKAGE",
+      "name": "file_path",
+      "permitted_usage": "FEATURE",
+      "prediction_time_available": "YES",
+      "source": "Raw JSONL",
+      "timestamp_relative": "pre-candidate"
+    },
+    {
+      "leakage_status": "NO_LEAKAGE",
+      "name": "repo_name",
+      "permitted_usage": "FEATURE",
+      "prediction_time_available": "YES",
+      "source": "Raw JSONL",
+      "timestamp_relative": "pre-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE/outcome_metadata",
+      "name": "label_source",
+      "permitted_usage": "EXCLUDED",
+      "prediction_time_available": "NO",
+      "source": "Raw JSONL",
+      "timestamp_relative": "post-candidate/outcome-derived"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "corrective_sha",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "content_correspondence",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "content_restoration",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "region_overlap",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "function_analysis",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "evidence_types",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    },
+    {
+      "leakage_status": "LEAKAGE",
+      "name": "file_evidence_level",
+      "permitted_usage": "LABEL",
+      "prediction_time_available": "NO",
+      "source": "Phase 4.11b",
+      "timestamp_relative": "post-candidate"
+    }
+  ],
+  "identifiability": {
+    "all_classified": true,
+    "strategy_classifications": {
+      "COMMIT_LEVEL_FALLBACK": "PARTIALLY_IDENTIFIABLE",
+      "CORRECTIVE_COMMIT_CONTROLS": "NOT_IDENTIFIABLE",
+      "EVIDENCE_RANKING": "PARTIALLY_IDENTIFIABLE",
+      "PU_LEARNING": "PARTIALLY_IDENTIFIABLE",
+      "RELIABLE_NEGATIVES": "NOT_IDENTIFIABLE",
+      "REPOSITORY_CONTROLS": "PARTIALLY_IDENTIFIABLE",
+      "SYNTHETIC_NEGATIVES": "NOT_IDENTIFIABLE",
+      "TEMPORAL_NEGATIVES": "PARTIALLY_IDENTIFIABLE",
+      "WEAK_SUPERVISION": "PARTIALLY_IDENTIFIABLE"
+    }
+  },
+  "leakage_audit": {
+    "audit_result": "PASS",
+    "excluded_features": [
+      "label_source"
+    ],
+    "label_only_features": [
+      "corrective_sha",
+      "content_correspondence",
+      "content_restoration",
+      "region_overlap",
+      "function_analysis",
+      "evidence_types",
+      "file_evidence_level"
+    ],
+    "label_source_excluded_from_features": true,
+    "leakage_free": true,
+    "prediction_time_features": [
+      "commit_features",
+      "file_features",
+      "commit_timestamp",
+      "file_path",
+      "repo_name"
+    ]
+  }
+}

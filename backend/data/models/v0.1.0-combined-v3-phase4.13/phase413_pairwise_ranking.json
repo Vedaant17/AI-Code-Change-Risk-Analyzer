@@ -1,0 +1,30 @@
+{
+  "E0": {
+    "status": "COMPUTED",
+    "test_evaluated_pairs": 28,
+    "test_pairs": 28,
+    "test_pairwise_accuracy": 0.5,
+    "train_pairs": 50
+  },
+  "E1": {
+    "status": "COMPUTED",
+    "test_evaluated_pairs": 28,
+    "test_pairs": 28,
+    "test_pairwise_accuracy": 0.5357142857142857,
+    "train_pairs": 50
+  },
+  "E2": {
+    "status": "COMPUTED",
+    "test_evaluated_pairs": 28,
+    "test_pairs": 28,
+    "test_pairwise_accuracy": 0.7142857142857143,
+    "train_pairs": 50
+  },
+  "E4": {
+    "status": "COMPUTED",
+    "test_evaluated_pairs": 28,
+    "test_pairs": 28,
+    "test_pairwise_accuracy": 0.7142857142857143,
+    "train_pairs": 50
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "class_imbalance": {
+    "concentration": {
+      "gini_coefficient": 0.6570641282565131,
+      "top_5_repo_share": 0.56312625250501
+    },
+    "positive_by_commit": {
+      "0cc40438105201e6dca94b11ecd63ba8ab333696": 8,
+      "1167525b73863119f8bbec03ddb9d35eacff4bef": 57,
+      "13d3406dbba67e22d80f8f8e5b182c5f6e45face": 12,
+      "451f2e8d7e9feb79aed2282014d90c9367ea64dc": 23,
+      "5fe3dcef35d44ab60e32e5130d2e37089820bc4a": 110,
+      "85ec579723d323193df0a7df7570160fd0e878a6": 37,
+      "93ab40efdcd58869c9dc772676423b7fbf412a5e": 12,
+      "e3afd2dd02f608690393d0a0b5074dab1f883353": 13,
+      "fbdd434028fe07ecf35084c945b43b938dfd639f": 9,
+      "fff9bbff163276191925148204ce47ecfa207fb1": 12
+    },
+    "positive_by_repo": {
+      "Pillow": 5,
+      "aiohttp": 1,
+      "bandit": 21,
+      "black": 3,
+      "bottle": 2,
+      "celery": 22,
+      "cherrypy": 119,
+      "click": 21,
+      "fabric": 8,
+      "flask-sqlalchemy": 1,
+      "flask-testing": 3,
+      "flask-wtf": 1,
+      "httpie": 3,
+      "httpx": 6,
+      "invoke": 2,
+      "isort": 25,
+      "itsdangerous": 2,
+      "jinja2": 69,
+      "marshmallow": 4,
+      "mypy": 7,
+      "networkx": 40,
+      "nox": 13,
+      "paramiko": 2,
+      "pre-commit": 3,
+      "pydantic": 7,
+      "pymemcache": 3,
+      "pymongo": 12,
+      "pytest": 7,
+      "pyyaml": 1,
+      "requests": 10,
+      "rich": 1,
+      "sqlalchemy": 26,
+      "starlette": 6,
+      "sympy": 1,
+      "tornado": 4,
+      "tox": 1,
+      "treq": 4,
+      "urllib3": 5,
+      "uvicorn": 27,
+      "werkzeug": 1
+    },
+    "repos_with_positives": 40,
+    "repos_without_positives": 10,
+    "total_by_repo": {
+      "Pillow": 1318,
+      "aiohttp": 773,
+      "bandit": 1020,
+      "black": 361,
+      "bottle": 970,
+      "celery": 868,
+      "cherrypy": 1094,
+      "click": 786,
+      "fabric": 877,
+      "falcon": 1305,
+      "fastapi": 6388,
+      "flake8": 1337,
+      "flask": 1258,
+      "flask-migrate": 412,
+      "flask-sqlalchemy": 1243,
+      "flask-testing": 122,
+      "flask-wtf": 1077,
+      "httpie": 784,
+      "httpx": 630,
+      "invoke": 872,
+      "isort": 674,
+      "itsdangerous": 1235,
+      "jinja2": 1248,
+      "marshmallow": 579,
+      "mypy": 1354,
+      "networkx": 1223,
+      "nox": 711,
+      "paramiko": 1121,
+      "peewee": 475,
+      "pre-commit": 1466,
+      "psycopg2": 1029,
+      "pycodestyle": 484,
+      "pydantic": 1170,
+      "pymemcache": 777,
+      "pymongo": 2005,
+      "pytest": 439,
+      "pyyaml": 1822,
+      "redis": 503,
+      "requests": 825,
+      "rich": 463,
+      "sqlalchemy": 968,
+      "starlette": 1286,
+      "sympy": 752,
+      "tornado": 1112,
+      "tox": 867,
+      "treq": 1250,
+      "twisted": 1276,
+      "urllib3": 1169,
+      "uvicorn": 1119,
+      "werkzeug": 1378
+    },
+    "total_repos": 50
+  },
+  "disjointness": {
+    "all_disjoint": true,
+    "checks": {
+      "CN_intersect_OP": true,
+      "DN_subset_CN": true,
+      "EM_intersect_EU": true,
+      "EM_intersect_EW": true,
+      "EW_intersect_EU": true,
+      "OP_intersect_EM": true,
+      "OP_intersect_EU": true,
+      "OP_intersect_EW": true
+    },
+    "violations": []
+  },
+  "metadata": {
+    "date_range": [
+      "2006-03-19T15:42:44Z",
+      "2026-09-07T07:24:57Z"
+    ],
+    "evidence_moderate_rows": 0,
+    "evidence_unknown_rows": 314,
+    "evidence_weak_rows": 238,
+    "file_strong_commits": 125,
+    "historical_positive_commits": 210,
+    "historical_positive_repos": 42,
+    "historical_positive_rows": 1055,
+    "observed_positive_rows": 499,
+    "out_of_scope_rows": 114,
+    "positive_date_range": [
+      "2014-10-13T20:52:26Z",
+      "2026-09-03T19:05:09Z"
+    ],
+    "repos_with_file_strong": 40,
+    "repos_without_positives": 10,
+    "total_supervised_rows": 54389,
+    "unique_repos": 50,
+    "unlabeled_rows": 53224
+  },
+  "populations": {
+    "CANDIDATE_NEGATIVE": {
+      "count": 0
+    },
+    "DEFENSIBLE_NEGATIVE": {
+      "count": 0
+    },
+    "EVIDENCE_MODERATE": {
+      "count": 0
+    },
+    "EVIDENCE_UNKNOWN": {
+      "count": 314
+    },
+    "EVIDENCE_WEAK": {
+      "count": 238
+    },
+    "OBSERVED_POSITIVE": {
+      "count": 499
+    },
+    "OUT_OF_SCOPE": {
+      "count": 114
+    },
+    "UNLABELED": {
+      "count": 53224
+    }
+  }
+}

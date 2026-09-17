@@ -1,0 +1,12 @@
+{
+  "elapsed_seconds": 258.5704040527344,
+  "feature_version": "v1",
+  "model_version": "4.13.0",
+  "modes_evaluated": [
+    "E0",
+    "E1",
+    "E2",
+    "E4"
+  ],
+  "total_predictions": 65284
+}

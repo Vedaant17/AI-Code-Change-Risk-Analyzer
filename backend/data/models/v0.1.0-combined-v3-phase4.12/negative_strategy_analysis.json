@@ -1,0 +1,56 @@
+{
+  "candidate_negative_count": 107,
+  "defensible_negative_count": 0,
+  "evidence_available": {},
+  "future_evidence_not_available": [
+    {
+      "name": "test_coverage",
+      "status": "NOT_AVAILABLE",
+      "would_need": "coverage data"
+    },
+    {
+      "name": "code_review_history",
+      "status": "NOT_AVAILABLE",
+      "would_need": "GitHub API"
+    },
+    {
+      "name": "issue_tracker_data",
+      "status": "NOT_AVAILABLE",
+      "would_need": "issue data"
+    }
+  ],
+  "identifiability": "NOT_IDENTIFIABLE",
+  "negative_labels_created": 0,
+  "reason": "No criterion produces defensible negatives with available evidence. All produce candidate negatives only.",
+  "recommended_for_4.13": "DO_NOT_PROCEED",
+  "required_assumptions": [],
+  "risk_of_label_bias": "NONE",
+  "strategies_investigated": [
+    {
+      "available_evidence": "AVAILABLE_EVIDENCE",
+      "candidate_negative_count": 107,
+      "description": "Files present in corrective commit but not modified by candidate",
+      "name": "unaffected_in_corrective",
+      "produces_defensible_negatives": false,
+      "reason": "Being unchanged by a corrective commit does not mean the file is defect-free. It may be indirectly affected."
+    },
+    {
+      "available_evidence": "AVAILABLE_EVIDENCE",
+      "candidate_negative_count": 0,
+      "description": "Files surviving long observation without corrective event",
+      "name": "long_observation_window",
+      "produces_defensible_negatives": false,
+      "reason": "Absence of observed corrective event is not evidence of absence of defect. Censoring is informative."
+    },
+    {
+      "available_evidence": "AVAILABLE_EVIDENCE",
+      "candidate_negative_count": 0,
+      "description": "Files modified many times without corrective evidence",
+      "name": "repeated_modification",
+      "produces_defensible_negatives": false,
+      "reason": "Frequent modification without observed correction may indicate a high-risk file, not a safe one."
+    }
+  ],
+  "strategy": "RELIABLE_NEGATIVES",
+  "temporal_leakage_risk": "NONE"
+}

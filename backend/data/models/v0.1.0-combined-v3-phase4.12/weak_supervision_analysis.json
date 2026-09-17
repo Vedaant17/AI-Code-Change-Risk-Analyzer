@@ -1,0 +1,53 @@
+{
+  "evidence_available": {},
+  "identifiability": "PARTIALLY_IDENTIFIABLE",
+  "implication_structure": [
+    {
+      "implication": "OBSERVED_POSITIVE => CONTENT_RESTORATION | EXACT_CANDIDATE_CONTENT_REMOVAL",
+      "reason": "By definition, FILE_STRONG requires one of these evidence types",
+      "verified": true
+    },
+    {
+      "implication": "CONTENT_RESTORATION => OBSERVED_POSITIVE",
+      "reason": "All CONTENT_RESTORATION cases are FILE_STRONG",
+      "verified": true
+    },
+    {
+      "implication": "EXACT_CANDIDATE_CONTENT_REMOVAL => OBSERVED_POSITIVE",
+      "reason": "All EXACT_CANDIDATE_CONTENT_REMOVAL cases are FILE_STRONG (479/499)",
+      "verified": true
+    }
+  ],
+  "independence_assessment": {
+    "CONTENT_RESTORATION_and_EXACT_CANDIDATE_CONTENT_REMOVAL": {
+      "reason": "Both are subsets of OBSERVED_POSITIVE; 400/499 have both",
+      "status": "NOT_INDEPENDENT"
+    },
+    "SAME_FUNCTION_ONLY_and_OBSERVED_POSITIVE": {
+      "reason": "SAME_FUNCTION_ONLY spans both OBSERVED_POSITIVE and EVIDENCE_WEAK",
+      "status": "PARTIALLY_INDEPENDENT"
+    },
+    "SAME_REGION_OVERLAP_and_OBSERVED_POSITIVE": {
+      "reason": "SAME_REGION_OVERLAP spans both OBSERVED_POSITIVE and EVIDENCE_WEAK",
+      "status": "PARTIALLY_INDEPENDENT"
+    }
+  },
+  "label_model_feasibility": {
+    "reason": "Standard conditional independence assumption is violated. A dependency-aware model using the implication structure could be explored but requires explicit dependency modeling.",
+    "status": "PARTIALLY_IDENTIFIABLE"
+  },
+  "negative_labels_created": 0,
+  "reason": "Weak signals exist but are correlated. Dependency-aware label modeling is possible in principle but requires explicit implementation of the implication structure.",
+  "recommended_for_4.13": "FEASIBILITY_ONLY",
+  "required_assumptions": [],
+  "risk_of_label_bias": "MEDIUM",
+  "signal_coverage": {
+    "CONTENT_RESTORATION": 420,
+    "EXACT_CANDIDATE_CONTENT_REMOVAL": 479,
+    "OBSERVED_POSITIVE": 499,
+    "SAME_FUNCTION_ONLY": 421,
+    "SAME_REGION_OVERLAP": 620
+  },
+  "strategy": "WEAK_SUPERVISION",
+  "temporal_leakage_risk": "NONE"
+}

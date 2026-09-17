@@ -1,0 +1,21 @@
+{
+  "data_dir": "backend\\data\\datasets\\combined-v3",
+  "description": "File-level investigation-priority ranking",
+  "exp_dir": "backend\\data\\datasets\\experimental-exp-4.5a\\combined-v3",
+  "modes": [
+    "E0",
+    "E1",
+    "E2",
+    "E4"
+  ],
+  "output_dir": "backend\\data\\models\\v0.1.0-combined-v3-phase4.13",
+  "phase": "4.13",
+  "phase411b_dir": "backend\\data\\models\\v0.1.0-combined-v3-phase4.11b",
+  "prediction_unit": "(repo_name, commit_sha, file_path)",
+  "score_semantics": "investigation_priority_score (NOT a probability)",
+  "supervision": {
+    "excluded": "OUT_OF_SCOPE",
+    "primary": "P = OBSERVED_POSITIVE, U = UNLABELED",
+    "sensitivity": "P = OBSERVED_POSITIVE, U = UNLABELED + WEAK + UNKNOWN"
+  }
+}

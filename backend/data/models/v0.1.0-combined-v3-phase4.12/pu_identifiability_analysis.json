@@ -1,0 +1,41 @@
+{
+  "class_prior_identifiability": {
+    "reason": "Without true negatives, pi = P(Y=1) cannot be estimated. The observed positive rate (1.94%) reflects labeling pipeline coverage, not true defect prevalence.",
+    "status": "NOT_IDENTIFIABLE"
+  },
+  "elkan_noto_identifiability": {
+    "reason": "Elkan-Noto requires c = P(S=1|Y=1) (label accuracy). With 0 true negatives, c cannot be estimated.",
+    "status": "NOT_IDENTIFIABLE"
+  },
+  "evidence_available": {
+    "evidence_unknown": 314,
+    "evidence_weak": 238,
+    "observed_positive": 499,
+    "total": 54389,
+    "unlabeled": 53224
+  },
+  "identifiability": "PARTIALLY_IDENTIFIABLE",
+  "negative_labels_created": 0,
+  "observed_positive_ranking": {
+    "reason": "Observed-positive ranking is feasible: the Phase 4.10 experiment demonstrated KS=0.81 on train. However, test-set degradation (KS=0.22) suggests overfitting to the observation mechanism.",
+    "status": "IDENTIFIABLE"
+  },
+  "reason": "PU ranking is identifiable but class prior and SCAR are not. Proceed with observed-positive ranking only, not prevalence estimation.",
+  "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+  "reliable_positive_subset": {
+    "reason": "OBSERVED_POSITIVE files have direct Git content evidence, making them the strongest candidates for reliable positives. However, the unlabeled set contains files that may also be defective (false negatives in the labeling pipeline).",
+    "status": "PARTIALLY_IDENTIFIABLE"
+  },
+  "required_assumptions": [],
+  "risk_of_label_bias": "MEDIUM",
+  "sar_assessment": {
+    "reason": "The selection mechanism depends on label_source (explicit_sha_reference vs revert), which is observable. However, the selection also depends on the labeling pipeline's ability to find corrective commits, which is not random.",
+    "status": "PARTIALLY_IDENTIFIABLE"
+  },
+  "scar_assessment": {
+    "reason": "SCAR requires P(S=1|Y=1) to be identifiable. With 0 defensible negatives, the positive class contamination rate is not directly observable.",
+    "status": "UNTESTABLE"
+  },
+  "strategy": "PU_LEARNING",
+  "temporal_leakage_risk": "NONE"
+}

@@ -1,0 +1,22 @@
+{
+  "test": {
+    "file_strong_rows": 210,
+    "unique_commits": 45,
+    "unique_repos": 12
+  },
+  "total": {
+    "file_strong_rows": 499,
+    "unique_commits": 125,
+    "unique_repos": 40
+  },
+  "train": {
+    "file_strong_rows": 187,
+    "unique_commits": 37,
+    "unique_repos": 14
+  },
+  "validation": {
+    "file_strong_rows": 102,
+    "unique_commits": 43,
+    "unique_repos": 14
+  }
+}

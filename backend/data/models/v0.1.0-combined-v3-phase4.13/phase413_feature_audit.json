@@ -1,0 +1,78 @@
+{
+  "candidate_boundary": {
+    "ast_features": "file content at C and C^ (pre-candidate)",
+    "commit_features": "diff of C vs C^ (pre-candidate)",
+    "corrective_sha": "EXCLUDED (post-candidate)",
+    "file_features": "diff of C vs C^ (pre-candidate)",
+    "historical_features": "git history at C^ boundary (pre-candidate)",
+    "label_source": "EXCLUDED (post-candidate)",
+    "verification": "all features use information at or before C/C^ per frozen implementations"
+  },
+  "leakage_audit": {
+    "audit_result": "PASS",
+    "leakage_features_found": [],
+    "repo_name_in_features": false
+  },
+  "split_disjointness": {
+    "disjoint": true,
+    "test_repos": [
+      "Pillow",
+      "black",
+      "celery",
+      "cherrypy",
+      "click",
+      "flake8",
+      "flask",
+      "httpx",
+      "itsdangerous",
+      "mypy",
+      "nox",
+      "psycopg2",
+      "pydantic",
+      "redis",
+      "treq",
+      "werkzeug"
+    ],
+    "train_repos": [
+      "aiohttp",
+      "bandit",
+      "falcon",
+      "flask-migrate",
+      "flask-sqlalchemy",
+      "flask-testing",
+      "invoke",
+      "jinja2",
+      "marshmallow",
+      "networkx",
+      "paramiko",
+      "pycodestyle",
+      "pymongo",
+      "rich",
+      "sqlalchemy",
+      "tornado",
+      "tox"
+    ],
+    "train_test_overlap": [],
+    "train_val_overlap": [],
+    "val_repos": [
+      "bottle",
+      "fabric",
+      "fastapi",
+      "flask-wtf",
+      "httpie",
+      "isort",
+      "peewee",
+      "pre-commit",
+      "pymemcache",
+      "pytest",
+      "pyyaml",
+      "requests",
+      "starlette",
+      "sympy",
+      "twisted",
+      "urllib3",
+      "uvicorn"
+    ],
+    "val_test_overlap": []
+  }
+}

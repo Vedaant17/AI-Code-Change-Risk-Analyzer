@@ -1,0 +1,8 @@
+{
+  "evidence_unknown_rows": 314,
+  "evidence_weak_rows": 238,
+  "observed_positive_rows": 499,
+  "out_of_scope_rows": 114,
+  "total_supervised_rows": 54389,
+  "unlabeled_rows": 53224
+}

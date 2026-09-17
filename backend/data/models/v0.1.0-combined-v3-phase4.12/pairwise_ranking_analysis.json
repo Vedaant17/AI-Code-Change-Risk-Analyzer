@@ -1,0 +1,65 @@
+{
+  "confounding_risks": [
+    "Pairs are from same commit, introducing commit-level correlation",
+    "Evidence strength does not establish true relative defect probability",
+    "UNKNOWN evidence level is valid but unresolved identity is not"
+  ],
+  "evidence_available": {},
+  "identifiability": "PARTIALLY_IDENTIFIABLE",
+  "identity_verification": {
+    "all_pairs_have_identity_established": true,
+    "all_pairs_same_repository": true,
+    "all_pairs_share_commit_sha": true,
+    "all_pairs_share_corrective_sha": true
+  },
+  "negative_labels_created": 0,
+  "pair_categories": {
+    "STRONG_vs_MODERATE": {
+      "count": 0,
+      "top_5_commits": {},
+      "top_5_repos": {},
+      "unique_commits": 0,
+      "unique_repos": 0
+    },
+    "STRONG_vs_UNKNOWN": {
+      "count": 0,
+      "top_5_commits": {},
+      "top_5_repos": {},
+      "unique_commits": 0,
+      "unique_repos": 0
+    },
+    "STRONG_vs_WEAK": {
+      "count": 190,
+      "top_5_commits": {
+        "451f2e8d7e9feb79aed2282014d90c9367ea64dc": 92,
+        "93ab40efdcd58869c9dc772676423b7fbf412a5e": 12,
+        "e3afd2dd02f608690393d0a0b5074dab1f883353": 13,
+        "fc9c60ba457efc4cadf6fa2886567e0ee6ca1a99": 14,
+        "fff9bbff163276191925148204ce47ecfa207fb1": 12
+      },
+      "top_5_repos": {
+        "isort": 94,
+        "jinja2": 14,
+        "nox": 13,
+        "pymongo": 12,
+        "sqlalchemy": 21
+      },
+      "unique_commits": 29,
+      "unique_repos": 21
+    },
+    "WEAK_vs_UNKNOWN": {
+      "count": 0,
+      "top_5_commits": {},
+      "top_5_repos": {},
+      "unique_commits": 0,
+      "unique_repos": 0
+    }
+  },
+  "reason": "Evidence-ranking pairs are constructible from available data with verified identity. The partial ordering is evidence-based, not true-defect-based. Proceed with explicit caveats about evidence semantics.",
+  "recommended_for_4.13": "PROCEED_WITH_CAVEATS",
+  "required_assumptions": [],
+  "risk_of_label_bias": "MEDIUM",
+  "strategy": "EVIDENCE_RANKING",
+  "temporal_leakage_risk": "NONE",
+  "total_pairs": 190
+}

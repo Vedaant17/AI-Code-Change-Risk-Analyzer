@@ -1,0 +1,22 @@
+{
+  "test": {
+    "pair_count": 28,
+    "unique_commits": 9,
+    "unique_repos": 8
+  },
+  "total": {
+    "pair_count": 190,
+    "unique_commits": 29,
+    "unique_repos": 21
+  },
+  "train": {
+    "pair_count": 50,
+    "unique_commits": 9,
+    "unique_repos": 6
+  },
+  "validation": {
+    "pair_count": 112,
+    "unique_commits": 11,
+    "unique_repos": 7
+  }
+}
