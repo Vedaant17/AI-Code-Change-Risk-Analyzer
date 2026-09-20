@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Code Change-Risk Analyzer</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>AI Code Change-Risk Analyzer</h1>
+    <p class="subtitle">Investigation-priority ranking for code commits</p>
+  </header>
+
+  <main>
+    <form id="analysis-form" aria-label="Analyse a commit">
+      <div class="form-group">
+        <label for="repo-url">Repository URL or path</label>
+        <input type="text" id="repo-url" name="repo_url"
+               placeholder="https://github.com/user/repo" required>
+      </div>
+      <div class="form-group">
+        <label for="commit-sha">Commit SHA</label>
+        <input type="text" id="commit-sha" name="commit_sha"
+               placeholder="abc123def456..." required>
+      </div>
+      <button type="submit" id="submit-btn">Analyse</button>
+    </form>
+
+    <div id="status" role="status" aria-live="polite" hidden></div>
+
+    <div id="results" hidden>
+      <section class="summary" aria-label="Analysis summary"></section>
+      <section class="ranking" aria-label="Investigation priority ranking">
+        <h2>Investigation Priority Ranking</h2>
+        <table id="file-table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">File</th>
+              <th scope="col">Investigation Priority</th>
+              <th scope="col">Status</th>
+              <th scope="col">Lines</th>
+            </tr>
+          </thead>
+          <tbody id="file-tbody"></tbody>
+        </table>
+      </section>
+      <div id="warnings"></div>
+      <details class="limitations">
+        <summary>Score semantics &amp; limitations</summary>
+        <div id="limitations-list"></div>
+      </details>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

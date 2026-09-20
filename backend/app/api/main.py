@@ -10,8 +10,10 @@ Endpoints:
 from __future__ import annotations
 
 import logging
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
+from starlette.staticfiles import StaticFiles
 
 from backend.app.analyzers.diff_analyzer import DiffAnalyzer, DiffAnalyzerError
 from backend.app.api.schemas import (
@@ -145,3 +147,8 @@ async def analyze_risk(req: AnalyzeRiskRequest) -> AnalyzeRiskResponse:
         raise HTTPException(status_code=500, detail=str(exc))
     except InferenceError as exc:
         raise HTTPException(status_code=500, detail=str(exc))
+
+
+# ── Static frontend (Phase 5.2) ────────────────────────────────────────
+_STATIC_DIR = Path(__file__).resolve().parents[3] / "frontend"
+app.mount("/", StaticFiles(directory=str(_STATIC_DIR), html=True), name="frontend")
