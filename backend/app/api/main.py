@@ -1,10 +1,11 @@
-"""FastAPI application — Phase 1 skeleton + Phase 5.1 inference endpoint.
+"""FastAPI application — Phase 1 skeleton + Phase 5.1 inference + Phase 6 investigation.
 
 Endpoints:
     GET  /health
     POST /analysis/commit
     POST /analysis/pull-request
     POST /analysis/risk          (Phase 5.1)
+    POST /analysis/investigate   (Phase 6)
 """
 
 from __future__ import annotations
@@ -32,6 +33,8 @@ from backend.app.inference.errors import (
 )
 from backend.app.inference.schemas import AnalyzeRiskRequest, AnalyzeRiskResponse
 from backend.app.inference.service import InferenceService
+from backend.app.investigation.schemas import InvestigateRequest, InvestigationResult
+from backend.app.investigation.service import InvestigationService
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -44,6 +47,7 @@ app = FastAPI(
 
 analyzer = DiffAnalyzer()
 inference_service = InferenceService()
+investigation_service = InvestigationService()
 
 
 @app.get("/health", response_model=HealthResponse)
@@ -138,6 +142,44 @@ async def analyze_risk(req: AnalyzeRiskRequest) -> AnalyzeRiskResponse:
         return inference_service.analyze_commit(
             repo_url=req.repo_url,
             commit_sha=req.commit_sha,
+        )
+    except CommitNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except RepositoryAccessError as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
+    except FeatureExtractionError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except InferenceError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@app.post(
+    "/analysis/investigate",
+    response_model=InvestigationResult,
+    summary="Evidence-backed investigation of commit",
+    description=(
+        "Rank files by B1 investigation priority and attach observable "
+        "evidence for each file. Scores are the same B1 ranking scores "
+        "returned by /analysis/risk. Evidence is factual, provenance-tracked "
+        "context — not risk prediction."
+    ),
+    responses={
+        404: {"description": "Commit not found in repository"},
+        422: {"description": "Repository inaccessible or invalid request"},
+        500: {"description": "Feature extraction or inference failure"},
+    },
+)
+async def investigate(req: InvestigateRequest) -> InvestigationResult:
+    """Investigate a commit and return evidence-backed file rankings.
+
+    Uses the B1_CHANGE_SIZE production heuristic for ranking. Evidence
+    is factual context, not risk prediction.
+    """
+    try:
+        return investigation_service.investigate(
+            repo_url=req.repo_url,
+            commit_sha=req.commit_sha,
+            top_k=req.top_k,
         )
     except CommitNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
