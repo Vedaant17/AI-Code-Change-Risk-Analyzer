@@ -1,31 +1,66 @@
+# Python virtual environments
+
 venv/
-__pycache__/
+.venv/
+env/
+ENV/
+
+# Python cache / compiled files
+
+**pycache**/
 *.py[cod]
 *$py.class
+
+# Python packaging / build artifacts
+
 *.egg-info/
 dist/
 build/
+
+# Testing / linting / type-checking caches
+
 .pytest_cache/
 .ruff_cache/
-.env
-*.log
 .mypy_cache/
+.coverage
+htmlcov/
 
-# Generated dataset JSONL files (too large for git)
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+
+# Generated datasets (too large for git)
+
 backend/data/datasets/
 
-# Temporary workspace for repo clones during feature generation
+# Temporary workspace for repository clones
+
 .tmp/
 
-# Phase 4 model predictions (large, reproducible)
+# Cloned repository cache used by Phase 4.11b attribution research
+
+backend/data/repos/
+
+# Generated prediction files (large and reproducible)
+
 **/predictions.jsonl
 
 # Pre-Phase 4.6 baseline model directories (superseded)
+
 backend/data/models/v0.1.0-combined-real/
 backend/data/models/v0.1.0-combined-v2-real/
 backend/data/models/v0.1.0-combined-v3-real/
 backend/data/models/v0.1.0-flask-real/
 backend/data/models/v0.1.0-local/
 
-# Phase 4.11b cloned repository cache
-backend/data/repos/
+# Experimental ML / ranking research artifacts (large and reproducible)
+
+backend/data/models/v0.1.0-combined-v3-exp-4.5a-real/
+backend/data/models/v0.1.0-combined-v3-phase4.13/
+backend/data/models/v0.1.0-combined-v3-phase5.3/
