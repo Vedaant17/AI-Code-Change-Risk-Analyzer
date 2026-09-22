@@ -441,8 +441,9 @@ class GitPythonFeatureGenerator:
             for commit in repo.iter_commits(rev=parent_ref, paths=file_path):
                 count += 1
                 if last_ts is None:
-                    last_ts = commit.committed_date
-                msg = commit.message.split("\n", 1)[0] if commit.message else ""
+                    last_ts = commit.authored_date
+                raw = commit.message or ""
+                msg = raw.split("\n\n", 1)[0].replace("\n", " ")
                 if self._is_bug_fix(msg):
                     bug_fix_count += 1
         except (ValueError, gitpython.BadName):
