@@ -1,4 +1,4 @@
-"""FastAPI application — Phase 1 skeleton + Phase 5.1 inference + Phase 6 investigation.
+"""FastAPI application — Phase 1/5.1/6/8 endpoints.
 
 Endpoints:
     GET  /health
@@ -6,11 +6,13 @@ Endpoints:
     POST /analysis/pull-request
     POST /analysis/risk          (Phase 5.1)
     POST /analysis/investigate   (Phase 6)
+    POST /analysis/decision      (Phase 8.0)
 """
 
 from __future__ import annotations
 
 import logging
+from datetime import UTC, datetime
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -25,6 +27,8 @@ from backend.app.api.schemas import (
     FileDiffResponse,
     HealthResponse,
 )
+from backend.app.decision.engine import DecisionEngine
+from backend.app.decision.schemas import DecisionResponse
 from backend.app.inference.errors import (
     CommitNotFoundError,
     FeatureExtractionError,
@@ -48,6 +52,7 @@ app = FastAPI(
 analyzer = DiffAnalyzer()
 inference_service = InferenceService()
 investigation_service = InvestigationService()
+decision_engine = DecisionEngine()
 
 
 @app.get("/health", response_model=HealthResponse)
@@ -180,6 +185,52 @@ async def investigate(req: InvestigateRequest) -> InvestigationResult:
             repo_url=req.repo_url,
             commit_sha=req.commit_sha,
             top_k=req.top_k,
+        )
+    except CommitNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except RepositoryAccessError as exc:
+        raise HTTPException(status_code=422, detail=str(exc))
+    except FeatureExtractionError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+    except InferenceError as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@app.post(
+    "/analysis/decision",
+    response_model=DecisionResponse,
+    summary="Deterministic investigation-priority presentation",
+    description=(
+        "Present B1 investigation priority and Phase 6 evidence "
+        "in a structured, deterministic format with priority bands "
+        "and evidence-grounded explanations."
+    ),
+    responses={
+        404: {"description": "Commit not found in repository"},
+        422: {"description": "Repository inaccessible or invalid request"},
+        500: {"description": "Feature extraction or inference failure"},
+    },
+)
+async def decide(req: InvestigateRequest) -> DecisionResponse:
+    """Present deterministic investigation-priority ranking with evidence.
+
+    Uses the frozen B1_CHANGE_SIZE heuristic for ranking and Phase 6
+    evidence for context. Priority bands are rank-position groupings,
+    not risk categories.
+    """
+    try:
+        start = datetime.now(UTC)
+        result = investigation_service.investigate(
+            repo_url=req.repo_url,
+            commit_sha=req.commit_sha,
+            top_k=req.top_k,
+        )
+        decision = decision_engine.decide(result)
+        elapsed_ms = (datetime.now(UTC) - start).total_seconds() * 1000
+        return decision_engine.wrap_response(
+            decision=decision,
+            analyzed_at=start.isoformat(),
+            elapsed_ms=elapsed_ms,
         )
     except CommitNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
