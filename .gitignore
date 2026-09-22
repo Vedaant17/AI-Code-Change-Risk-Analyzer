@@ -64,3 +64,7 @@ backend/data/models/v0.1.0-local/
 backend/data/models/v0.1.0-combined-v3-exp-4.5a-real/
 backend/data/models/v0.1.0-combined-v3-phase4.13/
 backend/data/models/v0.1.0-combined-v3-phase5.3/
+
+# Phase 7 evaluation artifacts (generated, reproducible)
+
+backend/data/evaluation/
